@@ -80,3 +80,12 @@
     margin-top: 10px;
 }
 
+.text-for-images {
+    margin: auto;
+}
+
+/* -- Images -- */
+
+.img-fluid {
+    border-radius: 1%;
+}

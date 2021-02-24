@@ -1,4 +1,4 @@
-
+let map;
 
 /* Object for Beach Locations in Ireland */
 
@@ -65,3 +65,19 @@ let beachLocations = [
         location: "Wexford"
     }, 
 ]
+
+
+
+/* -- Function to run google map -- */
+
+function initMap() {
+    const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 7,
+        center: {
+            lat: 53.39456916818927,
+            lng: -7.927418401701575
+        }
+    });
+};
+
+initMap();

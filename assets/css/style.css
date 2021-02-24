@@ -1,0 +1,43 @@
+/* -- Nav Bar -- */
+
+
+
+/* -- Home Container Image -- */
+.home-container {
+    height: 100vh;
+    max-width: 100%;
+
+    background: url('../images/ireland-landscape-fields.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+/* -- Jumbotron -- */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    font-size: 46px;
+    font-weight: bolder;
+    margin: 12px 0px;
+    color: #f8f8f8;
+
+}
+
+.jumbotron .lead {
+    font-size: 22px;
+    margin: 9px 0px;
+    color: #f8f8f8;
+    
+}

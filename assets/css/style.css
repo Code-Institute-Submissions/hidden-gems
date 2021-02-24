@@ -96,3 +96,17 @@ body {
 .img-fluid {
     border-radius: 1%;
 }
+
+/* -- Buttons -- */
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.map-button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

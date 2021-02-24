@@ -125,3 +125,47 @@ body {
 /* -- Footer -- */
 
 
+.footer-container {
+    height: 70vh;
+    max-width: 100%;
+
+    background: url('../images/mountain-view.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.icons {
+    margin: 10px;
+}
+
+.icons:hover{
+    transform: scale(1.2);
+    
+}
+
+.social-media-icons { 
+    display: flex;
+    justify-content: center;
+}
+
+.site-map {
+    display: flex;
+    align-items: center;
+}
+
+a.footer-nav {
+    color: black;
+}
+
+a.footer-nav:hover{
+    color: black;
+    border-bottom: 0.5px solid black;
+}

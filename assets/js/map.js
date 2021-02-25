@@ -413,13 +413,12 @@ function initMap(clickedLocation) {
     };
 };
 
-/* Add Event Listener to button to show locations of beaches in Ireland */
+/* Add Event Listener to button to show locations of selected category Ireland */
 
 document.getElementById("beaches").addEventListener("click", function () {
     initMap(beachLocations);
 });
 
-/* Add Event Listener to button to show locations of caves in Ireland */
 
 document.getElementById("caves").addEventListener("click", function () {
     initMap(caveLocations);
@@ -433,4 +432,7 @@ document.getElementById("mountains").addEventListener("click", function () {
     initMap(cliffMountainLocations);
 });
 
+document.getElementById("islands").addEventListener("click", function () {
+    initMap(lakeIslandLocations);
+});
 

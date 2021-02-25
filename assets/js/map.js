@@ -67,6 +67,101 @@ let beachLocations = [
         lng: -6.642653162292428,
         location: "Wexford"
     },
+    {
+        name: "Annagh Bay",
+        lat: 54.237603295991505,
+        lng: -10.089105252884908,
+        location: "Mayo"
+    },
+    {
+        name: "Trá na Feadóigey",
+        lat: 53.37520657748699,
+        lng: -9.96164436609833,
+        location: "Galway"
+    },
+    {
+        name: "Galley Cove",
+        lat: 51.46706896407998,
+        lng: -9.731530106117043,
+        location: "Cork"
+    },
+    {
+        name: "Trá Bán",
+        lat: 52.104736754106604,
+        lng: -10.510461740099627,
+        location: "Kerry"
+    },
+]
+
+let lakeIslandLocations = [
+    {
+        name: "Assaranca Waterfall",
+        lat: 54.75894239809791,
+        lng: -8.51363053069293,
+        location: "Donegal"
+    },
+    {
+        name: "Shannon Pot",
+        lat: 54.2355508148235,
+        lng: -7.919257591528897,
+        location: "Cavan"
+    },
+    {
+        name: "Lough Ouler",
+        lat: 53.06048077000485,
+        lng: -6.373418235691949,
+        location: "Wicklow"
+    },
+    {
+        name: "Arranmore Island",
+        lat: 54.988728913032745,
+        lng: -8.535274641997912,
+        location: "Donegal"
+    },
+    {
+        name: "Coumshingaun Lough",
+        lat: 52.250591233955824,
+        lng: -7.524722204343533,
+        location: "Waterford"
+    },
+    {
+        name: "Bull Rock",
+        lat: 51.59565594035093,
+        lng: -10.275685867593861,
+        location: "Cork"
+    },
+    {
+        name: "Poll na bPéist - The Wormhole",
+        lat: 53.12160328855573,
+        lng: -9.754421034582185,
+        location: "Galway"
+    },
+    {
+        name: "Spike Island",
+        lat: 51.83476100594525,
+        lng: 8.28623414494465,
+        location: "Cork"
+    },
+    {
+        name: "Gougane Barra",
+        lat: 51.83999149856706,
+        lng: -9.31495176661951,
+        location: "Cork"
+    },
+    {
+        name: "Great Blasket Island",
+        lat: 52.104736754106604,
+        lng: -10.510461740099627,
+        location: "Kerry"
+    },
+    {
+        name: "Valentia Island",
+        lat: 51.92137461381308,
+        lng: -10.332660991813258,
+        location: "Kerry"
+    },
+
+     
 ]
 
 /* Object for castle locations in Ireland */
@@ -281,8 +376,15 @@ let cliffMountainLocations = [
         lng: -8.008259815384314,
         location: "Cork"
     },
+    {
+        name: "Geokaun Cliffs",
+        lat: 51.92380608699363,
+        lng: -10.34829668199812,
+        location: "Kerry"
+    },
 ]
 
+ 
 
 /* -- Function to run google map -- */
 

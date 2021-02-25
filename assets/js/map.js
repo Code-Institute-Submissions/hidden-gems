@@ -67,6 +67,7 @@ let beachLocations = [
     }, 
 ]
 
+/* Object for castle locations in Ireland */
 
 let castleLocations = [
     {
@@ -137,6 +138,59 @@ let castleLocations = [
     },
 ]
 
+/* Object for cave locations in Ireland */
+
+let caveLocations = [
+    {
+        name: "Keshcorran Caves",
+        lat: 54.060966340687045,
+        lng: -8.449664538155785,
+        location: "Sligo"
+    },
+    {
+        name: `Bruce's Cave`,
+        lat: 55.298518354390445,
+        lng: -6.169222761385858,
+        location: "Antrim"
+    },
+    {
+        name: "Marble Arch Caves",
+        lat: 54.25902655880112,
+        lng: -7.813274946039392,
+        location: "Fermanagh"
+    },
+    {
+        name: "Crag Caves",
+        lat: 52.24763355035248,
+        lng: -9.443211170299001,
+        location: "Kerry"
+    },
+    {
+        name: "Dunmore Cave",
+        lat: 52.73422200101786,
+        lng: -7.246985815346465,
+        location: "Kilkenny"
+    },
+    {
+        name: "Doolin Cave",
+        lat: 53.04110351270187,
+        lng: -9.345149200042298,
+        location: "Clare"
+    },
+    {
+        name: "Aillwee Cave",
+        lat: 53.089360163139524,
+        lng: -9.14358156930707,
+        location: "Clare"
+    },
+    {
+        name: "Mitchelstown  Cave",
+        lat: 52.30417599030712,
+        lng: -8.1088003,
+        location: "Tipperary"
+    },
+]
+
 /* -- Function to run google map -- */
 
 function initMap() {
@@ -148,3 +202,4 @@ function initMap() {
         }
     });
 };
+

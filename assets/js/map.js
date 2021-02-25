@@ -146,8 +146,6 @@ let castleLocations = [
     },
 ]
 
- 
-
 /* Object for cave locations in Ireland */
 
 let caveLocations = [
@@ -283,11 +281,7 @@ let cliffMountainLocations = [
         lng: -8.008259815384314,
         location: "Cork"
     },
-
- 
-     
 ]
-
 
 
 /* -- Function to run google map -- */
@@ -333,5 +327,8 @@ document.getElementById("castles").addEventListener("click", function () {
     initMap(castleLocations);
 });
 
+document.getElementById("mountains").addEventListener("click", function () {
+    initMap(cliffMountainLocations);
+});
 
 

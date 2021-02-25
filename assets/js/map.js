@@ -90,11 +90,11 @@ let castleLocations = [
         lng: -6.430028530692929,
         location: "Louth"
     },
-    {
-        name: "Kinbane Castle",
-        lat: 55.229378402935396,
-        lng: -6.291388746039393,
-        location: "Antrim"
+    {   
+        name: "Athasselabbey",
+        lat: 52.47688365193911,
+        lng: -7.995341765097741,
+        location: "Tipperary"
     },
     {
         name: "Drimnagh Castle",
@@ -126,11 +126,11 @@ let castleLocations = [
         lng: -9.53143819,
         location: "Kerry"
     },
-    {
-        name: "Dunluce Castle",
-        lat: 55.21083931448046,
-        lng: -6.5796063,
-        location: "Antrim"
+    {   
+        name: "Fiddaun Castle",
+        lat: 53.010595321460826,
+        lng: -8.879343030372857,
+        location: "Galway"
     },
     {
         name: "Trim Castle",
@@ -138,7 +138,15 @@ let castleLocations = [
         lng: -6.7893993000155834,
         location: "Meath"
     },
+    {
+        name: "Rockstown Castle",
+        lat: 52.567152714724244,
+        lng: -8.55695135396061,
+        location: "Limerick"
+    },
 ]
+
+ 
 
 /* Object for cave locations in Ireland */
 
@@ -186,16 +194,99 @@ let caveLocations = [
         location: "Clare"
     },
     {
-        name: "Mitchelstown  Cave",
+        name: "Mitchelstown Cave",
         lat: 52.30417599030712,
         lng: -8.1088003,
         location: "Tipperary"
     },
+    {
+        name: "Pigeon Hole Cave",
+        lat: 53.54275510201632,
+        lng: -9.306707023516834,
+        location: "Galway"
+    },
+    {
+        name: "Pollnagollum–Poulelva",
+        lat: 53.07786514887954,
+        lng: -9.251255432960807,
+        location: "Clare"
+    },
+    {
+        name: "Oweynagat Cave",
+        lat: 53.79695547961791,
+        lng: -8.310280138614143,
+        location: "Rosscommon"
+    },
 ]
 
 
-/* Object for beach locations in Ireland */
+/* Object for cliff and mountains in Ireland */
 
+let cliffMountainLocations = [
+    {
+        name: "Croaghaun",
+        lat: 53.97977025770544,
+        lng: -10.193419230770017,
+        location: "Mayo"
+    },
+    {
+        name: "Diamond Hill",
+        lat: 53.548263166950626,
+        lng: -9.91489406258491,
+        location: "Galway"
+    },
+    {
+        name: "Knockmealdown Mountains",
+        lat: 52.22845940290453,
+        lng: 7.915621227079968,
+        location: "Waterford"
+    },
+    {
+        name: "Kilbaha Cliffs",
+        lat: 52.571955032395074,
+        lng: -9.86175423418042,
+        location: "Clare"
+    },
+    {
+        name: "Devil’s Chimney",
+        lat: 54.341005843280804,
+        lng: -8.392807069307072,
+        location: "Sligo"
+    },
+    {
+        name: `Priest's leap`,
+        lat: 51.79367893027667,
+        lng: -9.47125517274581,
+        location: "Kerry"
+    },
+    {
+        name: "The Nine Stones",
+        lat: 52.6360572209473,
+        lng: -6.772222302314992,
+        location: "Carlow"
+    },
+    {
+        name: "Ballaghbeama Gap",
+        lat: 51.94129256166348,
+        lng: -9.81548710154434,
+        location: "Kerry"
+    },
+    {
+        name: "Slieve League Cliffs",
+        lat: 54.640391412976356,
+        lng: -8.682113067849912,
+        location: "Donegal"
+    },
+    {
+        name: "Ballycotton Cliffs",
+        lat: 51.82495664593324,
+        lng: -8.008259815384314,
+        location: "Cork"
+    },
+
+ 
+     
+]
 
 
 
@@ -209,6 +300,8 @@ function initMap(clickedLocation) {
             lng: -7.927418401701575
         }
     });
+
+    /* -- If statement which loops through locations of in selected array, and shows markers depending on which location is selected. */
 
     if (clickedLocation) {
         for (let i = 0; i < clickedLocation.length; i++) {
@@ -229,3 +322,16 @@ function initMap(clickedLocation) {
 document.getElementById("beaches").addEventListener("click", function () {
     initMap(beachLocations);
 });
+
+/* Add Event Listener to button to show locations of caves in Ireland */
+
+document.getElementById("caves").addEventListener("click", function () {
+    initMap(caveLocations);
+});
+
+document.getElementById("castles").addEventListener("click", function () {
+    initMap(castleLocations);
+});
+
+
+

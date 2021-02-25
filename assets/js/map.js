@@ -1,6 +1,8 @@
 
 let map;
 
+let locations = [];
+
 /* Object for Beach Locations in Ireland */
 
 let beachLocations = [
@@ -40,31 +42,31 @@ let beachLocations = [
         lat: 54.66475793754972,
         lng: -8.776379246237571,
         location: "Cork"
-    },  
+    },
     {
         name: "White Strand",
         lat: 52.7471814438714,
         lng: -9.550395830692928,
         location: "Clare"
-    },   
+    },
     {
         name: "Forbogh Beach",
         lat: 53.24898348306867,
         lng: -9.220795398428837,
         location: "Galway"
-    }, 
+    },
     {
         name: "Tramore Beach",
         lat: 55.17733341039231,
         lng: -8.022966473946783,
         location: "Donegal"
-    },   
+    },
     {
         name: "Ballyteige Burrow",
         lat: 52.20194249676858,
         lng: -6.642653162292428,
         location: "Wexford"
-    }, 
+    },
 ]
 
 /* Object for castle locations in Ireland */
@@ -98,7 +100,7 @@ let castleLocations = [
         name: "Drimnagh Castle",
         lat: 53.325343615027215,
         lng: -6.332674000000001,
-        location: "Dublin" 
+        location: "Dublin"
     },
     {
         name: "Leap Castle",
@@ -191,9 +193,15 @@ let caveLocations = [
     },
 ]
 
+
+/* Object for beach locations in Ireland */
+
+
+
+
 /* -- Function to run google map -- */
 
-function initMap() {
+function initMap(clickedLocation) {
     var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 7,
         center: {
@@ -201,5 +209,23 @@ function initMap() {
             lng: -7.927418401701575
         }
     });
+
+    if (clickedLocation) {
+        for (let i = 0; i < clickedLocation.length; i++) {
+            const marker = new google.maps.Marker(
+                {
+                    position: new google.maps.LatLng(clickedLocation[i].lat, clickedLocation[i].lng),
+                    map: map,
+                    title: clickedLocation[i].name,
+                    animation: google.maps.Animation.DROP,
+                });
+
+        };
+    };
 };
 
+/* Add Event Listener to button to show locations of beaches in Ireland */
+
+document.getElementById("beaches").addEventListener("click", function () {
+    initMap(beachLocations);
+});

@@ -182,3 +182,17 @@ a.footer-nav:hover{
     color: black;
     border-bottom: 0.5px solid black;
 }
+
+.modal-container {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: row;
+} 
+
+.newsletter-btn {
+    margin-left: 10px;
+}

@@ -133,92 +133,83 @@
         </div>
     </div>
 
-
-
     <!-- Suggest Location Modal -->
-
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#suggestLocation" id="modalSuggestButton">
-        Suggest
-    </button>
-
-    <!-- Modal -->
-    <div class="modal fade" id="suggestLocation" tabindex="-1" aria-labelledby="suggestLocationHeading"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="suggestLocationHeading">Suggest a location</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="name">First Name</label>
-                            <input type="text" class="form-control" id="firstName" placeholder="John" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="name">Last Name</label>
-                            <input type="text" class="form-control" id="lasttName" placeholder="Smith" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com"
-                                required>
-                        </div>
-                        <div class="form-group">
-                            <label for="inputCity">City</label>
-                            <input type="text" class="form-control" id="inputCity">
-                        </div>
-                        <div class="form-group">
-                            <label class="mr-sm-2" for="inlineFormSuggestion">Type of Location</label>
-                            <select class="custom-select mr-sm-2" id="inlineFormSuggestion">
-                                <option selected>Choose...</option>
-                                <option value="1">Beaches</option>
-                                <option value="2">Castles</option>
-                                <option value="3">Cliffs and Mountains</option>
-                                <option value="4">Caves</option>
-                                <option value="5">Lakes and Islands</option>
-                                <option value="6">Other</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="information">Additional Information</label>
-                            <textarea class="form-control" id="locationInformation" rows="3"></textarea>
-                        </div>
-                        <div class="div">
-                            <div class="row">
-                                <div class="col-sm-12 d-flex justify-content-center">
-                                    <button type="submit" class="btn btn-secondary">Submit</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-    <div class="container contact-container">
+    <div class="container modal-container mt-4">
         <div class="row">
             <div class="col-sm-12">
 
-                <div class="form-row align-items-center">
-                    <div class="col-auto my-1">
 
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#suggestLocation"
+                    id="modalSuggestButton">
+                    Suggest a Location
+                </button>
+
+                <!-- Modal -->
+
+                <div class="modal fade" id="suggestLocation" tabindex="-1" aria-labelledby="suggestLocationHeading"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="suggestLocationHeading">Suggest a location</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="name">First Name</label>
+                                        <input type="text" class="form-control" id="firstName" placeholder="John"
+                                            required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="name">Last Name</label>
+                                        <input type="text" class="form-control" id="lasttName" placeholder="Smith"
+                                            required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email Address</label>
+                                        <input type="email" class="form-control" id="emailAddress"
+                                            placeholder="name@example.com" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputCity">Location</label>
+                                        <input type="text" class="form-control" id="inputCity">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="mr-sm-2" for="inlineFormSuggestion">Type of Location</label>
+                                        <select class="custom-select mr-sm-2" id="inlineFormSuggestion">
+                                            <option selected>Choose...</option>
+                                            <option value="1">Beaches</option>
+                                            <option value="2">Castles</option>
+                                            <option value="3">Cliffs and Mountains</option>
+                                            <option value="4">Caves</option>
+                                            <option value="5">Lakes and Islands</option>
+                                            <option value="6">Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="information">Additional Information</label>
+                                        <textarea class="form-control" id="locationInformation" rows="3"></textarea>
+                                    </div>
+                                    <div class="div">
+                                        <div class="row">
+                                            <div class="col-sm-12 d-flex justify-content-center">
+                                                <button type="submit" class="btn btn-secondary">Submit</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                </form>
             </div>
         </div>
     </div>
@@ -229,6 +220,24 @@
 
     <div class="container-fluid  mt-5">
         <div class="row">
+            <div class="col-sm-12 d-flex justify-content-center">
+                <h6>Subscribe to our Newsletter</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mx-auto mt-3">
+                <form>
+                    <div class="form-group newsletter-form">
+                        <label for="newsletterEmail"></label>
+                        <input type="email" class="form-control" id="newsletterEmail" aria-describedby="emailHelp"
+                            placeholder="Email Address">
+                        <button type="submit" class="btn btn-primary btn-sm newsletter-btn">Submit</button>
+                    </div>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+
+                </form>
+            </div>
             <div class="col-sm-12 mt-5">
                 <nav>
                     <ul class="navbar-nav site-map">

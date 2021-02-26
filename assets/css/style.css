@@ -77,6 +77,10 @@ body {
     justify-content: center;
 }
 
+#suggestLocationHeading {
+    margin: auto;
+}
+
 /* -- Paragraphs -- */
 
 .cta-paragraph {
@@ -110,6 +114,15 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+.explore-btn {
+    border: 0.5px solid black;
+}
+
+/* #modalSuggestButton {
+    display: flex;
+    justify-content: center;
+} */
 
 /* -- Contact Form -- */
 

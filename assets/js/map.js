@@ -396,7 +396,7 @@ let cliffMountainLocations = [
         name: "Geokaun Cliffs",
         lat: 51.92380608699363,
         lng: -10.34829668199812,
-        location: "Kerry"
+        location: "Kerry",
     },
 ]
 
@@ -431,7 +431,6 @@ function initMap(clickedLocation) {
         mapTypeControlOptions: {
             mapTypeIds: [
                 google.maps.MapTypeId.ROADMAP,
-                google.maps.MapTypeId.SATELLITE
             ]
         },
         center: {
@@ -458,6 +457,7 @@ function initMap(clickedLocation) {
                     title: clickedLocation[i].name,
                     animation: google.maps.Animation.DROP,
                 });
+
             /* Event listener to show location information when user clicks on specfic marker, and to close previous marker when a new one is clicked*/
             google.maps.event.addListener(marker, 'click', function () {
                 if (currentInfoWindow != null) {

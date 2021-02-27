@@ -10,6 +10,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Ireland's Hidden Gems</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_rRjTCy4whGattyYnDU2Mp");
+        })();
+    </script>
 </head>
 
 <body>
@@ -132,8 +139,8 @@
             <div class="col-sm-12">
                 <h5 class="text-center">Choose an Attraction</h5>
             </div>
-             <div class="col-md-12 button-group mb-2">
-                
+            <div class="col-md-12 button-group mb-2">
+
                 <button class="btn btn-sm map-button btn-block" id="mountains">Cliffs and Mountains</button>
                 <button class="btn btn-sm map-button btn-block" id="islands">Islands and Lakes</button>
                 <button class="btn btn-sm map-button btn-block" id="castles">Castles</button>
@@ -146,8 +153,8 @@
 
             </div>
 
-           
-            
+
+
 
 
 
@@ -165,84 +172,28 @@
                     these
                     hidden gems.</p>
             </div>
-
-            <div class="col-sm-12 d-flex justify-content-center">
-
-
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#suggestLocation"
-                    id="modalSuggestButton">
-                    Suggest a Location
-                </button>
-
-                <!-- Modal -->
-
-                <div class="modal fade" id="suggestLocation" tabindex="-1" aria-labelledby="suggestLocationHeading"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-scrollable">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="suggestLocationHeading">Suggest a location</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <form>
-                                    <div class="form-group">
-                                        <label for="name">First Name</label>
-                                        <input type="text" class="form-control" id="firstName" placeholder="John"
-                                            required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="name">Last Name</label>
-                                        <input type="text" class="form-control" id="lasttName" placeholder="Smith"
-                                            required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="email">Email Address</label>
-                                        <input type="email" class="form-control" id="emailAddress"
-                                            placeholder="name@example.com" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="inputCity">Location</label>
-                                        <input type="text" class="form-control" id="inputCity">
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="mr-sm-2" for="inlineFormSuggestion">Type of Location</label>
-                                        <select class="custom-select mr-sm-2" id="inlineFormSuggestion">
-                                            <option selected>Choose...</option>
-                                            <option value="1">Beaches</option>
-                                            <option value="2">Castles</option>
-                                            <option value="3">Cliffs and Mountains</option>
-                                            <option value="4">Caves</option>
-                                            <option value="5">Lakes and Islands</option>
-                                            <option value="6">Other</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="information">Additional Information</label>
-                                        <textarea class="form-control" id="locationInformation" rows="3"></textarea>
-                                    </div>
-                                    <div class="div">
-                                        <div class="row">
-                                            <div class="col-sm-12 d-flex justify-content-center">
-                                                <button type="submit" class="btn btn-secondary">Submit</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-sm-12">
+                <div class="center-form">
+                    <form onsubmit="return sendMail(this);">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Name" required />
+                        <input type="text" name="emailaddress" class="form-control" id="emailaddress"
+                            placeholder="Email" required />
+                        <textarea rows="5" name="locationsuggestion" class="form-control" id="locationsuggestion"
+                            placeholder="Project Description" required></textarea>
+                        <button type="submit" class="btn btn-secondary center-block">Send Location Sugesstion</button>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
 
     <div class="container mt-5 footer-container">
 
@@ -308,6 +259,7 @@
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSiwQiQNyVVSu3i7jQgbpm3whWcXLRitE&callback=initMap">
         </script>
+    <script src="assets/js/mail.js"></script>
 </body>
 
 </html>

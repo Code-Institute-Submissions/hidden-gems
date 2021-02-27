@@ -103,34 +103,8 @@ body {
 
 /* -- Buttons -- */
 
-
-.map-button {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
 .explore-btn {
     border: 0.5px solid black;
-}
-
-/* #modalSuggestButton {
-    display: flex;
-    justify-content: center;
-} */
-
-/* -- Contact Form -- */
-
-
-/* -- Map -- */
-
-#map {
-    width: auto;
-    height: 650px;
-}
-
-h4 {
-    display: flex;
-    justify-content: center;
 }
 
 .button-group {
@@ -149,8 +123,25 @@ h4 {
 .map-button:hover{
     background-color: #dcdcdc 
 }
+/* #modalSuggestButton {
+    display: flex;
+    justify-content: center;
+} */
+
+/* -- Contact Form -- */
 
 
+/* -- Map -- */
+
+#map {
+    width: auto;
+    height: 630px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+}
 
 /* -- Footer -- */
 

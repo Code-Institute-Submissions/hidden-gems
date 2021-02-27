@@ -103,12 +103,6 @@ body {
 
 /* -- Buttons -- */
 
-.button-group {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    padding-top: 25px;
-}
 
 .map-button {
     margin-top: 5px;
@@ -130,9 +124,32 @@ body {
 /* -- Map -- */
 
 #map {
-    width: 100%;
-    height: 630px;
+    width: auto;
+    height: 650px;
 }
+
+h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.map-button {
+    border:  black solid 1px;
+    background-color: white;
+    font-size: 14px;
+    margin: 8px 5px 5px;
+}
+
+.map-button:hover{
+    background-color: #dcdcdc 
+}
+
 
 
 /* -- Footer -- */

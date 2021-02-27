@@ -5,6 +5,7 @@ let locations = [];
 
 /* Object for Beach Locations in Ireland */
 
+
 let beachLocations = [
 
     {
@@ -19,7 +20,8 @@ let beachLocations = [
         lat: 53.106289454811794,
         lng: -6.040521788447418,
         location: "Wicklow",
-        information: `A beautiful beach that can make you feel both peaceful and full of energy at the same time.`
+        information: `A beautiful beach that can make you feel both peaceful and full of energy at the same time.`,
+        icons: "beach",
     },
     {
         name: "Bannow Island Beach",
@@ -96,7 +98,7 @@ let beachLocations = [
         lat: 51.46706896407998,
         lng: -9.731530106117043,
         location: "Cork",
-        information: `One of our favorite beaches we've visited. It's a well kept secret, but sometimes it's worth sharing!`
+        information: `One of our favorite beaches we've visited. It's a well kept secret, but sometimes it's worth sharing!`,
     },
     {
         name: "Trá Bán",
@@ -398,43 +400,40 @@ let cliffMountainLocations = [
     },
 ]
 
+/* Functions to filter attractions by county locations */
 
 
+let filteredBeaches = beachLocations.filter(function (currentElement) {
 
+    return currentElement.location == "Cork";
+});
 
+console.log(filteredBeaches);
 
+let filteredCaves = caveLocations.filter(function (currentElement) {
 
+    return currentElement.location == "Kerry"
+});
 
-/* const contentString = '<h3>' + clickedLocation[i].name + '</h3>' + '<p>' + clickedLocation[i].information + '</p>'
-   
-  const infowindow = new google.maps.InfoWindow({
-    content: contentString,
-  });
-  const marker = new google.maps.Marker({
-    position: uluru,
-    map,
-    title: "Uluru (Ayers Rock)",
-  });
-  marker.addListener("click", () => {
-    infowindow.open(map, marker);
-  });
+console.log(filteredCaves)
 
- */
 
 
 var currentInfoWindow = null;
-
-
-
-
-
-
 
 /* -- Function to run google map -- */
 
 function initMap(clickedLocation) {
     var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 7,
+        /* Code to remove terrain checkbox from map */
+        mapTypeControl: true,
+        mapTypeControlOptions: {
+            mapTypeIds: [
+                google.maps.MapTypeId.ROADMAP,
+                google.maps.MapTypeId.SATELLITE
+            ]
+        },
         center: {
             lat: 53.39456916818927,
             lng: -7.927418401701575
@@ -445,6 +444,7 @@ function initMap(clickedLocation) {
 
     if (clickedLocation) {
         for (let i = 0; i < clickedLocation.length; i++) {
+            /* variable to store information about each marker when clicked */
             const contentString = '<h3>' + clickedLocation[i].name + '</h3>' + '<p>' + clickedLocation[i].information + '</p>'
 
             const infowindow = new google.maps.InfoWindow({
@@ -458,6 +458,7 @@ function initMap(clickedLocation) {
                     title: clickedLocation[i].name,
                     animation: google.maps.Animation.DROP,
                 });
+            /* Event listener to show location information when user clicks on specfic marker, and to close previous marker when a new one is clicked*/
             google.maps.event.addListener(marker, 'click', function () {
                 if (currentInfoWindow != null) {
                     currentInfoWindow.close();
@@ -465,8 +466,6 @@ function initMap(clickedLocation) {
                 infowindow.open(map, marker);
                 currentInfoWindow = infowindow;
             });
-
-
         };
     };
 };
@@ -494,3 +493,6 @@ document.getElementById("islands").addEventListener("click", function () {
     initMap(lakeIslandLocations);
 });
 
+document.getElementById("stay").addEventListener("click", function () {
+    initMap(clickedLocation.location);
+});

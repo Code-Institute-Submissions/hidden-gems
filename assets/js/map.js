@@ -11,85 +11,99 @@ let beachLocations = [
         name: "Kinnagoe Bay",
         lat: 55.25853092702544,
         lng: -7.012858804606512,
-        location: "Donegal"
+        location: "Donegal",
+        information: `Kinnagoe Bay is a secluded beach in Inishowen, County Donegal, Ireland. It is known for being the location of the wreck of the Armada ship La Trinidad Valencera on 16 September 1588`
     },
     {
         name: "Kilcoole Beach",
         lat: 53.106289454811794,
         lng: -6.040521788447418,
-        location: "Wicklow"
+        location: "Wicklow",
+        information: `A beautiful beach that can make you feel both peaceful and full of energy at the same time.`
     },
     {
         name: "Bannow Island Beach",
         lat: 52.21088398432121,
         lng: -6.7969478144495055,
-        location: "Wexford"
+        location: "Wexford",
+        information: `Bannow Strand is a sandy beach with sand dunes. Saltmarshes around the area make this a place of interest for nature enthusiasts and interesting rock and land formations would be of interest to those interested in geology. `
     },
     {
         name: "Stradbally Cove",
         lat: 52.1250195326743,
         lng: -7.4603243,
-        location: "Waterford"
+        location: "Waterford",
+        information: `The unusually shaped Stradbally Cove is sheltered by low cliffs and is a perfect beach for families.`
     },
     {
         name: "Sandscove Beach",
         lat: 51.55288092378668,
         lng: -8.898726986229178,
-        location: "Cork"
+        location: "Cork",
+        information: `The walk to the beach is just a few minutes down a laneway decorated with wildflowers and montbretia.  Wildlife sightings in the area include seals, dolphins and a basking shark.`
     },
     {
         name: "Silver Strand Beach",
         lat: 54.66475793754972,
         lng: -8.776379246237571,
-        location: "Cork"
+        location: "Cork",
+        information: `he island is a popular spot for birdwatchers given the large variety of birdlife and in autumn you can watch birds migrating south for winter. Dolphins, porpoises, seals and otters can also be observed from the beach. `
     },
     {
         name: "White Strand",
         lat: 52.7471814438714,
         lng: -9.550395830692928,
-        location: "Clare"
+        location: "Clare",
+        information: `The beach is sheltered on both sides by low rocky cliffs and looks across the bay to the popular surfing beach of Doughmore Strand. `
     },
     {
         name: "Forbogh Beach",
         lat: 53.24898348306867,
         lng: -9.220795398428837,
-        location: "Galway"
+        location: "Galway",
+        information: `This beautiful beach is located in a Gaeltacht area where Irish is the main language. Keep your eyes open, because this beach is easy to miss. `
     },
     {
         name: "Tramore Beach",
         lat: 55.17733341039231,
         lng: -8.022966473946783,
-        location: "Donegal"
+        location: "Donegal",
+        information: `If a two kilometre hike over sand dunes doesn’t bother you you will be rewarded by the serene Tramore Beach. The only other way to access the beach is by boat.`
     },
     {
         name: "Ballyteige Burrow",
         lat: 52.20194249676858,
         lng: -6.642653162292428,
-        location: "Wexford"
+        location: "Wexford",
+        Information: `Ballyteige Burrow or “the Burrow” as it is locally known, is one of the finest sand dune systems in the South East.`
     },
     {
         name: "Annagh Bay",
         lat: 54.237603295991505,
         lng: -10.089105252884908,
-        location: "Mayo"
+        location: "Mayo",
+        information: `It is only accessible by boat or by foot. The area is rich in history with a megalithic tomb on the eastern side of the bay.`
     },
     {
         name: "Trá na Feadóigey",
         lat: 53.37520657748699,
         lng: -9.96164436609833,
-        location: "Galway"
+        location: "Galway",
+        information: `A wonderful beach to visit in any weather. The perfect place to de-stress.`
     },
     {
         name: "Galley Cove",
         lat: 51.46706896407998,
         lng: -9.731530106117043,
-        location: "Cork"
+        location: "Cork",
+        information: `One of our favorite beaches we've visited. It's a well kept secret, but sometimes it's worth sharing!`
     },
     {
         name: "Trá Bán",
         lat: 52.104736754106604,
         lng: -10.510461740099627,
-        location: "Kerry"
+        location: "Kerry",
+        information: `Trá Bán is a popular sunbathing spot for seals and you might even get to see Dingle Bay’s most famous resident Fungie the Dolphin from your ferry over to the island.`
     },
 ]
 
@@ -161,7 +175,7 @@ let lakeIslandLocations = [
         location: "Kerry"
     },
 
-     
+
 ]
 
 /* Object for castle locations in Ireland */
@@ -185,7 +199,7 @@ let castleLocations = [
         lng: -6.430028530692929,
         location: "Louth"
     },
-    {   
+    {
         name: "Athasselabbey",
         lat: 52.47688365193911,
         lng: -7.995341765097741,
@@ -221,7 +235,7 @@ let castleLocations = [
         lng: -9.53143819,
         location: "Kerry"
     },
-    {   
+    {
         name: "Fiddaun Castle",
         lat: 53.010595321460826,
         lng: -8.879343030372857,
@@ -384,7 +398,37 @@ let cliffMountainLocations = [
     },
 ]
 
- 
+
+
+
+
+
+
+
+/* const contentString = '<h3>' + clickedLocation[i].name + '</h3>' + '<p>' + clickedLocation[i].information + '</p>'
+   
+  const infowindow = new google.maps.InfoWindow({
+    content: contentString,
+  });
+  const marker = new google.maps.Marker({
+    position: uluru,
+    map,
+    title: "Uluru (Ayers Rock)",
+  });
+  marker.addListener("click", () => {
+    infowindow.open(map, marker);
+  });
+
+ */
+
+
+var currentInfoWindow = null;
+
+
+
+
+
+
 
 /* -- Function to run google map -- */
 
@@ -401,6 +445,12 @@ function initMap(clickedLocation) {
 
     if (clickedLocation) {
         for (let i = 0; i < clickedLocation.length; i++) {
+            const contentString = '<h3>' + clickedLocation[i].name + '</h3>' + '<p>' + clickedLocation[i].information + '</p>'
+
+            const infowindow = new google.maps.InfoWindow({
+                content: contentString,
+            });
+
             const marker = new google.maps.Marker(
                 {
                     position: new google.maps.LatLng(clickedLocation[i].lat, clickedLocation[i].lng),
@@ -408,6 +458,14 @@ function initMap(clickedLocation) {
                     title: clickedLocation[i].name,
                     animation: google.maps.Animation.DROP,
                 });
+            google.maps.event.addListener(marker, 'click', function () {
+                if (currentInfoWindow != null) {
+                    currentInfoWindow.close();
+                }
+                infowindow.open(map, marker);
+                currentInfoWindow = infowindow;
+            });
+
 
         };
     };

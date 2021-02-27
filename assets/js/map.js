@@ -423,7 +423,7 @@ var currentInfoWindow = null;
 
 /* -- Function to run google map -- */
 
-function initMap(clickedLocation) {
+function initMap(locations) {
     var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 7,
         /* Code to remove terrain checkbox from map */
@@ -441,10 +441,10 @@ function initMap(clickedLocation) {
 
     /* -- If statement which loops through locations of in selected array, and shows markers depending on which location is selected. */
 
-    if (clickedLocation) {
-        for (let i = 0; i < clickedLocation.length; i++) {
+    if (locations) {
+        for (let i = 0; i < locations.length; i++) {
             /* variable to store information about each marker when clicked */
-            const contentString = '<h3>' + clickedLocation[i].name + '</h3>' + '<p>' + clickedLocation[i].information + '</p>'
+            const contentString = '<h3>' + locations[i].name + '</h3>' + '<p>' + locations[i].information + '</p>'
 
             const infowindow = new google.maps.InfoWindow({
                 content: contentString,
@@ -452,9 +452,9 @@ function initMap(clickedLocation) {
 
             const marker = new google.maps.Marker(
                 {
-                    position: new google.maps.LatLng(clickedLocation[i].lat, clickedLocation[i].lng),
+                    position: new google.maps.LatLng(locations[i].lat, locations[i].lng),
                     map: map,
-                    title: clickedLocation[i].name,
+                    title: locations[i].name,
                     animation: google.maps.Animation.DROP,
                 });
 

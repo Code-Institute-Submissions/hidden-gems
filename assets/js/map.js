@@ -445,7 +445,7 @@ let cliffMountainLocations = [
     },
 ]
 
-let campingLocation = [
+let campingLocations = [
     {
         name: "Beara Peninsula",
         lat: 51.74830162986611,
@@ -470,7 +470,7 @@ let campingLocation = [
     {
         name: "Glenregan Wild Camping",
         lat: 53.08281329343294,
-        lng: 7.63577198115244,
+        lng: -7.63577198115244,
         location: "Offaly",
         information: `This valley is secluded by dense woodlands, but also quite accessible. It's the perect spot for family camping.`
     },
@@ -578,6 +578,6 @@ document.getElementById("islands").addEventListener("click", function () {
     initMap(lakeIslandLocations);
 });
 
-document.getElementById("stay").addEventListener("click", function () {
-    initMap(clickedLocation.location);
+document.getElementById("camping").addEventListener("click", function () {
+    initMap(campingLocations);
 });

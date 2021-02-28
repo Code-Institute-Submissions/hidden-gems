@@ -139,27 +139,25 @@
             <div class="col-sm-12">
                 <h5 class="text-center">Choose an Attraction</h5>
             </div>
-            <div class="col-md-12 button-group mb-2">
-
-                <button class="btn btn-sm map-button btn-block" id="mountains">Cliffs and Mountains</button>
-                <button class="btn btn-sm map-button btn-block" id="islands">Islands and Lakes</button>
-                <button class="btn btn-sm map-button btn-block" id="castles">Castles</button>
-                <button class="btn btn-sm map-button btn-block" id="caves">Caves</button>
-                <button class="btn btn-sm map-button btn-block" id="beaches">Beaches</button>
-                <button class="btn btn-sm map-button btn-block" id="stay">Stay</button>
-
+        </div>
+        <div class="row">
+            <div class="col-sm-12 button-group">
+                <button class="btn btn-sm map-button" id="mountains">Cliffs and Mountains</button>
+                <button class="btn btn-sm map-button" id="islands">Islands and Lakes</button>
+                <button class="btn btn-sm map-button" id="castles">Castles</button>
+                <button class="btn btn-sm map-button" id="caves">Caves</button>
+                <button class="btn btn-sm map-button" id="beaches">Beaches</button>
+                <button class="btn btn-sm map-button" id="stay">Stay</button>
             </div>
-            <div class="col-md-12 mx-auto" id="map">
-
+            <div class="col-sm-12" id="map">
             </div>
-
-
-
 
 
 
         </div>
     </div>
+
+
 
     <!-- Suggest Location Modal -->
     <div class="container modal-container mt-4">
@@ -172,17 +170,15 @@
                     these
                     hidden gems.</p>
             </div>
-            <div class="col-sm-12">
-                <div class="center-form">
-                    <form onsubmit="return sendMail(this);">
-                        <input type="text" name="name" class="form-control" id="name" placeholder="Name" required />
-                        <input type="text" name="emailaddress" class="form-control" id="emailaddress"
-                            placeholder="Email" required />
-                        <textarea rows="5" name="locationsuggestion" class="form-control" id="locationsuggestion"
-                            placeholder="Project Description" required></textarea>
-                        <button type="submit" class="btn btn-secondary center-block">Send Location Sugesstion</button>
-                    </form>
-                </div>
+            <div class="col-sm-12 suggestion-form">
+                <form onsubmit="return sendMail(this);" class="">
+                    <input type="text" name="name" class="form-control mt-2" id="name" placeholder="Name" required />
+                    <input type="text" name="emailaddress" class="form-control mt-2" id="emailaddress"
+                        placeholder="Email Address" required />
+                    <textarea rows="5" name="locationsuggestion" class="form-control mt-2" id="locationsuggestion"
+                        placeholder="Suggest Location" required></textarea>
+                    <button type="submit" class="btn btn-secondary form-btn mt-3">Send Sugesstion</button>
+                </form>
             </div>
         </div>
     </div>

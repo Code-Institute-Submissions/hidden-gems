@@ -445,6 +445,46 @@ let cliffMountainLocations = [
     },
 ]
 
+let campingLocation = [
+    {
+        name: "Beara Peninsula",
+        lat: 51.74830162986611,
+        lng: -9.701959008230475,
+        location: "Cork",
+        information: `A beautiful location filled with mountains, oceans and walks. The perfect spot to pitch a tent for the night.`
+    },
+    {
+        name: "Black Valley",
+        lat: 51.97689366681456,
+        lng: -9.681442711723035 ,
+        location: "Kerry",
+        information: `A secluded valley surrounded by mountains, and rivers. It's an excellent location to camp out in the wild.`
+    },
+    {
+        name: "Dunlaughin",
+        lat: 53.43335491541271,
+        lng: -10.141844956052886,
+        location: "Galway",
+        information: `This camping spot is located right by the beach, and is a wonderful spot. Especially if you fancy a morning swim.`
+    },
+    {
+        name: "Glenregan Wild Camping",
+        lat: 53.08281329343294,
+        lng: 7.63577198115244,
+        location: "Offaly",
+        information: `This valley is secluded by dense woodlands, but also quite accessible. It's the perect spot for family camping.`
+    },
+    {
+        name: "Wicklow Mountains National Park",
+        lat: 53.142799739081575,
+        lng: -6.307651092046029,
+        location: "Wicklow",
+        information: `An amazing location to camp, as the surrounding area is one of the best hiking spots.`
+    },
+]
+
+ 
+
 /* Functions to filter attractions by county locations */
 
 

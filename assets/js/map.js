@@ -13,50 +13,49 @@ let beachLocations = [
         lat: 55.25853092702544,
         lng: -7.012858804606512,
         location: "Donegal",
-        information: `Kinnagoe Bay is a secluded beach in Inishowen, County Donegal, Ireland. It is known for being the location of the wreck of the Armada ship La Trinidad Valencera on 16 September 1588`
+        information: `Kinnagoe Bay is a secluded beach that has a rich history. It is known for being the location of the wreck of the Armada ship La Trinidad Valencera on 16 September 1588.`
     },
     {
         name: "Kilcoole Beach",
         lat: 53.106289454811794,
         lng: -6.040521788447418,
         location: "Wicklow",
-        information: `A beautiful beach that can make you feel both peaceful and full of energy at the same time.`,
-        icons: "beach",
+        information: `A beautiful beach that's perfect for birdwatchers. The beach has a unique atmosphere thats both peaceful and full of energy.`,
     },
     {
         name: "Bannow Island Beach",
         lat: 52.21088398432121,
         lng: -6.7969478144495055,
         location: "Wexford",
-        information: `Bannow Strand is a sandy beach with sand dunes. Saltmarshes around the area make this a place of interest for nature enthusiasts and interesting rock and land formations would be of interest to those interested in geology. `
+        information: `Bannow Strand is a very isolated beach. It's the perfect place to spend some time alonge, walking along sandy beach or sand dunes.  `
     },
     {
         name: "Stradbally Cove",
         lat: 52.1250195326743,
         lng: -7.4603243,
         location: "Waterford",
-        information: `The unusually shaped Stradbally Cove is sheltered by low cliffs and is a perfect beach for families.`
+        information: `This unique beach is surronded by cliffs, and is a great beach for many different activities.`
     },
     {
         name: "Sandscove Beach",
         lat: 51.55288092378668,
         lng: -8.898726986229178,
         location: "Cork",
-        information: `The walk to the beach is just a few minutes down a laneway decorated with wildflowers and montbretia.  Wildlife sightings in the area include seals, dolphins and a basking shark.`
+        information: `This beach is easy to miss so keep an eye out. We recommend bringing a camera or binoculars as you may see dolphins and seals.`
     },
     {
         name: "Silver Strand Beach",
         lat: 54.66475793754972,
         lng: -8.776379246237571,
         location: "Cork",
-        information: `The island is a popular spot for birdwatchers given the large variety of birdlife and in autumn you can watch birds migrating south for winter. Dolphins, porpoises, seals and otters can also be observed from the beach. `
+        information: `A wonderful beach located on an island, surrounded by wildlife.`
     },
     {
         name: "White Strand",
         lat: 52.7471814438714,
         lng: -9.550395830692928,
         location: "Clare",
-        information: `The beach is sheltered on both sides by low rocky cliffs and looks across the bay to the popular surfing beach of Doughmore Strand. `
+        information: `This beach is perfect for all sorts of water activities. Be sure to bring a wet-suit! `
     },
     {
         name: "Forbogh Beach",
@@ -70,42 +69,42 @@ let beachLocations = [
         lat: 55.17733341039231,
         lng: -8.022966473946783,
         location: "Donegal",
-        information: `If a two kilometre hike over sand dunes doesn’t bother you you will be rewarded by the serene Tramore Beach. The only other way to access the beach is by boat.`
+        information: `There are only two ways to access this beach; by boat and by foot. It's well worth the hike to this magical beach!`
     },
     {
         name: "Ballyteige Burrow",
         lat: 52.20194249676858,
         lng: -6.642653162292428,
         location: "Wexford",
-        Information: `Ballyteige Burrow or “the Burrow” as it is locally known, is one of the finest sand dune systems in the South East.`
+        information: `This beach is rich in wilflife and flora. It's the perfect place for a long walk whether along the sandy beach or long winding sandunes.`
     },
     {
         name: "Annagh Bay",
         lat: 54.237603295991505,
         lng: -10.089105252884908,
         location: "Mayo",
-        information: `It is only accessible by boat or by foot. The area is rich in history with a megalithic tomb on the eastern side of the bay.`
+        information: `This beach can only be accessed by foot or by boat. It's a very isolated beach, and absolutely worth the journey.`
     },
     {
         name: "Trá na Feadóigey",
         lat: 53.37520657748699,
         lng: -9.96164436609833,
         location: "Galway",
-        information: `A wonderful beach to visit in any weather. The perfect place to de-stress.`
+        information: `A wonderful beach to visit in any weather. The perfect place to de-stress, listen to the waves, and read a book.`
     },
     {
         name: "Galley Cove",
         lat: 51.46706896407998,
         lng: -9.731530106117043,
         location: "Cork",
-        information: `One of our favorite beaches we've visited. It's a well kept secret, but sometimes it's worth sharing!`,
+        information: `One of our favorite beaches we've visited. It's a well kept secret, but worth sharing!`,
     },
     {
         name: "Trá Bán",
         lat: 52.104736754106604,
         lng: -10.510461740099627,
         location: "Kerry",
-        information: `Trá Bán is a popular sunbathing spot for seals and you might even get to see Dingle Bay’s most famous resident Fungie the Dolphin from your ferry over to the island.`
+        information: `Many have seen dolphins and seals from this beach, so come prepared and bring your binoculars!`
     },
 ]
 
@@ -114,67 +113,79 @@ let lakeIslandLocations = [
         name: "Assaranca Waterfall",
         lat: 54.75894239809791,
         lng: -8.51363053069293,
-        location: "Donegal"
+        location: "Donegal",
+        information: "There is nothing more calming than the sounds of this waterfall after a day of heavy rain. It's truly breathtaking!"
     },
     {
         name: "Shannon Pot",
         lat: 54.2355508148235,
         lng: -7.919257591528897,
-        location: "Cavan"
+        location: "Cavan",
+        information: `Rumoured to be the origin of Ireland's longest river. It's a fantastic location for a peaceful walk, and picnic.`
     },
     {
         name: "Lough Ouler",
         lat: 53.06048077000485,
         lng: -6.373418235691949,
-        location: "Wicklow"
+        location: "Wicklow",
+        information: "This heart shape lake is an excellent place to hike, and the perfect spot for a swim afterwards."
+
     },
     {
         name: "Arranmore Island",
         lat: 54.988728913032745,
         lng: -8.535274641997912,
-        location: "Donegal"
+        location: "Donegal",
+        information: `A magical island with beautiful cliffs, sandy beaches. Once you arrive, you may never want to leave.`
     },
     {
         name: "Coumshingaun Lough",
         lat: 52.250591233955824,
         lng: -7.524722204343533,
-        location: "Waterford"
+        location: "Waterford",
+        information: `A four hour hike awaits to arrive at this lake. It's absolutely worth it for the magnificant view that awaits.`
     },
     {
         name: "Bull Rock",
         lat: 51.59565594035093,
         lng: -10.275685867593861,
-        location: "Cork"
+        location: "Cork",
+        information: `Sometimes called 'The End of The World'. Surrounded by cliffs, and often massive waves. This location is unforgettable.`
     },
     {
         name: "Poll na bPéist - The Wormhole",
         lat: 53.12160328855573,
         lng: -9.754421034582185,
-        location: "Galway"
+        location: "Galway",
+        information: `An extraordinary view of a natural phenomenon. There's nothing quite like it in Ireland.`
     },
     {
         name: "Spike Island",
         lat: 51.83476100594525,
         lng: 8.28623414494465,
-        location: "Cork"
+        location: "Cork",
+        information: `This island is filled with history, as it was first a settlement, and later a prison. It's the perfect lcoation for a day-trip.`
     },
     {
         name: "Gougane Barra",
         lat: 51.83999149856706,
         lng: -9.31495176661951,
-        location: "Cork"
+        location: "Cork",
+        information: "An idyllic island surrounded by a lake. This location offers a beautiful walk, and a fantastic place for a quiet swim."
     },
     {
         name: "Great Blasket Island",
         lat: 52.104736754106604,
         lng: -10.510461740099627,
-        location: "Kerry"
+        location: "Kerry",
+        information: `For many this island is a reminder of the simple ways of living. You can stay the night here in accomodation without WiFi, and electricity. The perfect getaway.`
     },
     {
         name: "Valentia Island",
         lat: 51.92137461381308,
         lng: -10.332660991813258,
-        location: "Kerry"
+        location: "Kerry",
+        information: `A small island with many things to do. It's one of the most western points of Ireland, and one of our favourite places to visit.`
     },
 
 
@@ -187,73 +198,85 @@ let castleLocations = [
         name: "Doon Fort",
         lat: 54.82915812360112,
         lng: -8.464081532894864,
-        location: "Donegal"
+        location: "Donegal",
+        information: `A breathtaking heritage site. This fort is located in the middle of a lake. It's a real hidden gem.`
     },
     {
         name: "McDermott Castle",
         lat: 53.98958226630207,
         lng: -8.232584288008399,
-        location: "Roscommon"
+        location: "Roscommon",
+        information: `This caslte is located on an island within a large lake. There's a boat which will take you to caslte. It's a very remote area, and a perfect place to get lost in the past.`
     },
     {
         name: `Cú Chulainn's Castle`,
         lat: 54.01436057901478,
         lng: -6.430028530692929,
-        location: "Louth"
+        location: "Louth",
+        information: `The castle is located on top of a hill, that overlooks the beautiful surrounding area. Once you reach the caslte, you can see all of Dundalk town. It's a wonderful site.`
     },
     {
-        name: "Athasselabbey",
+        name: "Athassel Abbey",
         lat: 52.47688365193911,
         lng: -7.995341765097741,
-        location: "Tipperary"
+        location: "Tipperary",
+        information: `This abby is the largest in Ireland, and dates back to the 12th century. It's absolutely worth visiting both for the history, and the walk around the beautiful site.`
     },
     {
         name: "Drimnagh Castle",
         lat: 53.325343615027215,
         lng: -6.332674000000001,
-        location: "Dublin"
+        location: "Dublin",
+        information: `The only castle in Ireland that has a flooded moat. This castle is filled with history, and while it's located in the capital city, it's still a hidden gem.`
     },
     {
         name: "Leap Castle",
         lat: 53.028377353540435,
         lng: -7.808453400000001,
-        location: "Offaly"
+        location: "Offaly",
+        information: `This caslte is often described as "the world's most haunted castle". It has been featured on TV's 'Most Haunted'. It's a terrific location.`
     },
     {
-        name: "Cahir Castle",
-        lat: 52.37504489132966,
-        lng: -7.927203846039392,
-        location: "Tipperary"
+        name: "Graystown Castle",
+        lat: 52.564195871196716,
+        lng: -7.715855315346465,
+        location: "Tipperary",
+        information: `This mesmerizing castle offers wonderful sites, as it stands over 60ft tall. It dates back to the 1500's, and is certainily one of the most beautiful castle's we've seen in Ireland.`
     },
     {
         name: "Rock of Cashel",
         lat: 52.520572449407766,
         lng: -7.890538030692929,
-        location: "Tipperary"
+        location: "Tipperary",
+        information: `This castle is a National Monument of Ireland. While that may take away from the secrecy, it's still unknown for many. There are tour guides which operate daily, and give insight into this fantastic historic location.`
     },
     {
-        name: "Ross Castle",
-        lat: 52.04132859084017,
-        lng: -9.53143819,
-        location: "Kerry"
-    },
+        name: "Roche Castle",
+        lat: 54.04678206725634,
+        lng: -6.4883566,
+        location: "Louth",
+        information: `An amazing Norman caslte, that offers splendid views. This castle is build on top of a hill, which offers spectacular views.`
+    },  
     {
         name: "Fiddaun Castle",
         lat: 53.010595321460826,
         lng: -8.879343030372857,
-        location: "Galway"
+        location: "Galway",
+        information: `This caslte is quite a walk away, but it's absolutely worth it. At one point in time, it was considered the largest castle in Ireland.`
     },
     {
         name: "Trim Castle",
         lat: 53.55449698266906,
         lng: -6.7893993000155834,
-        location: "Meath"
+        location: "Meath",
+        information: `This castle is over 30,000 m². It's well-maintained and offers great insight into what it must have been like in the past. It was also a location site for the movie 'Braveheart.`
     },
     {
         name: "Rockstown Castle",
         lat: 52.567152714724244,
         lng: -8.55695135396061,
-        location: "Limerick"
+        location: "Limerick",
+        information: `A fantastic tower house that has five floors. This site differs from many other castles due to its compact size, but it's well worth a visit.`
     },
 ]
 
@@ -264,67 +287,78 @@ let caveLocations = [
         name: "Keshcorran Caves",
         lat: 54.060966340687045,
         lng: -8.449664538155785,
-        location: "Sligo"
+        location: "Sligo",
+        information: `Fantastic limestone caves located on the side of a hill. The cave consists of sixteen simple chambers, some interconnecting. The caves are often presented as being associated with the otherworld, and as places to be respected and feared.`
     },
     {
         name: `Bruce's Cave`,
         lat: 55.298518354390445,
         lng: -6.169222761385858,
-        location: "Antrim"
+        location: "Antrim",
+        information: `This historic cave is well worth the visit. It's name after Robert the Bruce, as it is said that he hid there after his defeat in the 1300's.`
     },
     {
         name: "Marble Arch Caves",
         lat: 54.25902655880112,
         lng: -7.813274946039392,
-        location: "Fermanagh"
+        location: "Fermanagh",
+        information: `These caves are the longest in Northern Ireland spanning over 11.5 kilometres. It's a fantastic site, and a must see location.`
     },
     {
         name: "Crag Caves",
         lat: 52.24763355035248,
         lng: -9.443211170299001,
-        location: "Kerry"
+        location: "Kerry",
+        information: `These caves are said to be over 1 million years old Crag Cave is a magical wonderland of stalagmites and stalactites. We cannot recommend this breathtaking site enough.`
     },
     {
         name: "Dunmore Cave",
         lat: 52.73422200101786,
         lng: -7.246985815346465,
-        location: "Kilkenny"
+        location: "Kilkenny",
+        information: `These caves are known for their archaeological discoveries, and its no wonder, when you see the depth of these cave systems.`
     },
     {
         name: "Doolin Cave",
         lat: 53.04110351270187,
         lng: -9.345149200042298,
-        location: "Clare"
+        location: "Clare",
+        information: `This cave is home to the longest known free-hanging stalactite in Europe, and one of the largest in the entire world.`
     },
     {
         name: "Aillwee Cave",
         lat: 53.089360163139524,
         lng: -9.14358156930707,
-        location: "Clare"
+        location: "Clare",
+        information: `The cave system consists of over a kilometre of passages leading into the heart of the mountain. Its features include an underground river and a waterfall as well as some large stalactites and stalagmites.`
     },
     {
         name: "Mitchelstown Cave",
         lat: 52.30417599030712,
         lng: -8.1088003,
-        location: "Tipperary"
+        location: "Tipperary",
+        information: `A fantastic cave system, with brilliant and informative tour guides.`
     },
     {
         name: "Pigeon Hole Cave",
         lat: 53.54275510201632,
         lng: -9.306707023516834,
-        location: "Galway"
+        location: "Galway",
+        information: `A beautiful cave with an underground stream. The forest leading to the caves are perfect for a walk amongst huge trees.`
     },
     {
-        name: "Pollnagollum–Poulelva",
+        name: "Pollnagollum ",
         lat: 53.07786514887954,
         lng: -9.251255432960807,
-        location: "Clare"
+        location: "Clare",
+        information: `The longest cave in Ireland, and one of the deepest caves too. It's well worth the journey through to the cave to see the underground stream.`
     },
     {
         name: "Oweynagat Cave",
         lat: 53.79695547961791,
         lng: -8.310280138614143,
-        location: "Rosscommon"
+        location: "Rosscommon",
+        information: `You'll need to bring a torch and some wet gear with you for this unique cave. It's a true gateway to another world.`
     },
 ]
 
@@ -336,67 +370,78 @@ let cliffMountainLocations = [
         name: "Croaghaun",
         lat: 53.97977025770544,
         lng: -10.193419230770017,
-        location: "Mayo"
+        location: "Mayo",
+        information: `These cliffs are the highest in Ireland, and the third highest in Europe. You'll have to hike to see these stunning views, but its well worth the trek.`
     },
     {
         name: "Diamond Hill",
         lat: 53.548263166950626,
         lng: -9.91489406258491,
-        location: "Galway"
+        location: "Galway",
+        information: `An amazing hike, that doesn't take too long. The hike features paths so its perfect for all ages and abilities.`
     },
     {
         name: "Knockmealdown Mountains",
         lat: 52.22845940290453,
         lng: 7.915621227079968,
-        location: "Waterford"
+        location: "Waterford",
+        information: `For the select people who know about these mountains, they're a favorite due to the brilliant views, and varying degrees of difficulty in paths you can take.`
     },
     {
         name: "Kilbaha Cliffs",
         lat: 52.571955032395074,
         lng: -9.86175423418042,
-        location: "Clare"
+        location: "Clare",
+        information: `A fabulous cliff walk which overlooks a lighthouse. This location offers some of the best views you'll ever see. `
     },
     {
         name: "Devil’s Chimney",
         lat: 54.341005843280804,
         lng: -8.392807069307072,
-        location: "Sligo"
+        location: "Sligo",
+        information: `A terrific walk which ends at the unique waterfall. It's best to visit here after heavy rain, and the waterfall may be over 150ft tall.`
     },
     {
         name: `Priest's leap`,
         lat: 51.79367893027667,
         lng: -9.47125517274581,
-        location: "Kerry"
+        location: "Kerry",
+        information: `A truly unique hidden gem. You can opt to drive this path, which many people do. It's not for the feint of heart. Otherwise, you can hike the area for fantastic views.`
     },
     {
         name: "The Nine Stones",
         lat: 52.6360572209473,
         lng: -6.772222302314992,
-        location: "Carlow"
+        location: "Carlow",
+        information: `Magnificent views can be seen from here. On clear days, you can see eight different counties including Waterford, Kilkenny, Laois and Wexford.`
     },
     {
         name: "Ballaghbeama Gap",
         lat: 51.94129256166348,
         lng: -9.81548710154434,
-        location: "Kerry"
+        location: "Kerry",
+        information: `This route is best taken by car. It's a breathtaking journey, that feels totally out of this world.`
     },
     {
         name: "Slieve League Cliffs",
         lat: 54.640391412976356,
         lng: -8.682113067849912,
-        location: "Donegal"
+        location: "Donegal",
+        information: `These cliffs reach nearly 2,000ft. It's almost three times the size of the Cliff's of Moher. The hike is well worth the wonderful views.`
     },
     {
         name: "Ballycotton Cliffs",
         lat: 51.82495664593324,
         lng: -8.008259815384314,
-        location: "Cork"
+        location: "Cork",
+        information: `These cliffs overlook vast fields, and a never-ending ocean. The hike can take about five hours, and it's suitable for all ages and abilities.`
     },
     {
         name: "Geokaun Cliffs",
         lat: 51.92380608699363,
         lng: -10.34829668199812,
         location: "Kerry",
+        information: `These cliffs are a photographer's dream. From the top of the hike, you can see many of Kerry's islands, and surrounding mountains.`
     },
 ]
 

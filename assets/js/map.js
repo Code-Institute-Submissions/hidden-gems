@@ -49,7 +49,7 @@ let beachLocations = [
         lat: 54.66475793754972,
         lng: -8.776379246237571,
         location: "Cork",
-        information: `he island is a popular spot for birdwatchers given the large variety of birdlife and in autumn you can watch birds migrating south for winter. Dolphins, porpoises, seals and otters can also be observed from the beach. `
+        information: `The island is a popular spot for birdwatchers given the large variety of birdlife and in autumn you can watch birds migrating south for winter. Dolphins, porpoises, seals and otters can also be observed from the beach. `
     },
     {
         name: "White Strand",

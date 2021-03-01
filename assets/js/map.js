@@ -450,7 +450,7 @@ let campingLocations = [
         name: "Beara Peninsula",
         lat: 51.74830162986611,
         lng: -9.701959008230475,
-        location: "Cork",
+        location: "Kerry",
         information: `A beautiful location filled with mountains, oceans and walks. The perfect spot to pitch a tent for the night.`
     },
     {
@@ -461,11 +461,11 @@ let campingLocations = [
         information: `A secluded valley surrounded by mountains, and rivers. It's an excellent location to camp out in the wild.`
     },
     {
-        name: "Dunlaughin",
+        name: "Dunlaughin Beach",
         lat: 53.43335491541271,
         lng: -10.141844956052886,
         location: "Galway",
-        information: `This camping spot is located right by the beach, and is a wonderful spot. Especially if you fancy a morning swim.`
+        information: `This camping spot is located right by the beach, and it's a fantastic place to spend the night. Especially, if you fancy a morning swim.`
     },
     {
         name: "Glenregan Wild Camping",
@@ -481,6 +481,18 @@ let campingLocations = [
         location: "Wicklow",
         information: `An amazing location to camp, as the surrounding area is one of the best hiking spots.`
     },
+    {
+        name: "Knockmealdown Mountains",
+        lat: 52.225252362129396,
+        lng: -7.9166511953951115,
+        location: "Wicklow",
+        information: `An amazing location to camp, as the surrounding area is one of the best hiking spots.`
+    },
+
+
+    
+
+     
 ]
 
  
@@ -529,7 +541,7 @@ function initMap(locations) {
     if (locations) {
         for (let i = 0; i < locations.length; i++) {
             /* variable to store information about each marker when clicked */
-            const contentString = '<h3>' + locations[i].name + '</h3>' + '<p>' + locations[i].information + '</p>'
+            const contentString = '<h3>' + locations[i].name + ", " + locations[i].location + '</h3>' + '<p>' + locations[i].information + '</p>'
 
             const infowindow = new google.maps.InfoWindow({
                 content: contentString,

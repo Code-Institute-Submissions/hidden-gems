@@ -249,3 +249,33 @@ a.footer-nav:hover{
     width: 100%;
   }
 } */
+
+
+.map-images{
+    width: 250px;
+    height: 200px;
+}
+
+.map-pop-up-text{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+} 
+
+.pop-up-info {
+    font-size: 16px;
+    margin-bottom: auto;
+    display: flex;
+    text-align: center;
+}
+
+.pop-up-heading {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pop-up-container {
+    display: table-caption;
+}

@@ -47,7 +47,7 @@ let beachLocations = [
         name: "Silver Strand Beach",
         lat: 54.66475793754972,
         lng: -8.776379246237571,
-        location: "Cork",
+        location: "Donegal",
         information: `A wonderful beach located on an island, surrounded by wildlife.`
     },
     {
@@ -256,7 +256,7 @@ let castleLocations = [
         lng: -6.4883566,
         location: "Louth",
         information: `An amazing Norman caslte, that offers splendid views. This castle is build on top of a hill, which offers spectacular views.`
-    },  
+    },
     {
         name: "Fiddaun Castle",
         lat: 53.010595321460826,
@@ -451,14 +451,17 @@ let campingLocations = [
         lat: 51.74830162986611,
         lng: -9.701959008230475,
         location: "Kerry",
-        information: `A beautiful location filled with mountains, oceans and walks. The perfect spot to pitch a tent for the night.`
+        information: `A beautiful location filled with mountains, oceans and walks. The perfect spot to pitch a tent for the night.`,
+        images: `<img border="0" align="Left" src="assets/images/beach-ireland.jpg" class="map-images"></img>`
     },
     {
         name: "Black Valley",
         lat: 51.97689366681456,
-        lng: -9.681442711723035 ,
+        lng: -9.681442711723035,
         location: "Kerry",
-        information: `A secluded valley surrounded by mountains, and rivers. It's an excellent location to camp out in the wild.`
+        information: `A secluded valley surrounded by mountains, and rivers. It's an excellent location to camp out in the wild.`,
+        images: `<img border="0" src="assets/images/castle-in-field.jpg" class="map-images map-pop-up"></img>`
+
     },
     {
         name: "Dunlaughin Beach",
@@ -490,12 +493,12 @@ let campingLocations = [
     },
 
 
-    
 
-     
+
+
 ]
 
- 
+
 
 /* Functions to filter attractions by county locations */
 
@@ -541,7 +544,15 @@ function initMap(locations) {
     if (locations) {
         for (let i = 0; i < locations.length; i++) {
             /* variable to store information about each marker when clicked */
-            const contentString = '<h3>' + locations[i].name + ", " + locations[i].location + '</h3>' + '<p>' + locations[i].information + '</p>'
+
+            const contentString = '<div class= "pop-up-container">' +
+                '<h5 class="pop-up-heading">' + locations[i].name + ", "
+                + locations[i].location +
+                '</h5>' + '<div class="pop-up-content">' + '<p class="pop-up-info">'
+                + locations[i].information +
+                '</p>' + '<img class="pop-up-image">'
+                + locations[i].images + '</div>' +
+                '</div>';
 
             const infowindow = new google.maps.InfoWindow({
                 content: contentString,

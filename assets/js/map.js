@@ -13,7 +13,8 @@ let beachLocations = [
         lat: 55.25853092702544,
         lng: -7.012858804606512,
         location: "Donegal",
-        information: `Kinnagoe Bay is a secluded beach that has a rich history. It is known for being the location of the wreck of the Armada ship La Trinidad Valencera on 16 September 1588.`
+        information: `Kinnagoe Bay is a secluded beach that has a rich history. It is known for being the location of the wreck of the Armada ship La Trinidad Valencera on 16 September 1588.`,
+        images: `<img src="assets/images/beach-locations-1.jpg" class="map-images map-pop-up" alt= "ireland-beach"></img>`
     },
     {
         name: "Kilcoole Beach",
@@ -21,76 +22,87 @@ let beachLocations = [
         lng: -6.040521788447418,
         location: "Wicklow",
         information: `A beautiful beach that's perfect for birdwatchers. The beach has a unique atmosphere thats both peaceful and full of energy.`,
+        images: `<img src="assets/images/beach-locations-2.jpg" class="map-images map-pop-up" alt="ireland-beach" ></img>`
     },
     {
-        name: "Bannow Island Beach",
+        name: "Bannow Island",
         lat: 52.21088398432121,
         lng: -6.7969478144495055,
         location: "Wexford",
-        information: `Bannow Strand is a very isolated beach. It's the perfect place to spend some time alonge, walking along sandy beach or sand dunes.  `
+        information: `Bannow Strand is a very isolated beach. It's the perfect place to spend some time alonge, walking along sandy beach or sand dunes.  `,
+        images: `<img src="assets/images/beach-locations-3.jpg" class="map-images map-pop-up" alt="ireland-beach"></img>`
     },
     {
         name: "Stradbally Cove",
         lat: 52.1250195326743,
         lng: -7.4603243,
         location: "Waterford",
-        information: `This unique beach is surronded by cliffs, and is a great beach for many different activities.`
+        information: `This unique beach is surronded by cliffs, and is a great beach for many different activities.`,
+        images: `<img src="assets/images/beach-locations-10.jpg" class="map-images map-pop-up" alt="ireland-beach"></img>`
     },
     {
         name: "Sandscove Beach",
         lat: 51.55288092378668,
         lng: -8.898726986229178,
         location: "Cork",
-        information: `This beach is easy to miss so keep an eye out. We recommend bringing a camera or binoculars as you may see dolphins and seals.`
+        information: `This beach is easy to miss so keep an eye out. We recommend bringing a camera or binoculars as you may see dolphins and seals.`,
+        images: `<img src="assets/images/beach-locations-5.jpg" class="map-images map-pop-up" alt="ireland-beach"></img>`
     },
     {
         name: "Silver Strand Beach",
         lat: 54.66475793754972,
         lng: -8.776379246237571,
         location: "Donegal",
-        information: `A wonderful beach located on an island, surrounded by wildlife.`
+        information: `A wonderful beach located on an island, surrounded by wildlife.`,
+        images: `<img src="assets/images/beach-locations-6.jpg" class="map-images map-pop-up" alt="ireland-beach"></img>`
     },
     {
         name: "White Strand",
         lat: 52.7471814438714,
         lng: -9.550395830692928,
         location: "Clare",
-        information: `This beach is perfect for all sorts of water activities. Be sure to bring a wet-suit! `
+        information: `This beach is perfect for all sorts of water activities. Be sure to bring a wet-suit! `,
+        images: `<img src="assets/images/beach-locations-7.jpg" class="map-images map-pop-up" alt="ireland-beach"></img>`
     },
     {
         name: "Forbogh Beach",
         lat: 53.24898348306867,
         lng: -9.220795398428837,
         location: "Galway",
-        information: `This beautiful beach is located in a Gaeltacht area where Irish is the main language. Keep your eyes open, because this beach is easy to miss. `
+        information: `This beautiful beach is located in a Gaeltacht area where Irish is the main language. Keep your eyes open, because this beach is easy to miss. `,
+        images: `<img src="assets/images/beach-locations-8.jpg" class="map-images map-pop-up" alt="ireland-beach"></img>`
     },
     {
         name: "Tramore Beach",
         lat: 55.17733341039231,
         lng: -8.022966473946783,
         location: "Donegal",
-        information: `There are only two ways to access this beach; by boat and by foot. It's well worth the hike to this magical beach!`
+        information: `There are only two ways to access this beach; by boat and by foot. It's well worth the hike to this magical beach!`,
+        images: `<img src="assets/images/beach-locations-9.jpg" class="map-images map-pop-up" alt="ireland-beach"></img>`
     },
     {
         name: "Ballyteige Burrow",
         lat: 52.20194249676858,
         lng: -6.642653162292428,
         location: "Wexford",
-        information: `This beach is rich in wilflife and flora. It's the perfect place for a long walk whether along the sandy beach or long winding sandunes.`
+        information: `This beach is rich in wilflife and flora. It's the perfect place for a long walk whether along the sandy beach or long winding sandunes.`,
+        images: `<img src="assets/images/beach-locations-4.jpg" class="map-images map-pop-up" alt="ireland-beach"></img>`
     },
     {
         name: "Annagh Bay",
         lat: 54.237603295991505,
         lng: -10.089105252884908,
         location: "Mayo",
-        information: `This beach can only be accessed by foot or by boat. It's a very isolated beach, and absolutely worth the journey.`
+        information: `This beach can only be accessed by foot or by boat. It's a very isolated beach, and absolutely worth the journey.`,
+        images: `<img src="assets/images/beach-locations-11.jpg" class="map-images map-pop-up" alt="ireland-beach"></img>`
     },
     {
         name: "Trá na Feadóigey",
         lat: 53.37520657748699,
         lng: -9.96164436609833,
         location: "Galway",
-        information: `A wonderful beach to visit in any weather. The perfect place to de-stress, listen to the waves, and read a book.`
+        information: `A wonderful beach to visit in any weather. The perfect place to de-stress, listen to the waves, and read a book.`,
+        images: `<img src="assets/images/beach-locations-12.jpg" class="map-images map-pop-up" alt="ireland-beach"></img>`
     },
     {
         name: "Galley Cove",
@@ -98,13 +110,15 @@ let beachLocations = [
         lng: -9.731530106117043,
         location: "Cork",
         information: `One of our favorite beaches we've visited. It's a well kept secret, but worth sharing!`,
+        images: `<img src="assets/images/beach-locations-13.jpg" class="map-images map-pop-up" alt="ireland-beach"></img>`
     },
     {
         name: "Trá Bán",
         lat: 52.104736754106604,
         lng: -10.510461740099627,
         location: "Kerry",
-        information: `Many have seen dolphins and seals from this beach, so come prepared and bring your binoculars!`
+        information: `Many have seen dolphins and seals from this beach, so come prepared and bring your binoculars!`,
+        images: `<img src="assets/images/beach-locations-14.jpg" class="map-images map-pop-up" alt="ireland-beach"></img>`
     },
 ]
 

@@ -445,77 +445,88 @@ let cliffMountainLocations = [
         lat: 53.97977025770544,
         lng: -10.193419230770017,
         location: "Mayo",
-        information: `These cliffs are the highest in Ireland, and the third highest in Europe. You'll have to hike to see these stunning views, but its well worth the trek.`
+        information: `These cliffs are the highest in Ireland, and the third highest in Europe. You'll have to hike to see these stunning views, but its well worth the trek.`,
+        images: `<img src="assets/images/cliff-locations-1.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
     },
     {
         name: "Diamond Hill",
         lat: 53.548263166950626,
         lng: -9.91489406258491,
         location: "Galway",
-        information: `An amazing hike, that doesn't take too long. The hike features paths so its perfect for all ages and abilities.`
+        information: `An amazing hike, that doesn't take too long. The hike features paths so its perfect for all ages and abilities.`,
+        images: `<img src="assets/images/cliff-locations-2.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
     },
     {
         name: "Knockmealdown Mountains",
         lat: 52.22845940290453,
         lng: 7.915621227079968,
         location: "Waterford",
-        information: `For the select people who know about these mountains, they're a favorite due to the brilliant views, and varying degrees of difficulty in paths you can take.`
+        information: `For the few people who know about these mountains, they're a favorite due to the brilliant views, and varying degrees of difficulty in paths you can take.`,
+        images: `<img src="assets/images/cliff-locations-3.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
     },
     {
         name: "Kilbaha Cliffs",
         lat: 52.571955032395074,
         lng: -9.86175423418042,
         location: "Clare",
-        information: `A fabulous cliff walk which overlooks a lighthouse. This location offers some of the best views you'll ever see. `
+        information: `A fabulous cliff walk which overlooks a lighthouse. This location offers some of the best views you'll ever see. `,
+        images: `<img src="assets/images/cliff-locations-4.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
     },
     {
         name: "Devil’s Chimney",
         lat: 54.341005843280804,
         lng: -8.392807069307072,
         location: "Sligo",
-        information: `A terrific walk which ends at the unique waterfall. It's best to visit here after heavy rain, and the waterfall may be over 150ft tall.`
+        information: `A terrific walk which ends at the unique waterfall. It's best to visit here after heavy rain, and the waterfall may be over 150ft tall.`,
+        images: `<img src="assets/images/cliff-locations-5.jpg" class="map-images map-pop-up" alt="ireland-waterfall"></img>`
     },
     {
         name: `Priest's leap`,
         lat: 51.79367893027667,
         lng: -9.47125517274581,
         location: "Kerry",
-        information: `A truly unique hidden gem. You can opt to drive this path, which many people do. It's not for the feint of heart. Otherwise, you can hike the area for fantastic views.`
+        information: `A truly unique hidden gem. You can opt to drive this path, which many people do. Otherwise, you can hike the area for fantastic views.`,
+        images: `<img src="assets/images/cliff-locations-6.jpg" class="map-images map-pop-up" alt="ireland-road"></img>`
     },
     {
         name: "The Nine Stones",
         lat: 52.6360572209473,
         lng: -6.772222302314992,
         location: "Carlow",
-        information: `Magnificent views can be seen from here. On clear days, you can see eight different counties including Waterford, Kilkenny, Laois and Wexford.`
+        information: `Magnificent views can be seen from here. On clear days, you can see eight different counties including Waterford, Kilkenny, Laois and Wexford.`,
+        images: `<img src="assets/images/cliff-locations-7.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
     },
     {
         name: "Ballaghbeama Gap",
         lat: 51.94129256166348,
         lng: -9.81548710154434,
         location: "Kerry",
-        information: `This route is best taken by car. It's a breathtaking journey, that feels totally out of this world.`
+        information: `This route is best taken by car. It's a breathtaking journey, that feels totally out of this world.`,
+        images: `<img src="assets/images/cliff-locations-8.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
     },
     {
         name: "Slieve League Cliffs",
         lat: 54.640391412976356,
         lng: -8.682113067849912,
         location: "Donegal",
-        information: `These cliffs reach nearly 2,000ft. It's almost three times the size of the Cliff's of Moher. The hike is well worth the wonderful views.`
+        information: `These cliffs reach nearly 2,000ft. It's almost three times the size of the Cliff's of Moher. The hike is well worth the wonderful views.`,
+        images: `<img src="assets/images/cliff-locations-9.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
     },
     {
         name: "Ballycotton Cliffs",
         lat: 51.82495664593324,
         lng: -8.008259815384314,
         location: "Cork",
-        information: `These cliffs overlook vast fields, and a never-ending ocean. The hike can take about five hours, and it's suitable for all ages and abilities.`
+        information: `These cliffs overlook vast fields, and a never-ending ocean. The hike can take about five hours, and it's suitable for all ages and abilities.`,
+        images: `<img src="assets/images/cliff-locations-10.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
     },
     {
         name: "Geokaun Cliffs",
         lat: 51.92380608699363,
         lng: -10.34829668199812,
         location: "Kerry",
-        information: `These cliffs are a photographer's dream. From the top of the hike, you can see many of Kerry's islands, and surrounding mountains.`
+        information: `These cliffs are a photographer's dream. From the top of the hike, you can see many of Kerry's islands, and surrounding mountains.`,
+        images: `<img src="assets/images/cliff-locations-11.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
     },
 ]
 
@@ -526,7 +537,6 @@ let campingLocations = [
         lng: -9.701959008230475,
         location: "Kerry",
         information: `A beautiful location filled with mountains, oceans and walks. The perfect spot to pitch a tent for the night.`,
-        images: `<img border="0" align="Left" src="assets/images/beach-ireland.jpg" class="map-images"></img>`
     },
     {
         name: "Black Valley",
@@ -534,7 +544,6 @@ let campingLocations = [
         lng: -9.681442711723035,
         location: "Kerry",
         information: `A secluded valley surrounded by mountains, and rivers. It's an excellent location to camp out in the wild.`,
-        images: `<img border="0" src="assets/images/castle-in-field.jpg" class="map-images map-pop-up"></img>`
 
     },
     {
@@ -565,9 +574,6 @@ let campingLocations = [
         location: "Wicklow",
         information: `An amazing location to camp, as the surrounding area is one of the best hiking spots.`
     },
-
-
-
 
 
 ]

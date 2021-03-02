@@ -169,21 +169,25 @@ let lakeIslandLocations = [
         lat: 51.59565594035093,
         lng: -10.275685867593861,
         location: "Cork",
-        information: `Sometimes called 'The End of The World'. Surrounded by cliffs, and often massive waves. This location is unforgettable.`
+        information: `Sometimes called 'The End of The World'. Surrounded by cliffs, and often massive waves. This location is unforgettable.`,
+        images: `<img src="assets/images/lake-island-locations-11.jpg" class="map-images map-pop-up" alt="ireland-island"></img>`
+        
     },
     {
         name: "Poll na bPéist - The Wormhole",
         lat: 53.12160328855573,
         lng: -9.754421034582185,
         location: "Galway",
-        information: `An extraordinary view of a natural phenomenon. There's nothing quite like it in Ireland.`
+        information: `An extraordinary view of a natural phenomenon. There's nothing quite like it in Ireland.`,
+        images: `<img src="assets/images/lake-island-locations-13.jpg" class="map-images map-pop-up" alt="ireland-lake"></img>`
     },
     {
         name: "Spike Island",
         lat: 51.83476100594525,
         lng: 8.28623414494465,
         location: "Cork",
-        information: `This island is filled with history, as it was first a settlement, and later a prison. It's the perfect lcoation for a day-trip.`
+        information: `This island is filled with history, as it was first a settlement, and later a prison. It's the perfect lcoation for a day-trip.`,
+        images: `<img src="assets/images/lake-island-locations-12.jpg" class="map-images map-pop-up" alt="ireland-island"></img>`
     },
     {
         name: "Bere Island",
@@ -237,85 +241,110 @@ let castleLocations = [
         lat: 54.82915812360112,
         lng: -8.464081532894864,
         location: "Donegal",
-        information: `A breathtaking heritage site. This fort is located in the middle of a lake. It's a real hidden gem.`
+        information: `A breathtaking heritage site. This fort is located in the middle of a lake. It's a real hidden gem.`,
+        images: `<img src="assets/images/castle-locations-1.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
+        
     },
     {
         name: "McDermott Castle",
         lat: 53.98958226630207,
         lng: -8.232584288008399,
         location: "Roscommon",
-        information: `This caslte is located on an island within a large lake. There's a boat which will take you to caslte. It's a very remote area, and a perfect place to get lost in the past.`
+        information: `This caslte is located on an island within a large lake. There's a boat which will take you to castle. It's a very remote area, and a perfect place to get lost in the past.`,
+        images: `<img src="assets/images/castle-locations-2.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
     },
     {
         name: `Cú Chulainn's Castle`,
         lat: 54.01436057901478,
         lng: -6.430028530692929,
         location: "Louth",
-        information: `The castle is located on top of a hill, that overlooks the beautiful surrounding area. Once you reach the caslte, you can see all of Dundalk town. It's a wonderful site.`
+        information: `The castle is located on top of a hill, that overlooks the beautiful surrounding area. Once you reach the caslte, you can see all of Dundalk town. It's a wonderful site.`,
+        images: `<img src="assets/images/castle-locations-3.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
     },
     {
         name: "Athassel Abbey",
         lat: 52.47688365193911,
         lng: -7.995341765097741,
         location: "Tipperary",
-        information: `This abby is the largest in Ireland, and dates back to the 12th century. It's absolutely worth visiting both for the history, and the walk around the beautiful site.`
+        information: `This abby is the largest in Ireland, and dates back to the 12th century. It's absolutely worth visiting both for the history, and the walk around the beautiful site.`,
+        images: `<img src="assets/images/castle-locations-5.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
     },
     {
         name: "Drimnagh Castle",
         lat: 53.325343615027215,
         lng: -6.332674000000001,
         location: "Dublin",
-        information: `The only castle in Ireland that has a flooded moat. This castle is filled with history, and while it's located in the capital city, it's still a hidden gem.`
+        information: `The only castle in Ireland that has a flooded moat. This castle is filled with history, and while it's located in the capital city, it's still a hidden gem.`,
+        images: `<img src="assets/images/castle-locations-10.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
     },
     {
         name: "Leap Castle",
         lat: 53.028377353540435,
         lng: -7.808453400000001,
         location: "Offaly",
-        information: `This caslte is often described as "the world's most haunted castle". It has been featured on TV's 'Most Haunted'. It's a terrific location.`
+        information: `This castle is often described as "the world's most haunted castle". It has been featured on TV's 'Most Haunted'. It's a terrific location.`,
+        images: `<img src="assets/images/castle-locations-11.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
     },
     {
         name: "Graystown Castle",
         lat: 52.564195871196716,
         lng: -7.715855315346465,
         location: "Tipperary",
-        information: `This mesmerizing castle offers wonderful sites, as it stands over 60ft tall. It dates back to the 1500's, and is certainily one of the most beautiful castle's we've seen in Ireland.`
+        information: `This mesmerizing castle offers wonderful sites, as it stands over 60ft tall. It dates back to the 1500's, and its certainily one of the most beautiful castle's we've seen in Ireland.`,
+        images: `<img src="assets/images/castle-locations-13.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
     },
     {
         name: "Rock of Cashel",
         lat: 52.520572449407766,
         lng: -7.890538030692929,
         location: "Tipperary",
-        information: `This castle is a National Monument of Ireland. While that may take away from the secrecy, it's still unknown for many. There are tour guides which operate daily, and give insight into this fantastic historic location.`
+        information: `This castle is a National Monument of Ireland. While that may take away from the secrecy, it's still unknown for many. There are tour guides which operate daily, and give insight into this fantastic historic location.`,
+        images: `<img src="assets/images/castle-locations-6.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
     },
     {
         name: "Roche Castle",
         lat: 54.04678206725634,
         lng: -6.4883566,
         location: "Louth",
-        information: `An amazing Norman caslte, that offers splendid views. This castle is build on top of a hill, which offers spectacular views.`
+        information: `An amazing Norman caslte, that offers rich history, and spectacular views. This castle is build on top of a hill, which allows you to see for miles.`,
+        images: `<img src="assets/images/castle-locations-12.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
     },
     {
         name: "Fiddaun Castle",
         lat: 53.010595321460826,
         lng: -8.879343030372857,
         location: "Galway",
-        information: `This caslte is quite a walk away, but it's absolutely worth it. At one point in time, it was considered the largest castle in Ireland.`
+        information: `This caslte is quite a walk away, but it's absolutely worth it. At one point in time, it was considered the largest castle in Ireland.`,
+         images: `<img src="assets/images/castle-locations-7.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
     },
     {
         name: "Trim Castle",
         lat: 53.55449698266906,
         lng: -6.7893993000155834,
         location: "Meath",
-        information: `This castle is over 30,000 m². It's well-maintained and offers great insight into what it must have been like in the past. It was also a location site for the movie 'Braveheart.`
+        information: `This castle is over 30,000 m². It's well-maintained and offers great insight into what it must have been like in the past. It was also a location site for the movie 'Braveheart.`,
+         images: `<img src="assets/images/castle-locations-9.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
     },
     {
         name: "Rockstown Castle",
         lat: 52.567152714724244,
         lng: -8.55695135396061,
         location: "Limerick",
-        information: `A fantastic tower house that has five floors. This site differs from many other castles due to its compact size, but it's well worth a visit.`
+        information: `A fantastic tower house that has five floors. This site differs from many other castles due to its compact size, but it's well worth a visit.`,
+         images: `<img src="assets/images/castle-locations-8.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
     },
+    {
+        name: "Doonagore Castle",
+        lat: 53.004036497964194,
+        lng: -9.387491515344637,
+        location: "Clare",
+        information: `A hill-top caslte with fantastic views overlooking the ocean. While the castle is closed to the public, a trip here is worth it for the views and peaceful atmosphere.`,
+         images: `<img src="assets/images/castle-locations-4.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
+    },
+
+    
+
+     
 ]
 
 /* Object for cave locations in Ireland */

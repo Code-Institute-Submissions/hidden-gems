@@ -340,11 +340,7 @@ let castleLocations = [
         location: "Clare",
         information: `A hill-top caslte with fantastic views overlooking the ocean. While the castle is closed to the public, a trip here is worth it for the views and peaceful atmosphere.`,
          images: `<img src="assets/images/castle-locations-4.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
-    },
-
-    
-
-     
+    },  
 ]
 
 /* Object for cave locations in Ireland */
@@ -355,77 +351,88 @@ let caveLocations = [
         lat: 54.060966340687045,
         lng: -8.449664538155785,
         location: "Sligo",
-        information: `Fantastic limestone caves located on the side of a hill. The cave consists of sixteen simple chambers, some interconnecting. The caves are often presented as being associated with the otherworld, and as places to be respected and feared.`
+        information: `Fantastic limestone caves located on the side of a hill. The cave consists of sixteen simple chambers, some interconnecting. The caves are often presented as being associated with the otherworld, and as places to be respected and feared.`,
+        images: `<img src="assets/images/cave-locations-1.jpg" class="map-images map-pop-up" alt="ireland-cave"></img>`
     },
     {
         name: `Bruce's Cave`,
         lat: 55.298518354390445,
         lng: -6.169222761385858,
         location: "Antrim",
-        information: `This historic cave is well worth the visit. It's name after Robert the Bruce, as it is said that he hid there after his defeat in the 1300's.`
+        information: `This historic cave is well worth the visit. It's name after Robert the Bruce, as it is said that he hid there after his defeat in the 1300's.`,
+        images: `<img src="assets/images/cave-locations-4.jpg" class="map-images map-pop-up" alt="ireland-cave"></img>`
     },
     {
         name: "Marble Arch Caves",
         lat: 54.25902655880112,
         lng: -7.813274946039392,
         location: "Fermanagh",
-        information: `These caves are the longest in Northern Ireland spanning over 11.5 kilometres. It's a fantastic site, and a must see location.`
+        information: `These caves are the longest in Northern Ireland spanning over 11.5 kilometres. It's a fantastic site, and a must see location.`,
+        images: `<img src="assets/images/cave-locations-5.jpg" class="map-images map-pop-up" alt="ireland-cave"></img>`
     },
     {
         name: "Crag Caves",
         lat: 52.24763355035248,
         lng: -9.443211170299001,
         location: "Kerry",
-        information: `These caves are said to be over 1 million years old Crag Cave is a magical wonderland of stalagmites and stalactites. We cannot recommend this breathtaking site enough.`
+        information: `These caves are said to be over 1 million years old Crag Cave is a magical wonderland of stalagmites and stalactites. We cannot recommend this breathtaking site enough.`,
+        images: `<img src="assets/images/cave-locations-2.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
     },
     {
         name: "Dunmore Cave",
         lat: 52.73422200101786,
         lng: -7.246985815346465,
         location: "Kilkenny",
-        information: `These caves are known for their archaeological discoveries, and its no wonder, when you see the depth of these cave systems.`
+        information: `These caves are known for their archaeological discoveries, and its no wonder, when you see the depth of these cave systems.`,
+        images: `<img src="assets/images/cave-locations-6.jpg" class="map-images map-pop-up" alt="ireland-cave"></img>`
     },
     {
         name: "Doolin Cave",
         lat: 53.04110351270187,
         lng: -9.345149200042298,
         location: "Clare",
-        information: `This cave is home to the longest known free-hanging stalactite in Europe, and one of the largest in the entire world.`
+        information: `This cave is home to the longest known free-hanging stalactite in Europe, and one of the largest in the entire world.`,
+        images: `<img src="assets/images/cave-locations-7.jpg" class="map-images map-pop-up" alt="ireland-cave"></img>`
     },
     {
         name: "Aillwee Cave",
         lat: 53.089360163139524,
         lng: -9.14358156930707,
         location: "Clare",
-        information: `The cave system consists of over a kilometre of passages leading into the heart of the mountain. Its features include an underground river and a waterfall as well as some large stalactites and stalagmites.`
+        information: `The cave system consists of over a kilometre of passages leading into the heart of the mountain. Its features include an underground river and a waterfall as well as some large stalactites and stalagmites.`,
+        images: `<img src="assets/images/cave-locations-8.jpg" class="map-images map-pop-up" alt="ireland-cave"></img>`
     },
     {
         name: "Mitchelstown Cave",
         lat: 52.30417599030712,
         lng: -8.1088003,
         location: "Tipperary",
-        information: `A fantastic cave system, with brilliant and informative tour guides.`
+        information: `A fantastic cave system, with brilliant and informative tour guides.`,
+        images: `<img src="assets/images/cave-locations-9.jpg" class="map-images map-pop-up" alt="ireland-cave"></img>`
     },
     {
         name: "Pigeon Hole Cave",
         lat: 53.54275510201632,
         lng: -9.306707023516834,
         location: "Galway",
-        information: `A beautiful cave with an underground stream. The forest leading to the caves are perfect for a walk amongst huge trees.`
+        information: `A beautiful cave with an underground stream. The forest leading to the caves are perfect for a walk amongst huge trees.`,
+        images: `<img src="assets/images/cave-locations-10.jpg" class="map-images map-pop-up" alt="ireland-cave"></img>`
     },
     {
         name: "Pollnagollum ",
         lat: 53.07786514887954,
         lng: -9.251255432960807,
         location: "Clare",
-        information: `The longest cave in Ireland, and one of the deepest caves too. It's well worth the journey through to the cave to see the underground stream.`
+        information: `The longest cave in Ireland, and one of the deepest caves too. It's well worth the journey through to the cave to see the underground stream.`,
+        images: `<img src="assets/images/cave-locations-11.jpg" class="map-images map-pop-up" alt="ireland-cave"></img>`
     },
     {
         name: "Oweynagat Cave",
         lat: 53.79695547961791,
         lng: -8.310280138614143,
         location: "Rosscommon",
-        information: `You'll need to bring a torch and some wet gear with you for this unique cave. It's a true gateway to another world.`
+        information: `You'll need to bring a torch and some wet gear with you for this unique cave. It's a true gateway to another world.`,
+        images: `<img src="assets/images/cave-locations-12.jpg" class="map-images map-pop-up" alt="ireland-cave"></img>`
     },
 ]
 

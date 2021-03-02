@@ -128,21 +128,24 @@ let lakeIslandLocations = [
         lat: 54.75894239809791,
         lng: -8.51363053069293,
         location: "Donegal",
-        information: "There is nothing more calming than the sounds of this waterfall after a day of heavy rain. It's truly breathtaking!"
+        information: "There is nothing more calming than the sounds of this waterfall after a day of heavy rain. It's truly breathtaking!",
+        images: `<img src="assets/images/lake-island-locations-1.jpg" class="map-images map-pop-up" alt="ireland-waterfall"></img>`
     },
     {
         name: "Shannon Pot",
         lat: 54.2355508148235,
         lng: -7.919257591528897,
         location: "Cavan",
-        information: `Rumoured to be the origin of Ireland's longest river. It's a fantastic location for a peaceful walk, and picnic.`
+        information: `Rumoured to be the origin of Ireland's longest river. It's a fantastic location for a peaceful walk, and picnic.`,
+        images: `<img src="assets/images/lake-island-locations-2.jpg" class="map-images map-pop-up" alt="ireland-lake"></img>`
     },
     {
         name: "Lough Ouler",
         lat: 53.06048077000485,
         lng: -6.373418235691949,
         location: "Wicklow",
-        information: "This heart shape lake is an excellent place to hike, and the perfect spot for a swim afterwards."
+        information: "This heart shape lake is an excellent place to hike, and the perfect spot for a swim afterwards.",
+        images: `<img src="assets/images/lake-island-locations-3.jpg" class="map-images map-pop-up" alt="ireland-lake"></img>`
 
     },
     {
@@ -150,14 +153,16 @@ let lakeIslandLocations = [
         lat: 54.988728913032745,
         lng: -8.535274641997912,
         location: "Donegal",
-        information: `A magical island with beautiful cliffs, sandy beaches. Once you arrive, you may never want to leave.`
+        information: `A magical island with beautiful cliffs, sandy beaches. Once you arrive, you may never want to leave.`,
+        images: `<img src="assets/images/lake-island-locations-4.jpg" class="map-images map-pop-up" alt="ireland-island"></img>`
     },
     {
         name: "Coumshingaun Lough",
         lat: 52.250591233955824,
         lng: -7.524722204343533,
         location: "Waterford",
-        information: `A four hour hike awaits to arrive at this lake. It's absolutely worth it for the magnificant view that awaits.`
+        information: `A four hour hike awaits to arrive at this lake. It's absolutely worth it for the magnificant view that awaits.`,
+        images: `<img src="assets/images/lake-island-locations-5.jpg" class="map-images map-pop-up" alt="ireland-lake"></img>`
     },
     {
         name: "Bull Rock",
@@ -181,25 +186,44 @@ let lakeIslandLocations = [
         information: `This island is filled with history, as it was first a settlement, and later a prison. It's the perfect lcoation for a day-trip.`
     },
     {
-        name: "Gougane Barra",
-        lat: 51.83999149856706,
-        lng: -9.31495176661951,
+        name: "Bere Island",
+        lat: 51.63037224006302,
+        lng: -9.865961566386499,
         location: "Cork",
-        information: "An idyllic island surrounded by a lake. This location offers a beautiful walk, and a fantastic place for a quiet swim."
+        information: "An idyllic island with many ancient ruins. This location offers a beautiful walk, and a fantastic place for a quiet day of exploration and reflection.",
+        images: `<img src="assets/images/lake-island-locations-7.jpg" class="map-images map-pop-up" alt="ireland-old-house"></img>`
+    },
+    {
+        name: "Clare Island",
+        lat: 53.80262284462848,
+        lng: -9.9964143107925,
+        location: "Mayo",
+        information: "",
+        images: `<img src="assets/images/lake-island-locations-10.jpg" class="map-images map-pop-up" alt="ireland-island"></img>`
+    },
+    {
+        name: "Sherkin Island",
+        lat: 51.46511094755541,
+        lng: -9.418069650576705,
+        location: "Cork",
+        information: "A picturesque island that is rich in wildlife, and beautiful views. The island is very peaceful and there is a wonderful hotel to stay the night after a day of travelling.",
+        images: `<img src="assets/images/lake-island-locations-6.jpg" class="map-images map-pop-up" alt="ireland-island"></img>`
     },
     {
         name: "Great Blasket Island",
         lat: 52.104736754106604,
         lng: -10.510461740099627,
         location: "Kerry",
-        information: `For many this island is a reminder of the simple ways of living. You can stay the night here in accomodation without WiFi, and electricity. The perfect getaway.`
+        information: `For many this island is a reminder of the simple ways of living. You can stay the night here in accomodation without WiFi, and electricity. The perfect getaway.`,
+        images: `<img src="assets/images/lake-island-locations-9.jpg" class="map-images map-pop-up" alt="ireland-island"></img>`
     },
     {
         name: "Valentia Island",
         lat: 51.92137461381308,
         lng: -10.332660991813258,
         location: "Kerry",
-        information: `A small island with many things to do. It's one of the most western points of Ireland, and one of our favourite places to visit.`
+        information: `A small island with many things to do. We recommend visiting the fabulous lighthouse. It's one of the most western points of Ireland, and one of our favourite places to visit.`,
+        images: `<img src="assets/images/lake-island-locations-8.jpg" class="map-images map-pop-up" alt="ireland-island"></img>`
     },
 
 
@@ -618,3 +642,4 @@ document.getElementById("islands").addEventListener("click", function () {
 document.getElementById("camping").addEventListener("click", function () {
     initMap(campingLocations);
 });
+

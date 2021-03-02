@@ -271,8 +271,7 @@ a.footer-nav:hover{
 }
 
 .pop-up-heading {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     
 }
 

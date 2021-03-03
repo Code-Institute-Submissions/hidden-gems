@@ -574,8 +574,6 @@ let campingLocations = [
         location: "Wicklow",
         information: `An amazing location to camp, as the surrounding area is one of the best hiking spots.`
     },
-
-
 ]
 
 
@@ -606,7 +604,7 @@ var currentInfoWindow = null;
 function initMap(locations) {
     var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 7,
-        /* Code to remove terrain checkbox from map */
+        /* Code to remove terrain and satellite checkbox from map */
         mapTypeControl: true,
         mapTypeControlOptions: {
             mapTypeIds: [

@@ -175,9 +175,15 @@ h4 {
 
 /* -- Contact Form -- */
 
+.contact-container {
+    display: flex;
+    justify-content: center;
+}
+
 .suggestion-form {
     display: inline-block;
     text-align: center;
+    margin-bottom: 25px;
 }
 
 #success-message {
@@ -257,10 +263,7 @@ a.footer-nav:hover{
     border-bottom: 0.5px solid black;
 }
 
-.modal-container {
-    display: flex;
-    justify-content: center;
-}
+
 
 .newsletter-form {
     display: flex;
@@ -301,5 +304,10 @@ a.footer-nav:hover{
     width: 100%;
   }
 } */
+
+
+.bottom-border {
+    border-bottom: 0.5px solid black;
+}
 
 

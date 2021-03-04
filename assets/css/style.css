@@ -26,8 +26,12 @@ body {
 }
 
 .navbar .nav-link {
-    color: #f1f1ef;  
-    font-weight: bold;
+    color: black;  
+    font-size: 18px;
+}
+
+.navbar .nav-link:hover {
+    color: black;  
     font-size: 18px;
 }
 
@@ -174,6 +178,14 @@ h4 {
 .suggestion-form {
     display: inline-block;
     text-align: center;
+}
+
+#success-message {
+    display: none;
+}
+
+#error-message {
+    display: none;
 }
 
 /* -- Map -- */

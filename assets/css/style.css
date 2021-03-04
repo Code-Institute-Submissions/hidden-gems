@@ -9,7 +9,8 @@ body {
 /* -- Nav Bar -- */
 
 .navbar {
-    background-color: #f1f1ef;
+    background-color: #c19434;
+    border-bottom: 0.5px solid black;
 }
 
 .navbar-toggler {
@@ -25,7 +26,7 @@ body {
 }
 
 .navbar .nav-link {
-    color: #34421e;  
+    color: #f1f1ef;  
     font-weight: bold;
     font-size: 18px;
 }
@@ -54,26 +55,28 @@ body {
 
 .jumbotron {
     background-color: transparent;
+    color: #f1f1ef;
 }
 
 .jumbotron h1 {
     font-size: 46px;
     font-weight: bolder;
     margin: 6px 0px;
-    color: #f8f8f8;
-
 }
 
 .jumbotron .lead {
     font-size: 22px;
     margin: 6px 0px;
-    color: #f8f8f8;
-    
 }
 
 /* -- Headings -- */
 
 .cta-heading {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
     display: flex;
     justify-content: center;
 }
@@ -121,7 +124,7 @@ body {
     background-color: #c19434;
     font-size: 18px;
     margin-top: 3px;
-    color: #f1f1ef;
+    color: black;
 }
 
 .button-group {
@@ -141,21 +144,37 @@ body {
 .newsletter-btn {
     margin-left: 10px;
     width: 40%;
+    background-color: #c19434;
+    color: black;
+    border: solid 0.5px black;
 }
 
+.newsletter-btn:hover {
+    margin-left: 10px;
+    width: 40%;
+    background-color: #f1f1ef;
+    color: black;
+    border: solid 0.5px black;
+}
 
 .map-button:hover{
     background-color: #dcdcdc 
 }
+
+
 /* #modalSuggestButton {
     display: flex;
     justify-content: center;
 } */
 
+
+
 /* -- Contact Form -- */
 
-
-
+.suggestion-form {
+    display: inline-block;
+    text-align: center;
+}
 
 /* -- Map -- */
 
@@ -164,100 +183,6 @@ body {
     height: 630px;
     border: 0.5px solid black;
 }
-
-h4 {
-    display: flex;
-    justify-content: center;
-}
-
-/* -- Footer -- */
-
-
-.footer-container {
-    height: 70vh;
-    max-width: 100%;
-
-    background: url('../images/mountain-view.jpg') no-repeat center right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
-
-.icons {
-    margin: 10px;
-}
-
-.icons:hover{
-    transform: scale(1.2);
-    
-}
-
-.social-media-icons { 
-    display: flex;
-    justify-content: center;
-}
-
-.site-map {
-    display: flex;
-    align-items: center;
-}
-
-a.footer-nav {
-    color: black;
-}
-
-a.footer-nav:hover{
-    color: black;
-    border-bottom: 0.5px solid black;
-}
-
-.modal-container {
-    display: flex;
-    justify-content: center;
-}
-
-.newsletter-form {
-    display: flex;
-    flex-direction: row;
-} 
-
-
-
-/* -- Contact Form */
-
-.form-btn {
-    
-
-}
-
-.suggestion-form {
-    display: inline-block;
-    text-align: center;
-}
-
-/* -- Media Query -- */
-
- @media (max-width: 770px) {
-  .button-group {
-    display: flex;
-    flex-direction: column;
-  }
-} 
-
-/* @media (max-width: 767px) {
-  .map-button {
-    display: block;
-    width: 100%;
-  }
-} */
-
 
 .map-images{
     width: 250px;
@@ -286,3 +211,83 @@ a.footer-nav:hover{
 .pop-up-container {
     display: table-caption;
 }
+
+/* -- Footer -- */
+
+.footer-container {
+    height: 70vh;
+    max-width: 100%;
+
+    background: url('../images/mountain-view.jpg') no-repeat center right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.site-map {
+    display: flex;
+    align-items: center;
+}
+
+a.footer-nav {
+    color: black;
+}
+
+a.footer-nav:hover{
+    color: black;
+    border-bottom: 0.5px solid black;
+}
+
+.modal-container {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: row;
+} 
+
+
+/* -- Icons -- */
+
+.icons {
+    margin: 10px;
+    color: black;
+}
+
+.icons:hover{
+    transform: scale(1.2);
+    
+}
+
+.social-media-icons { 
+    display: flex;
+    justify-content: center;
+}
+
+
+/* -- Media Query -- */
+
+ @media (max-width: 770px) {
+  .button-group {
+    display: flex;
+    flex-direction: column;
+  }
+} 
+
+/* @media (max-width: 767px) {
+  .map-button {
+    display: block;
+    width: 100%;
+  }
+} */
+
+

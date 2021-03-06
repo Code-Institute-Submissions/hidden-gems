@@ -342,3 +342,7 @@ input:focus {
 .active-map-button {
     background-color: #dcdcdc;
 }
+
+#newsletterThankYou {
+    display: none;
+}

@@ -22,3 +22,14 @@ function sendMail(contactForm) {
     document.getElementById("contactForm").reset();
     return false;
 }
+
+
+
+$('#newsletterBtn').click(function(e) {
+    $("#newsletterThankYou").show();
+    /* $('#newsLetterForm').submit() */;
+    
+    e.preventDefault();
+
+    
+});

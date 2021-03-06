@@ -201,7 +201,7 @@
                                     <textarea rows="3" name="locationsuggestion"
                                         class="form-control mt-2 contact-form-input" id="contactQuestions"
                                         placeholder="Any Questions?"></textarea>
-                                    <button type="submit" class="btn btn-secondary form-btn mt-3 mb-1">Send
+                                    <button type="submit" class="btn btn-modal form-btn mt-3 mb-1">Send
                                         Sugesstion</button>
                                     <div classs="mt-2 mb-3" id="success-message">
                                         <p>Your message has been successfully sent!</p>
@@ -234,13 +234,14 @@
         </div>
         <div class="row">
             <div class="mx-auto mt-3">
-                <form>
+                <form id="newsLetterForm">
                     <div class="form-group newsletter-form">
                         <label for="newsletterEmail"></label>
                         <input type="email" class="form-control" id="newsletterEmail" aria-describedby="emailHelp"
                             placeholder="Email Address">
-                        <button type="submit" class="btn btn-sm newsletter-btn">Sign Up</button>
+                        <button type="submit" class="btn btn-sm newsletter-btn" id="newsletterBtn">Sign Up</button>
                     </div>
+                    <p class="text-center" id="newsletterThankYou">Thank you for signing up!</p>
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with
                         anyone
                         else.</small>

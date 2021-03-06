@@ -164,29 +164,61 @@
         <div class="row bottom-border">
             <div class="col-sm-12">
                 <h5 class="text-center">We're always looking for suggestions!</h5>
-                <p class="text-center">If you'd like to share some secret locations with us, please don't hesitate to
+                <p class="text-center">If you've any questions or if you would like to share some secret locations with
+                    us, please don't hesitate to
                     get in
-                    touch! <br> We believe in sharing the beautiful locations with others so they too can experience
+                    touch! <br> We believe in sharing beautiful locations with others so they too can experience
                     these
                     hidden gems.</p>
             </div>
-            <div class="col-sm-12 suggestion-form">
-                <form onsubmit="return sendMail(this);" class="">
-                    <input type="text" name="name" class="form-control mt-2" id="name" placeholder="Name" required />
-                    <input type="text" name="emailaddress" class="form-control mt-2" id="emailaddress"
-                        placeholder="Email Address" required />
-                    <textarea rows="5" name="locationsuggestion" class="form-control mt-2" id="locationsuggestion"
-                        placeholder="Suggest Location" required></textarea>
-                    <button type="submit" class="btn btn-secondary form-btn mt-3 mb-2">Send Sugesstion</button>
-                    <div classs="mt-2 mb-3" id="success-message">
-                        <p>Your message has been successfully sent!</p>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-small btn-modal mx-auto" data-toggle="modal" data-target="#exampleModal">
+                Get in touch!
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Get in touch!</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="col-sm-12 suggestion-form">
+                                <form onsubmit="return sendMail(this);">
+                                    <input type="text" name="name" class="form-control mt-2 contact-form-input"
+                                        id="name" placeholder="Name" required />
+                                    <input type="text" name="emailaddress" class="form-control mt-2 contact-form-input"
+                                        id="emailaddress" placeholder="Email Address" required />
+                                    <textarea rows="4" name="locationsuggestion"
+                                        class="form-control mt-2 contact-form-input" id="locationsuggestion"
+                                        placeholder="Suggest Location"></textarea>
+                                    <textarea rows="3" name="locationsuggestion"
+                                        class="form-control mt-2 contact-form-input" id="contactQuestions"
+                                        placeholder="Any Questions?"></textarea>
+                                    <button type="submit" class="btn btn-secondary form-btn mt-3 mb-2">Send
+                                        Sugesstion</button>
+                                    <div classs="mt-2 mb-3" id="success-message">
+                                        <p>Your message has been successfully sent!</p>
+                                    </div>
+                                    <div class="mt-2 mb-3" id="error-message">
+                                        <p>There was a problem with your message. Please try again.</p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
-                    <div class="mt-2 mb-3" id="error-message">
-                        <p>There was a problem with your message. Please try again.</p>
-                    </div>
-                </form>
+                </div>
             </div>
         </div>
+
+
+
     </div>
 
 

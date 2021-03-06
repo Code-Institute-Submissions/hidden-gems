@@ -186,6 +186,12 @@ h4 {
     margin-bottom: 25px;
 }
 
+/* .contact-form-input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+} */
+
 #success-message {
     display: none;
 }
@@ -305,9 +311,27 @@ a.footer-nav:hover{
   }
 } */
 
-
-.bottom-border {
-    border-bottom: 0.5px solid black;
+.btn-modal {
+    margin-left: 10px;
+    width: 40%;
+    background-color: #c19434;
+    color: black;
+    border: solid 0.5px black;
 }
 
+.btn-modal:hover {
+    margin-left: 10px;
+    width: 40%;
+    background-color: #f1f1ef;
+    color: black;
+    border: solid 0.5px black;
+}
 
+div.modal-header {
+    display: flex;
+    justify-content: center;
+}
+
+.active-map-button {
+    background-color: #dcdcdc;
+}

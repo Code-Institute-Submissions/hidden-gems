@@ -19,5 +19,6 @@ function sendMail(contactForm) {
                 $('#error-message').show();
             }
         );
+    document.getElementById("contactForm").reset();
     return false;
 }

@@ -313,7 +313,7 @@ a.footer-nav:hover{
 
 .btn-modal {
     margin-left: 10px;
-    width: 40%;
+    width: auto;
     background-color: #c19434;
     color: black;
     border: solid 0.5px black;
@@ -321,15 +321,22 @@ a.footer-nav:hover{
 
 .btn-modal:hover {
     margin-left: 10px;
-    width: 40%;
+    width: auto;
     background-color: #f1f1ef;
     color: black;
     border: solid 0.5px black;
 }
 
 div.modal-header {
-    display: flex;
-    justify-content: center;
+    background-color: #f1f1ef;
+}
+
+div.modal-body {
+    background-color: #f1f1ef;
+}
+
+input:focus {
+    box-shadow: none;
 }
 
 .active-map-button {

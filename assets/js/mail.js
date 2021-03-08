@@ -28,8 +28,7 @@ function sendMail(contactForm) {
 $('#newsletterBtn').click(function(e) {
     $("#newsletterThankYou").show();
     /* $('#newsLetterForm').submit() */;
-    
     e.preventDefault();
-
-    
+     /* Code from StackOverflow on resetting input field */
+$("#newsLetterForm")[0].reset();
 });

@@ -1,4 +1,3 @@
-
 let map;
 
 let locations = [];
@@ -120,7 +119,7 @@ let beachLocations = [
         information: `Many have seen dolphins and seals from this beach, so come prepared and bring your binoculars!`,
         images: `<img src="assets/images/beach-locations-14.jpg" class="map-images map-pop-up" alt="ireland-beach"></img>`
     },
-]
+];
 
 let lakeIslandLocations = [
     {
@@ -231,7 +230,7 @@ let lakeIslandLocations = [
     },
 
 
-]
+];
 
 /* Object for castle locations in Ireland */
 
@@ -341,7 +340,7 @@ let castleLocations = [
         information: `A hill-top caslte with fantastic views overlooking the ocean. While the castle is closed to the public, a trip here is worth it for the views and peaceful atmosphere.`,
          images: `<img src="assets/images/castle-locations-4.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
     },  
-]
+];
 
 /* Object for cave locations in Ireland */
 
@@ -434,7 +433,7 @@ let caveLocations = [
         information: `You'll need to bring a torch and some wet gear with you for this unique cave. It's a true gateway to another world.`,
         images: `<img src="assets/images/cave-locations-12.jpg" class="map-images map-pop-up" alt="ireland-cave"></img>`
     },
-]
+];
 
 
 /* Object for cliff and mountains in Ireland */
@@ -528,7 +527,7 @@ let cliffMountainLocations = [
         information: `These cliffs are a photographer's dream. From the top of the hike, you can see many of Kerry's islands, and surrounding mountains.`,
         images: `<img src="assets/images/cliff-locations-11.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
     },
-]
+];
 
 let campingLocations = [
     {
@@ -574,7 +573,7 @@ let campingLocations = [
         location: "Wicklow",
         information: `An amazing location to camp, as the surrounding area is one of the best hiking spots.`
     },
-]
+];
 
 
 
@@ -590,10 +589,10 @@ console.log(filteredBeaches);
 
 let filteredCaves = caveLocations.filter(function (currentElement) {
 
-    return currentElement.location == "Kerry"
+    return currentElement.location == "Kerry";
 });
 
-console.log(filteredCaves)
+console.log(filteredCaves);
 
 
 
@@ -624,12 +623,9 @@ function initMap(locations) {
             /* variable to store information about each marker when clicked */
 
             const contentString = '<div class= "pop-up-container">' +
-                '<h5 class="pop-up-heading">' + locations[i].name + ", "
-                + locations[i].location +
-                '</h5>' + '<div class="pop-up-content">' + '<p class="pop-up-info">'
-                + locations[i].information +
-                '</p>' + '<img class="pop-up-image">'
-                + locations[i].images + '</div>' +
+                '<h5 class="pop-up-heading">' + locations[i].name + ", " + locations[i].location +
+                '</h5>' + '<div class="pop-up-content">' + '<p class="pop-up-info">' + locations[i].information +
+                '</p>' + '<img class="pop-up-image">' + locations[i].images + '</div>' +
                 '</div>';
 
             const infowindow = new google.maps.InfoWindow({
@@ -652,9 +648,20 @@ function initMap(locations) {
                 infowindow.open(map, marker);
                 currentInfoWindow = infowindow;
             });
-        };
-    };
-};
+        }
+    }
+}
+
+/* To add and remove active class on map buttons */
+
+let mapButton = document.querySelectorAll("map-button");
+$(document).ready(function () {
+    $('.map-button').click(function () {
+        $('.map-button').removeClass('active-map-button ').addClass('inactive');
+        $(this).removeClass('inactive').addClass('active-map-button ');
+    });
+});
+
 
 /* Add Event Listener to button to show locations of selected category Ireland */
 
@@ -682,4 +689,3 @@ document.getElementById("islands").addEventListener("click", function () {
 document.getElementById("camping").addEventListener("click", function () {
     initMap(campingLocations);
 });
-

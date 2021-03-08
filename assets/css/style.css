@@ -1,4 +1,16 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400&family=Proza+Libre:wght@400;500;600;700;800&display=swap');
+
 /* -- Body -- */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
 
 body {
     background-color: #F7F2E9;
@@ -27,11 +39,13 @@ body {
 .navbar .nav-link {
     color: #2B292B;  
     font-size: 18px;
+    font-family: 'Proza Libre', sans-serif;
 }
 
 .navbar .nav-link:hover {
     color: #2B292B;  
     font-size: 18px;
+    font-family: 'Proza Libre', sans-serif;
 }
 
 
@@ -70,6 +84,7 @@ body {
 .jumbotron .lead {
     font-size: 22px;
     margin: 6px 0px;
+    font-family: 'Proza Libre', sans-serif;
 }
 
 /* -- Headings -- */
@@ -81,6 +96,10 @@ body {
 .cta-heading {
     display: flex;
     justify-content: center;
+}
+
+.headings {
+    font-family: 'Proza Libre', sans-serif;
 }
 
 h4 {
@@ -126,19 +145,22 @@ h4 {
 
 /* -- Buttons -- */
 
-.explore-btn {
+.btn-custom{
     border: 0.5px solid black;
     background-color: #c19434;
-    font-size: 18px;
     margin-top: 3px;
-    color: #F7F2E9;
+    color: black;
+}
+
+.explore-btn {
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .explore-btn:hover {
     border: 0.5px solid black;
     background-color: #F7F2E9;
     font-size: 18px;
-    margin-top: 3px;
 }
 
 
@@ -159,17 +181,11 @@ h4 {
 .newsletter-btn {
     margin-left: 10px;
     width: 40%;
-    background-color: #c19434;
-    color: black;
-    border: solid 0.5px black;
 }
 
 .newsletter-btn:hover {
     margin-left: 10px;
     width: 40%;
-    background-color: #f1f1ef;
-    color: black;
-    border: solid 0.5px black;
 }
 
 .map-button:hover{
@@ -281,7 +297,6 @@ a.footer-nav:hover{
 }
 
 
-
 .newsletter-form {
     display: flex;
     flex-direction: row;
@@ -325,17 +340,11 @@ a.footer-nav:hover{
 .btn-modal {
     margin-left: 10px;
     width: auto;
-    background-color: #c19434;
-    color: black;
-    border: solid 0.5px black;
 }
 
 .btn-modal:hover {
     margin-left: 10px;
     width: auto;
-    background-color: #f1f1ef;
-    color: black;
-    border: solid 0.5px black;
 }
 
 div.modal-header {

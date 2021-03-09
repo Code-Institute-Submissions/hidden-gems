@@ -7,7 +7,8 @@ function sendMail(contactForm) {
     emailjs.send("service_f5w6jod", "hidden-gems", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
-        "location_suggestion": contactForm.locationsuggestion.value
+        "location_suggestion": contactForm.locationsuggestion.value,
+        "questions": contactForm.questions.value
     })
         .then(
 
@@ -25,10 +26,22 @@ function sendMail(contactForm) {
 
 /* Code to show a thank you message after user sign up to newsletter */
 
-$('#newsletterBtn').click(function(e) {
-    $("#newsletterThankYou").show();
-    /* $('#newsLetterForm').submit() */;
-    e.preventDefault();
-     /* Code from StackOverflow on resetting input field */
-$("#newsLetterForm")[0].reset();
-});
+
+
+
+function newsLetter(newsLetterForm) {
+    emailjs.send("service_f5w6jod", "hidden-gems", {
+        "from_email": newsLetterForm.newsletterEmail.value,
+    })
+        .then(
+
+            function (response) {
+                console.log('success', response);
+                $("#newsletterThankYou").show();;
+            }, function (error) {
+                console.log('failed', error);
+            }
+        );
+    document.getElementById("newsLetterForm").reset();
+    return false;
+}

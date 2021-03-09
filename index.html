@@ -200,7 +200,7 @@
                                         class="form-control mt-2 contact-form-input" id="locationsuggestion"
                                         placeholder="Suggest Location"></textarea>
                                     <textarea rows="3" name="locationsuggestion"
-                                        class="form-control mt-2 contact-form-input" id="contactQuestions"
+                                        class="form-control mt-2 contact-form-input" id="questions"
                                         placeholder="Any Questions?"></textarea>
                                     <button type="submit"
                                         class="btn btn-modal btn-custom form-btn mt-3 mb-1">Submit</button>
@@ -235,11 +235,11 @@
         </div>
         <div class="row">
             <div class="mx-auto mt-3">
-                <form id="newsLetterForm">
+                <form onsubmit ="return newsLetter(this)" id="newsLetterForm">
                     <div class="form-group newsletter-form">
                         <label for="newsletterEmail"></label>
-                        <input type="email" class="form-control" id="newsletterEmail" aria-describedby="emailHelp"
-                            placeholder="Email Address">
+                        <input type="email" class="form-control" name="newsletterEmail" id="newsletterEmail" aria-describedby="emailHelp"
+                            placeholder="Email Address" required>
                         <button type="submit" class="btn btn-sm newsletter-btn btn-custom" id="newsletterBtn">Sign
                             Up</button>
                     </div>

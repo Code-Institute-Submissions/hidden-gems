@@ -290,11 +290,13 @@ h4 {
 
 a.footer-nav {
     color: black;
+    font-family: 'Proza Libre', sans-serif;
 }
 
 a.footer-nav:hover{
     color: black;
     border-bottom: 0.5px solid black;
+    font-family: 'Proza Libre', sans-serif;
 }
 
 

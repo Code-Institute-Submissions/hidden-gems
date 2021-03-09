@@ -37,7 +37,7 @@
                     <a class="nav-link" href="#explore">Explore</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" data-toggle="modal" data-target="#modalForm">Contact</a>
                 </li>
             </ul>
         </div>
@@ -174,12 +174,13 @@
 
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-small btn-modal btn-custom mx-auto" data-toggle="modal"
-                data-target="#exampleModal">
+                data-target="#modalForm">
                 Get in touch!
             </button>
 
             <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="contactModal" aria-hidden="true">
+            <div class="modal fade contactFormModal" id="modalForm" tabindex="-1" aria-labelledby="contactModal"
+                aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -201,7 +202,8 @@
                                     <textarea rows="3" name="locationsuggestion"
                                         class="form-control mt-2 contact-form-input" id="contactQuestions"
                                         placeholder="Any Questions?"></textarea>
-                                    <button type="submit" class="btn btn-modal btn-custom form-btn mt-3 mb-1">Submit</button>
+                                    <button type="submit"
+                                        class="btn btn-modal btn-custom form-btn mt-3 mb-1">Submit</button>
                                     <div classs="mt-2 mb-3" id="success-message">
                                         <p>Your message has been successfully sent!</p>
                                     </div>
@@ -238,7 +240,8 @@
                         <label for="newsletterEmail"></label>
                         <input type="email" class="form-control" id="newsletterEmail" aria-describedby="emailHelp"
                             placeholder="Email Address">
-                        <button type="submit" class="btn btn-sm newsletter-btn btn-custom" id="newsletterBtn">Sign Up</button>
+                        <button type="submit" class="btn btn-sm newsletter-btn btn-custom" id="newsletterBtn">Sign
+                            Up</button>
                     </div>
                     <p class="text-center" id="newsletterThankYou">Thank you for signing up!</p>
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with
@@ -254,10 +257,10 @@
                                     class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link footer-nav" href="#">Destinations</a>
+                            <a class="nav-link footer-nav" href="#explore">Destinations</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link footer-nav" href="#">Contact</a>
+                            <a class="nav-link footer-nav" data-toggle="modal" data-target="#modalForm">Contact</a>
                         </li>
                     </ul>
                 </nav>

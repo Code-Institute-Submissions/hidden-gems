@@ -23,7 +23,7 @@ function sendMail(contactForm) {
     return false;
 }
 
-
+/* Code to show a thank you message after user sign up to newsletter */
 
 $('#newsletterBtn').click(function(e) {
     $("#newsletterThankYou").show();

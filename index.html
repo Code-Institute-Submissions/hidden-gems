@@ -74,7 +74,7 @@
 
     <!-- Discover Ireland Highlight Section with text and images -->
     <section>
-        <div class="container image-container">
+        <div class="container image-container bottom-border">
             <div class="row mt-4 mb-3">
                 <div class="col-md-6 text-for-images">
                     <h3 class="text-center headings">
@@ -141,12 +141,12 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 button-group">
-                    <button class="btn btn-sm map-button" id="mountains">Cliffs and Mountains</button>
-                    <button class="btn btn-sm map-button" id="islands">Islands and Lakes</button>
-                    <button class="btn btn-sm map-button" id="castles">Castles</button>
-                    <button class="btn btn-sm map-button" id="caves">Caves</button>
-                    <button class="btn btn-sm map-button" id="beaches">Beaches</button>
-                    <button class="btn btn-sm map-button" id="camping">Camping</button>
+                    <button class="btn btn-sm map-button btn-custom" id="mountains">Cliffs and Mountains</button>
+                    <button class="btn btn-sm map-button btn-custom" id="islands">Islands and Lakes</button>
+                    <button class="btn btn-sm map-button btn-custom" id="castles">Castles</button>
+                    <button class="btn btn-sm map-button btn-custom" id="caves">Caves</button>
+                    <button class="btn btn-sm map-button btn-custom" id="beaches">Beaches</button>
+                    <button class="btn btn-sm map-button btn-custom" id="camping">Camping</button>
                 </div>
                 <div class="col-sm-12" id="map">
                 </div>
@@ -155,7 +155,7 @@
 
         <!-- Suggest Location Contact Form -->
         <div class="container contact-container mt-4">
-            <div class="row bottom-border">
+            <div class="row">
                 <div class="col-sm-12">
                     <h5 class="text-center headings">We're always looking for suggestions!</h5>
                     <p class="text-center">If you've any questions or if you would like to share some secret locations
@@ -183,7 +183,7 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <div class="col-sm-12 suggestion-form">
+                                <div class="col-sm-12 contact-form">
                                     <form onsubmit="return sendMail(this);" id="contactForm">
                                         <input type="text" name="name" class="form-control mt-2 contact-form-input"
                                             id="name" placeholder="Name" required />
@@ -194,7 +194,7 @@
                                             class="form-control mt-2 contact-form-input" id="locationsuggestion"
                                             placeholder="Suggest Location"></textarea>
                                         <textarea rows="3" name="locationsuggestion"
-                                            class="form-control mt-2 contact-form-input" id="questions"
+                                            class="form-control mt-3 contact-form-input" id="questions"
                                             placeholder="Any Questions?"></textarea>
                                         <button type="submit"
                                             class="btn btn-modal btn-custom form-btn mt-3 mb-1">Submit</button>
@@ -216,9 +216,9 @@
 
 
     <!-- Footer -->
-    <div class="container mt-5 footer-container">
+    <div class="container mt-4 footer-container">
     </div>
-    <div class="container-fluid  mt-5">
+    <div class="container-fluid mt-4">
         <div class="row">
             <div class="col-sm-12 d-flex justify-content-center">
                 <h6>Subscribe to our Newsletter</h6>

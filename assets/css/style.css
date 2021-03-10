@@ -9,11 +9,12 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    font-weight: 500;
 }
 
 body {
     background-color: #f1f1ef;
-    color: #283618;
+    color: #1A1A1B;
 }
 
 
@@ -70,6 +71,7 @@ body {
     position: relative;
 }
 
+
 /* -- Jumbotron -- */
 
 .jumbotron {
@@ -89,10 +91,11 @@ body {
     font-family: 'Proza Libre', sans-serif;
 }
 
+
 /* -- Headings -- */
 
 .heading-color {
-   color: #2B292B
+   color: #1A1A1B
 }
 
 .cta-heading {
@@ -113,6 +116,7 @@ h4 {
     margin: auto;
 }
 
+
 /* -- Paragraphs -- */
 
 .cta-paragraph {
@@ -129,15 +133,19 @@ h4 {
     display: flex;
     flex-flow: column;
     align-items: center;
-
 }
 
 .image-container {
-    border-bottom: 0.5px solid black;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.bottom-border {
+    border-bottom: 0.5px solid #1A1A1B;
+}
+
 
 /* -- Images -- */
 
@@ -145,10 +153,11 @@ h4 {
     border-radius: 1%;
 }
 
+
 /* -- Buttons -- */
 
 .btn-custom{
-    border: 0.5px solid black;
+    border: 0.5px solid #1A1A1B;
     background-color: #606c38;
     margin-top: 3px;
     color: #F7F2E9;
@@ -156,7 +165,7 @@ h4 {
 }
 
 .form-control:focus {
-  border-color: black;
+  border-color: #1A1A1B;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 0.075);
 }
 
@@ -166,11 +175,10 @@ h4 {
 }
 
 .explore-btn:hover {
-    border: 0.5px solid black;
+    border: 0.5px solid #1A1A1B;
     background-color: #F7F2E9;
     font-size: 18px;
 }
-
 
 .button-group {
     display: flex;
@@ -179,14 +187,16 @@ h4 {
 }
 
  .map-button {
-    border: black solid 0.5px;
     margin: 5px;
-    font-size: 16px;
-    font-weight: 500;
-    background-color: #606c38;
-    color: #f1f1ef
 }
- 
+
+.active-map-button {
+    background-color: #dcdcdc;
+}
+
+.map-button:hover{
+    background-color: #dcdcdc 
+}
 
 .newsletter-btn {
     margin-left: 10px;
@@ -198,36 +208,31 @@ h4 {
     width: 40%;
 }
 
-.map-button:hover{
-    background-color: #dcdcdc 
-}
 
-
-/* #modalSuggestButton {
-    display: flex;
-    justify-content: center;
-} */
-
-
-
-/* -- Contact Form -- */
+/* Modal and Contact Form  */
 
 .contact-container {
     display: flex;
     justify-content: center;
 }
 
-.suggestion-form {
+.contact-form {
     display: inline-block;
     text-align: center;
     margin-bottom: 25px;
 }
 
-/* .contact-form-input {
-    border: none;
-    background-color: transparent;
-    border-bottom: 1px solid black;
-} */
+div.modal-header {
+    background-color: #f1f1ef;
+}
+
+div.modal-body {
+    background-color: #f1f1ef;
+}
+
+input:focus {
+    box-shadow: none;
+}
 
 #success-message {
     display: none;
@@ -237,12 +242,13 @@ h4 {
     display: none;
 }
 
+
 /* -- Map -- */
 
 #map {
     width: 100%;
     height: 630px;
-    border: 0.5px solid black;
+    border: 0.5px solid #1A1A1B;
 }
 
 .map-images{
@@ -273,6 +279,7 @@ h4 {
     display: table-caption;
 }
 
+
 /* -- Footer -- */
 
 .footer-container {
@@ -292,34 +299,38 @@ h4 {
     position: relative;
 }
 
+.newsletter-form {
+    display: flex;
+    flex-direction: row;
+} 
+
+#newsletterThankYou {
+    display: none;
+}
+
 .site-map {
     display: flex;
     align-items: center;
 }
 
 a.footer-nav {
-    color: black;
+    color: #444444;
     font-family: 'Proza Libre', sans-serif;
+    font-weight: 500;
 }
 
 a.footer-nav:hover{
-    color: black;
-    border-bottom: 0.5px solid black;
+    color: #444444;
+    border-bottom: 0.5px solid #444444;
     font-family: 'Proza Libre', sans-serif;
 }
-
-
-.newsletter-form {
-    display: flex;
-    flex-direction: row;
-} 
 
 
 /* -- Icons -- */
 
 .icons {
     margin: 10px;
-    color: black;
+    color: #444444;
 }
 
 .icons:hover{
@@ -342,32 +353,6 @@ a.footer-nav:hover{
   }
 } 
 
-.btn-modal {
-    margin-left: 10px;
-    width: auto;
-}
 
-.btn-modal:hover {
-    margin-left: 10px;
-    width: auto;
-}
 
-div.modal-header {
-    background-color: #f1f1ef;
-}
 
-div.modal-body {
-    background-color: #f1f1ef;
-}
-
-input:focus {
-    box-shadow: none;
-}
-
-.active-map-button {
-    background-color: #dcdcdc;
-}
-
-#newsletterThankYou {
-    display: none;
-}

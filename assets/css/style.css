@@ -11,21 +11,20 @@
     font-size: 16px;
 }
 
-
 body {
-    background-color: #F7F2E9;
-    color: #403C34;
+    background-color: #f1f1ef;
+    color: #283618;
 }
 
 
 /* -- Nav Bar -- */
 
 .navbar {
-    background-color: #F7F2E9;
+    background-color: #606c38;
 }
 
 .navbar-toggler {
-    border: solid 0.5px black;
+    border: solid 0.5px #f1f1ef;
     margin-left: auto;
 }
 
@@ -37,15 +36,18 @@ body {
 }
 
 .navbar .nav-link {
-    color: #2B292B;  
+    color: #f1f1ef;  
     font-size: 18px;
     font-family: 'Proza Libre', sans-serif;
+    font-weight: 500;
+    border-bottom: transparent 1px solid;
 }
 
 .navbar .nav-link:hover {
-    color: #2B292B;  
+    color: #f1f1ef;   
     font-size: 18px;
     font-family: 'Proza Libre', sans-serif;
+    border-bottom: #f1f1ef 1px solid;
 }
 
 
@@ -72,7 +74,7 @@ body {
 
 .jumbotron {
     background-color: transparent;
-    color: #F7F2E9;
+    color: #f1f1ef;
 }
 
 .jumbotron h1 {
@@ -147,10 +149,15 @@ h4 {
 
 .btn-custom{
     border: 0.5px solid black;
-    background-color: #c19434;
+    background-color: #606c38;
     margin-top: 3px;
     color: #F7F2E9;
     font-size: 16px;
+}
+
+.form-control:focus {
+  border-color: black;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 0.075);
 }
 
 .explore-btn {
@@ -176,6 +183,8 @@ h4 {
     margin: 5px;
     font-size: 16px;
     font-weight: 500;
+    background-color: #606c38;
+    color: #f1f1ef
 }
  
 
@@ -332,13 +341,6 @@ a.footer-nav:hover{
     flex-direction: column;
   }
 } 
-
-/* @media (max-width: 767px) {
-  .map-button {
-    display: block;
-    width: 100%;
-  }
-} */
 
 .btn-modal {
     margin-left: 10px;

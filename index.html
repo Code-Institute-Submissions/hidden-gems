@@ -21,13 +21,11 @@
 
 <body>
     <!-- Nav Bar -->
-
     <nav class="navbar navbar-expand-lg">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span><i class="fas fa-bars navbar-toggle-hamburger"></i></span>
         </button>
-
         <div class="collapse navbar-collapse text-center" id="navbarNav">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item active">
@@ -37,14 +35,13 @@
                     <a class="nav-link" href="#explore">Explore</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="modal" data-target="#modalForm">Contact</a>
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#modalForm">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <!-- Home Image and Jumbotron -->
-
     <div class="container-fluid home-container">
         <div class="jumbotron">
             <div class="row">
@@ -55,14 +52,12 @@
                     <p class="lead">Discover Ireland's Hidden Gems
                     </p>
                     <a href="#explore" role="button" class="btn btn-light explore-btn btn-custom">Explore</a>
-
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Call to Action -->
-
     <div class="container cta-container">
         <div class="row mt-5 mb-3">
             <div class="col-sm-12 text-center">
@@ -78,153 +73,149 @@
     </div>
 
     <!-- Discover Ireland Highlight Section with text and images -->
-
-    <div class="container image-container">
-        <div class="row mt-4 mb-3">
-            <div class="col-md-6 text-for-images">
-                <h3 class="text-center headings">
-                    Magical Castles
-                </h3>
-                <p>
-                    Tucked away throughout the country are many magnificent castles. <br>
-                    So many of these castles are now ruins which you can explore.<br>
-                    There's something beautiful in exploring the grounds of the past.<br>
-                    With so much history, they're well worth a visit!
-                </p>
+    <section>
+        <div class="container image-container">
+            <div class="row mt-4 mb-3">
+                <div class="col-md-6 text-for-images">
+                    <h3 class="text-center headings">
+                        Magical Castles
+                    </h3>
+                    <p>
+                        Tucked away throughout the country are many magnificent castles. <br>
+                        So many of these castles are now ruins which you can explore.<br>
+                        There's something beautiful in exploring the grounds of the past.<br>
+                        With so much history, they're well worth a visit!
+                    </p>
+                </div>
+                <div class="col-md-6 mt-3 mb-3">
+                    <img src="/assets/images/castle-in-field.jpg" alt="castle-in-field" class="img-fluid">
+                </div>
             </div>
-            <div class="col-md-6 mt-3 mb-3">
-                <img src="/assets/images/castle-in-field.jpg" alt="castle-in-field" class="img-fluid">
+            <div class="row mt-3 mb-3">
+                <div class="col-md-6 text-for-images">
+                    <h3 class="text-center headings">
+                        Breathtaking Views
+                    </h3>
+                    <p>Ireland is home to some of the most breathtaking views in the world.<br>
+                        From the cliffs of Kilbaha to the Knockmealdown Mountains,<br>
+                        You'll be sure to find somewhere where you can sit and <br> take in the beautiful sights!
+                    </p>
+                </div>
+                <div class="col-md-6 mt-3 mb-3">
+                    <img src="../assets/images/cliffs-donegal.jpg" alt="cliffs-donegal" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mt-3 mb-3">
+                <div class="col-md-6 text-for-images">
+                    <h3 class="text-center headings">
+                        Dreamy Beaches
+                    </h3>
+                    <p>With over 6,000km of coastline, Ireland is surrounded by beaches.<br>
+                        Many of these extraordinary beaches are hidden behind large <br> sandunes
+                        like the gorgeous beach Tramore in Donegal.<br> It's worth the trek!</p>
+                </div>
+                <div class="col-md-6 mt-3 mb-3">
+                    <img src="/assets/images/beach-ireland.jpg" alt="beach-ireland" class="img-fluid">
+                </div>
             </div>
         </div>
-        <div class="row mt-3 mb-3">
-            <div class="col-md-6 text-for-images">
-                <h3 class="text-center headings">
-                    Breathtaking Views
-                </h3>
-                <p>Ireland is home to some of the most breathtaking views in the world.<br>
-                    From the cliffs of Kilbaha to the Knockmealdown Mountains,<br>
-                    You'll be sure to find somewhere where you can sit and <br> take in the beautiful sights!
-                </p>
-            </div>
-            <div class="col-md-6 mt-3 mb-3">
-                <img src="../assets/images/cliffs-donegal.jpg" alt="cliffs-donegal" class="img-fluid">
-            </div>
-        </div>
-        <div class="row mt-3 mb-3">
-            <div class="col-md-6 text-for-images">
-                <h3 class="text-center headings">
-                    Dreamy Beaches
-                </h3>
-                <p>With over 6,000km of coastline, Ireland is surrounded by beaches.<br>
-                    Many of these extraordinary beaches are hidden behind large <br> sandunes
-                    like the gorgeous beach Tramore in Donegal.<br> It's worth the trek!</p>
-            </div>
-            <div class="col-md-6 mt-3 mb-3">
-                <img src="/assets/images/beach-ireland.jpg" alt="beach-ireland" class="img-fluid">
-            </div>
-        </div>
-    </div>
+    </section>
 
     <!-- Map Section -->
-
-    <div class="container mt-4 mb-3">
-        <div class="row">
-            <div class="col-sm-12">
-                <h4 class="text-center headings">Plan your next adventure below!</h4>
-                <p class="text-center">Click on the type of attraction you'd like to discover. <br> Our map will
-                    reveal the locations of these hidden gems. <br> By clicking on the map markers, you can find
-                    out more information.</p>
+    <section>
+        <div class="container mt-4 mb-3">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="text-center headings">Plan your next adventure below!</h4>
+                    <p class="text-center">Click on the type of attraction you'd like to discover. <br> Our map will
+                        reveal the locations of these hidden gems. <br> By clicking on the map markers, you can find
+                        out more information.</p>
+                </div>
             </div>
         </div>
-    </div>
-
-    <div class="container map-container mt-3">
-        <div class="row">
-            <div class="col-sm-12">
-                <h5 class="text-center headings" id="explore">Choose an Attraction</h5>
+        <div class="container map-container mt-3">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h5 class="text-center headings" id="explore">Choose an Attraction</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 button-group">
+                    <button class="btn btn-sm map-button" id="mountains">Cliffs and Mountains</button>
+                    <button class="btn btn-sm map-button" id="islands">Islands and Lakes</button>
+                    <button class="btn btn-sm map-button" id="castles">Castles</button>
+                    <button class="btn btn-sm map-button" id="caves">Caves</button>
+                    <button class="btn btn-sm map-button" id="beaches">Beaches</button>
+                    <button class="btn btn-sm map-button" id="camping">Camping</button>
+                </div>
+                <div class="col-sm-12" id="map">
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-12 button-group">
-                <button class="btn btn-sm map-button" id="mountains">Cliffs and Mountains</button>
-                <button class="btn btn-sm map-button" id="islands">Islands and Lakes</button>
-                <button class="btn btn-sm map-button" id="castles">Castles</button>
-                <button class="btn btn-sm map-button" id="caves">Caves</button>
-                <button class="btn btn-sm map-button" id="beaches">Beaches</button>
-                <button class="btn btn-sm map-button" id="camping">Camping</button>
-            </div>
-            <div class="col-sm-12" id="map">
-            </div>
-        </div>
-    </div>
 
-    <!-- Suggest Location Contact Form -->
+        <!-- Suggest Location Contact Form -->
+        <div class="container contact-container mt-4">
+            <div class="row bottom-border">
+                <div class="col-sm-12">
+                    <h5 class="text-center headings">We're always looking for suggestions!</h5>
+                    <p class="text-center">If you've any questions or if you would like to share some secret locations
+                        with
+                        us, please don't hesitate to
+                        get in
+                        touch! <br> We believe in sharing beautiful locations with others so they too can experience
+                        these
+                        hidden gems.</p>
+                </div>
+                <button type="button" class="btn btn-small btn-modal btn-custom mx-auto" data-toggle="modal"
+                    data-target="#modalForm">
+                    Get in touch!
+                </button>
 
-    <div class="container contact-container mt-4">
-        <div class="row bottom-border">
-            <div class="col-sm-12">
-                <h5 class="text-center headings">We're always looking for suggestions!</h5>
-                <p class="text-center">If you've any questions or if you would like to share some secret locations with
-                    us, please don't hesitate to
-                    get in
-                    touch! <br> We believe in sharing beautiful locations with others so they too can experience
-                    these
-                    hidden gems.</p>
-            </div>
-
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-small btn-modal btn-custom mx-auto" data-toggle="modal"
-                data-target="#modalForm">
-                Get in touch!
-            </button>
-
-            <!-- Modal -->
-            <div class="modal fade contactFormModal" id="modalForm" tabindex="-1" aria-labelledby="contactModal"
-                aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title w-100 text-center headings" id="contactModal">Get in touch!</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="col-sm-12 suggestion-form">
-                                <form onsubmit="return sendMail(this);" id="contactForm">
-                                    <input type="text" name="name" class="form-control mt-2 contact-form-input"
-                                        id="name" placeholder="Name" required />
-                                    <input type="text" name="emailaddress" class="form-control mt-2 contact-form-input"
-                                        id="emailaddress" placeholder="Email Address" required />
-                                    <textarea rows="4" name="locationsuggestion"
-                                        class="form-control mt-2 contact-form-input" id="locationsuggestion"
-                                        placeholder="Suggest Location"></textarea>
-                                    <textarea rows="3" name="locationsuggestion"
-                                        class="form-control mt-2 contact-form-input" id="questions"
-                                        placeholder="Any Questions?"></textarea>
-                                    <button type="submit"
-                                        class="btn btn-modal btn-custom form-btn mt-3 mb-1">Submit</button>
-                                    <div classs="mt-2 mb-3" id="success-message">
-                                        <p>Your message has been successfully sent!</p>
-                                    </div>
-                                    <div class="mt-2 mb-3" id="error-message">
-                                        <p>There was a problem with your message. Please try again.</p>
-                                    </div>
-                                </form>
+                <!-- Modal -->
+                <div class="modal fade contactFormModal" id="modalForm" tabindex="-1" aria-labelledby="contactModal"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title w-100 text-center headings" id="contactModal">Get in touch</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="col-sm-12 suggestion-form">
+                                    <form onsubmit="return sendMail(this);" id="contactForm">
+                                        <input type="text" name="name" class="form-control mt-2 contact-form-input"
+                                            id="name" placeholder="Name" required />
+                                        <input type="text" name="emailaddress"
+                                            class="form-control mt-2 contact-form-input" id="emailaddress"
+                                            placeholder="Email Address" required />
+                                        <textarea rows="4" name="locationsuggestion"
+                                            class="form-control mt-2 contact-form-input" id="locationsuggestion"
+                                            placeholder="Suggest Location"></textarea>
+                                        <textarea rows="3" name="locationsuggestion"
+                                            class="form-control mt-2 contact-form-input" id="questions"
+                                            placeholder="Any Questions?"></textarea>
+                                        <button type="submit"
+                                            class="btn btn-modal btn-custom form-btn mt-3 mb-1">Submit</button>
+                                        <div classs="mt-2 mb-3" id="success-message">
+                                            <p>Your message has been successfully sent!</p>
+                                        </div>
+                                        <div class="mt-2 mb-3" id="error-message">
+                                            <p>There was a problem with your message. Please try again.</p>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
-
-    </div>
+    </section>
 
 
     <!-- Footer -->
-
     <div class="container mt-5 footer-container">
     </div>
     <div class="container-fluid  mt-5">
@@ -235,11 +226,11 @@
         </div>
         <div class="row">
             <div class="mx-auto mt-3">
-                <form onsubmit ="return newsLetter(this)" id="newsLetterForm">
+                <form onsubmit="return newsLetter(this)" id="newsLetterForm">
                     <div class="form-group newsletter-form">
                         <label for="newsletterEmail"></label>
-                        <input type="email" class="form-control" name="newsletterEmail" id="newsletterEmail" aria-describedby="emailHelp"
-                            placeholder="Email Address" required>
+                        <input type="email" class="form-control" name="newsletterEmail" id="newsletterEmail"
+                            aria-describedby="emailHelp" placeholder="Email Address" required>
                         <button type="submit" class="btn btn-sm newsletter-btn btn-custom" id="newsletterBtn">Sign
                             Up</button>
                     </div>
@@ -289,7 +280,6 @@
             <p><small>This website was built with love and care by Tomas Cripps</small></p>
         </div>
     </div>
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>

@@ -536,6 +536,7 @@ let campingLocations = [
         lng: -9.701959008230475,
         location: "Kerry",
         information: `A beautiful location filled with mountains, oceans and walks. The perfect spot to pitch a tent for the night.`,
+        images: `<img src="assets/images/clamping-locations-4.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
     },
     {
         name: "Black Valley",
@@ -543,6 +544,7 @@ let campingLocations = [
         lng: -9.681442711723035,
         location: "Kerry",
         information: `A secluded valley surrounded by mountains, and rivers. It's an excellent location to camp out in the wild.`,
+        images: `<img src="assets/images/camping-locations-5.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
 
     },
     {
@@ -550,50 +552,58 @@ let campingLocations = [
         lat: 53.43335491541271,
         lng: -10.141844956052886,
         location: "Galway",
-        information: `This camping spot is located right by the beach, and it's a fantastic place to spend the night. Especially, if you fancy a morning swim.`
+        information: `This camping spot is located right by the beach, and it's a fantastic place to spend the night. Especially, if you fancy a morning swim.`,
+        images: `<img src="assets/images/camping-locations-6.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
     },
     {
         name: "Glenregan Wild Camping",
         lat: 53.08281329343294,
         lng: -7.63577198115244,
         location: "Offaly",
-        information: `This valley is secluded by dense woodlands, but also quite accessible. It's the perect spot for family camping.`
+        information: `This valley is secluded by dense woodlands, but also quite accessible. It's the perect spot for family camping.`,
+        images: `<img src="assets/images/camping-locations-7.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
     },
     {
         name: "Wicklow Mountains National Park",
         lat: 53.142799739081575,
         lng: -6.307651092046029,
         location: "Wicklow",
-        information: `An amazing location to camp, as the surrounding area is one of the best hiking spots.`
+        information: `An amazing location to camp. Spend the day exploring and hiking the perfect spot to pitch your tent.`,
+        images: `<img src="assets/images/camping-locations-3.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
     },
     {
         name: "Knockmealdown Mountains",
         lat: 52.225252362129396,
         lng: -7.9166511953951115,
         location: "Wicklow",
-        information: `An amazing location to camp, as the surrounding area is one of the best hiking spots.`
+        information: `A beautiful location to camp, as the surrounding area is one of the best hiking spots. Camping in one of the highest mountains in Ireland, is an unforgettable experience.`,
+        images: `<img src="assets/images/camping-locations-2.jpg" class="map-images map-pop-up" alt="tent-mountain"></img>`
+    },
+    {
+        name: "Rock Farm",
+        lat: 53.70436267245581,
+        lng: -6.544814347517759,
+        location: "Meath",
+        information: `This location is perfect for those who want to experience the more luxurious side of camping. Spend the night in a yurt, overlooking the wonderful Slane Caslte.`,
+        images: `<img src="assets/images/camping-locations-8.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
+    },
+    {
+        name: "Lough Sheelin",
+        lat: 53.79595552320361,
+        lng: -7.33236075373391,
+        location: "Meath",
+        information: `Spend the day kayaking and exploring the surrounding grounds. Pitch your tent amongst the trees, and enjoy the sounds of nature.`,
+        images: `<img src="assets/images/camping-locations-1.jpg" class="map-images map-pop-up" alt="tent-in-trees"></img>`
+    },
+    {
+        name: "Ballycroy National Park",
+        lat: 54.02256769332212,
+        lng: -9.820366641093962,
+        location: "Mayo",
+        information: `Mystic untouched nature, beautiful walking and areas, and many perfect locations to pitch a tent. What's not to love?`,
+        images: `<img src="assets/images/camping-locations-9.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
     },
 ];
-
-
-
-/* Functions to filter attractions by county locations */
-
-
-let filteredBeaches = beachLocations.filter(function (currentElement) {
-
-    return currentElement.location == "Cork";
-});
-
-console.log(filteredBeaches);
-
-let filteredCaves = caveLocations.filter(function (currentElement) {
-
-    return currentElement.location == "Kerry";
-});
-
-console.log(filteredCaves);
-
 
 
 var currentInfoWindow = null;

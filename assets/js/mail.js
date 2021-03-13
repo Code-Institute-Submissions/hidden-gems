@@ -14,10 +14,10 @@ function sendMail(contactForm) {
 
             function (response) {
                 console.log('success', response);
-                $('#success-message').show();
+                $('#success-message').show("fast");
             }, function (error) {
                 console.log('failed', error);
-                $('#error-message').show();
+                $('#error-message').show("fast");
             }
         );
     document.getElementById("contactForm").reset();
@@ -34,7 +34,7 @@ function newsLetter(newsLetterForm) {
 
             function (response) {
                 console.log('success', response);
-                $("#newsletterThankYou").show();;
+                $("#newsletterThankYou").show("fast");;
             }, function (error) {
                 console.log('failed', error);
             }

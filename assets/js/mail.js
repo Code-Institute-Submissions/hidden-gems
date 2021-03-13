@@ -34,7 +34,7 @@ function newsLetter(newsLetterForm) {
 
             function (response) {
                 console.log('success', response);
-                $("#newsletterThankYou").show("fast");;
+                $("#newsletterThankYou").show("fast");
             }, function (error) {
                 console.log('failed', error);
             }

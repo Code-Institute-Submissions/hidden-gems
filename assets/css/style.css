@@ -364,17 +364,3 @@ a.footer-nav:hover{
     flex-direction: column;
   }
 } 
-
-
-
-
-.text-on-images {
-    align-self: center;
-    margin: auto;
-
-}
-
-.text-next-images {
-    text-align: left;
-    font-size: 18px;
-}

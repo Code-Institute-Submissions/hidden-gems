@@ -1,8 +1,4 @@
-let map;
-
-let locations = [];
-
-/* Object for Beach Locations in Ireland */
+/* Array with objects for Beach Locations in Ireland */
 
 
 let beachLocations = [
@@ -120,6 +116,8 @@ let beachLocations = [
         images: `<img src="assets/images/beach-locations-14.jpg" class="map-images map-pop-up" alt="ireland-beach"></img>`
     },
 ];
+
+
 
 let lakeIslandLocations = [
     {
@@ -663,8 +661,6 @@ function initMap(locations) {
 }
 
 /* To add and remove active class on map buttons */
-
-let mapButton = document.querySelectorAll("map-button");
 $(document).ready(function () {
     $('.map-button').click(function () {
         $('.map-button').removeClass('active-map-button ').addClass('inactive');

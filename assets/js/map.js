@@ -536,7 +536,7 @@ let campingLocations = [
         lng: -9.701959008230475,
         location: "Kerry",
         information: `A beautiful location filled with mountains, oceans and walks. The perfect spot to pitch a tent for the night.`,
-        images: `<img src="assets/images/clamping-locations-4.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
+        images: `<img src="assets/images/camping-locations-4.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
     },
     {
         name: "Black Valley",

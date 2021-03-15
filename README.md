@@ -108,9 +108,9 @@ All wireframes were created using Balsamiq. As this is a one-page website, there
 - Note: To open links in a new tab please use CTRL+click (on Windows and Linux) or CMD+click (on macOS).
 
 ### Home Page        
-* [Website on desktop](./wireframes/.png)
-* [Website on tablet](./wireframes/.png)
-* [Website on mobile](./wireframes/.png)
+* [Desktop](./docs/wireframes/wireframe-desktop.png)
+* [Tablet](./docs/wireframes/wireframe-tablet.png)
+* [Mobile](./docs/wireframes/wireframe-mobile.png)
 
 ## Surface 
 
@@ -229,11 +229,6 @@ The reference for this code is also documented in the reference section of this 
 
 
 10. I experienced an issue with the contact form as I wanted to display a thank you message to users when they submit the contact form. At first, I created an alert that executed when the email was successful. However, I felt this was intrusive to the user, and upon reading the jQuery documentation I discovered the .show() effect. This allowed me to created a div and set its display to none. Using the .show() effect, I could display the message when the user sends their email. Another issue with this was that it would take the message a couple of seconds to display, but reading the documentation I discovered by passing through the parameter "fast", the message displayed much quicker
-
-
-11. ??? I wanted to collapse the navbar on mobile by clicking outside of the nav menu, instead of clicking the hamburger menu. I found a solution on Stack Overflow which allowed me to collapse the navbar without clicking the hamburger icon every time.
-
-
 
 ## Technologies Used
 

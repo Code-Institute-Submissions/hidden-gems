@@ -2,9 +2,9 @@
 
 The aim of this project was to help users find less-known tourist attractions within Ireland. 
 
-[You can view the live project here]()
+[You can view the live project here](https://tomc2311.github.io/hidden-gems/)
 
-![Website Overview](./assets/images/website-overview.png)
+![Website Overview](./assets/images/website-overview-hidden-gems.png)
 
 
 

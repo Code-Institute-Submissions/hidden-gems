@@ -1,7 +1,4 @@
-
-console.log("hello is this working")
-
-/* Code from Code Institute ? Rosie Email JS Video */
+/* Code from Code Institute Putting it all together lessons */
 
 function sendMail(contactForm) {
     emailjs.send("service_f5w6jod", "hidden-gems", {

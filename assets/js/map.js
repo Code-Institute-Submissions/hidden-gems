@@ -639,6 +639,7 @@ function initMap(locations) {
             const infowindow = new google.maps.InfoWindow({
                 content: contentString,
             });
+            /* variable to store markers  */
 
             const marker = new google.maps.Marker(
                 {
@@ -648,7 +649,9 @@ function initMap(locations) {
                     animation: google.maps.Animation.DROP,
                 });
 
-            /* Event listener to show location information when user clicks on specfic marker, and to close previous marker when a new one is clicked*/
+            /* Event listener to show location information when user clicks on specfic marker, 
+            and to close previous marker when a new one is clicked*/
+            
             google.maps.event.addListener(marker, 'click', function () {
                 if (currentInfoWindow != null) {
                     currentInfoWindow.close();

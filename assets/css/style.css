@@ -62,7 +62,7 @@ body {
     height: 100vh;
     max-width: 100%;
 
-    background: url('../images/ireland-landscape-fields.jpg') no-repeat bottom right fixed;
+    background: url('../images/mountain-view.jpg') no-repeat center right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -173,7 +173,7 @@ h4 {
 
 .btn-custom{
     border: 0.5px solid #1A1A1B;
-    background-color: #606c38;
+    background-color: #b39c4d;
     margin-top: 3px;
     color: #F7F2E9;
     font-size: 16px;
@@ -302,7 +302,7 @@ input:focus {
     height: 70vh;
     max-width: 100%;
 
-    background: url('../images/mountain-view.jpg') no-repeat center right fixed;
+    background: url('../images/ireland-landscape-fields.jpg') no-repeat center right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

@@ -65,7 +65,7 @@ let beachLocations = [
         lng: -9.220795398428837,
         location: "Galway",
         information: `This beautiful beach is located in a Gaeltacht area where Irish is the main language. Keep your eyes open, because this beach is easy to miss. `,
-        images: `<img src="assets/images/forbogh-beach.jpg.jpg" class="map-images map-pop-up" alt="forbogh-beach"/>`
+        images: `<img src="assets/images/forbogh-beach.jpg" class="map-images map-pop-up" alt="forbogh-beach"/>`
     },
     {
         name: "Tramore Beach",
@@ -124,7 +124,7 @@ let lakeIslandLocations = [
         lng: -8.51363053069293,
         location: "Donegal",
         information: "There is nothing more calming than the sounds of this waterfall after a day of heavy rain. It's truly breathtaking!",
-        images: `<img src="assets/images/lake-island-locations-1.jpg" class="map-images map-pop-up" alt="ireland-waterfall"></img>`
+        images: `<img src="assets/images/assaranca-waterfall.jpg" class="map-images map-pop-up" alt="assaranca-waterfall.jpg"/>`
     },
     {
         name: "Shannon Pot",
@@ -132,7 +132,7 @@ let lakeIslandLocations = [
         lng: -7.919257591528897,
         location: "Cavan",
         information: `Rumoured to be the origin of Ireland's longest river. It's a fantastic location for a peaceful walk, and picnic.`,
-        images: `<img src="assets/images/lake-island-locations-2.jpg" class="map-images map-pop-up" alt="ireland-lake"></img>`
+        images: `<img src="assets/images/shannon-pot.jpg" class="map-images map-pop-up" alt="shannon-pot"/>`
     },
     {
         name: "Lough Ouler",
@@ -140,7 +140,7 @@ let lakeIslandLocations = [
         lng: -6.373418235691949,
         location: "Wicklow",
         information: "This heart shape lake is an excellent place to hike, and the perfect spot for a swim afterwards.",
-        images: `<img src="assets/images/lake-island-locations-3.jpg" class="map-images map-pop-up" alt="ireland-lake"></img>`
+        images: `<img src="assets/images/lough-ouler.jpg" class="map-images map-pop-up" alt="lough-ouler"/>`
 
     },
     {
@@ -149,7 +149,7 @@ let lakeIslandLocations = [
         lng: -8.535274641997912,
         location: "Donegal",
         information: `A magical island with beautiful cliffs, sandy beaches. Once you arrive, you may never want to leave.`,
-        images: `<img src="assets/images/lake-island-locations-4.jpg" class="map-images map-pop-up" alt="ireland-island"></img>`
+        images: `<img src="assets/images/arranmore-island.jpg" class="map-images map-pop-up" alt="arranmore-island"/>`
     },
     {
         name: "Coumshingaun Lough",
@@ -157,7 +157,7 @@ let lakeIslandLocations = [
         lng: -7.524722204343533,
         location: "Waterford",
         information: `A four hour hike awaits to arrive at this lake. It's absolutely worth it for the magnificant view that awaits.`,
-        images: `<img src="assets/images/lake-island-locations-5.jpg" class="map-images map-pop-up" alt="ireland-lake"></img>`
+        images: `<img src="assets/images/coumshingaun.jpg" class="map-images map-pop-up" alt="coumshingaun"/>`
     },
     {
         name: "Bull Rock",
@@ -165,7 +165,7 @@ let lakeIslandLocations = [
         lng: -10.275685867593861,
         location: "Cork",
         information: `Sometimes called 'The End of The World'. Surrounded by cliffs, and often massive waves. This location is unforgettable.`,
-        images: `<img src="assets/images/lake-island-locations-11.jpg" class="map-images map-pop-up" alt="ireland-island"></img>`
+        images: `<img src="assets/images/bull-rock.jpg" class="map-images map-pop-up" alt="bull-rock"/>`
         
     },
     {
@@ -174,7 +174,7 @@ let lakeIslandLocations = [
         lng: -9.754421034582185,
         location: "Galway",
         information: `An extraordinary view of a natural phenomenon. There's nothing quite like it in Ireland.`,
-        images: `<img src="assets/images/lake-island-locations-13.jpg" class="map-images map-pop-up" alt="ireland-lake"></img>`
+        images: `<img src="assets/images/the-wormhole.jpg" class="map-images map-pop-up" alt="the-wormhole"/>`
     },
     {
         name: "Spike Island",
@@ -182,7 +182,7 @@ let lakeIslandLocations = [
         lng: 8.28623414494465,
         location: "Cork",
         information: `This island is filled with history, as it was first a settlement, and later a prison. It's the perfect lcoation for a day-trip.`,
-        images: `<img src="assets/images/lake-island-locations-12.jpg" class="map-images map-pop-up" alt="ireland-island"></img>`
+        images: `<img src="assets/images/spike-island.jpg" class="map-images map-pop-up" alt="spike-island"/>`
     },
     {
         name: "Bere Island",
@@ -190,15 +190,15 @@ let lakeIslandLocations = [
         lng: -9.865961566386499,
         location: "Cork",
         information: "An idyllic island with many ancient ruins. This location offers a beautiful walk, and a fantastic place for a quiet day of exploration and reflection.",
-        images: `<img src="assets/images/lake-island-locations-7.jpg" class="map-images map-pop-up" alt="ireland-old-house"></img>`
+        images: `<img src="assets/images/bere-island.jpg" class="map-images map-pop-up" alt="bere-island"/>`
     },
     {
         name: "Clare Island",
         lat: 53.80262284462848,
         lng: -9.9964143107925,
         location: "Mayo",
-        information: "",
-        images: `<img src="assets/images/lake-island-locations-10.jpg" class="map-images map-pop-up" alt="ireland-island"></img>`
+        information: "One of the most western points of Ireland. A beautiful, and tranquil island. The perfect place for a getaway.",
+        images: `<img src="assets/images/clare-island.jpg" class="map-images map-pop-up" alt="clare-island"/>`
     },
     {
         name: "Sherkin Island",
@@ -206,7 +206,7 @@ let lakeIslandLocations = [
         lng: -9.418069650576705,
         location: "Cork",
         information: "A picturesque island that is rich in wildlife, and beautiful views. The island is very peaceful and there is a wonderful hotel to stay the night after a day of travelling.",
-        images: `<img src="assets/images/lake-island-locations-6.jpg" class="map-images map-pop-up" alt="ireland-island"></img>`
+        images: `<img src="assets/images/sherkin-island.jpg" class="map-images map-pop-up" alt="sherkin-island"/>`
     },
     {
         name: "Great Blasket Island",
@@ -214,7 +214,7 @@ let lakeIslandLocations = [
         lng: -10.510461740099627,
         location: "Kerry",
         information: `For many this island is a reminder of the simple ways of living. You can stay the night here in accomodation without WiFi, and electricity. The perfect getaway.`,
-        images: `<img src="assets/images/lake-island-locations-9.jpg" class="map-images map-pop-up" alt="ireland-island"></img>`
+        images: `<img src="assets/images/great-blasket-island.jpg" class="map-images map-pop-up" alt="great-blasket-island"/>`
     },
     {
         name: "Valentia Island",
@@ -222,7 +222,7 @@ let lakeIslandLocations = [
         lng: -10.332660991813258,
         location: "Kerry",
         information: `A small island with many things to do. We recommend visiting the fabulous lighthouse. It's one of the most western points of Ireland, and one of our favourite places to visit.`,
-        images: `<img src="assets/images/lake-island-locations-8.jpg" class="map-images map-pop-up" alt="ireland-island"></img>`
+        images: `<img src="assets/images/valentia-island.jpg" class="map-images map-pop-up" alt="valentia-island"/>`
     },
 
 

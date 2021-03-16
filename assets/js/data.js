@@ -117,8 +117,6 @@ let beachLocations = [
     },
 ];
 
-
-
 let lakeIslandLocations = [
     {
         name: "Assaranca Waterfall",

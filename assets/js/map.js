@@ -27,11 +27,12 @@ function initMap(locations) {
         for (let i = 0; i < locations.length; i++) {
             /* variable to store information about each marker when clicked */
 
-            const contentString = '<div class= "pop-up-container">' +
-                '<h5 class="pop-up-heading">' + locations[i].name + ", " + locations[i].location +
-                '</h5>' + '<div class="pop-up-content">' + '<p class="pop-up-info">' + locations[i].information +
-                '</p>' + '<img class="pop-up-image">' + locations[i].images + '</div>' +
-                '</div>';
+            const contentString = 
+            `<div class= "pop-up-container"><h5 class="pop-up-heading">${locations[i].name}, ${locations[i].location}
+            </h5><div class="pop-up-content"><p class="pop-up-info">${locations[i].information}
+            </p><img class="pop-up-image">${locations[i].images}
+            </div>
+            </div>`;
 
             const infowindow = new google.maps.InfoWindow({
                 content: contentString,

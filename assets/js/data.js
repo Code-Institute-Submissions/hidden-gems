@@ -465,7 +465,7 @@ let cliffMountainLocations = [
         lng: -9.86175423418042,
         location: "Clare",
         information: `A fabulous cliff walk which overlooks a lighthouse. This location offers some of the best views you'll ever see. `,
-        images: `<img src="assets/images/cliff-locations-4.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
+        images: `<img src="assets/images/kilbaha-cliffs.jpg" class="map-images map-pop-up" alt="kilbaha-cliffs"/>`
     },
     {
         name: "Devil’s Chimney",
@@ -473,7 +473,7 @@ let cliffMountainLocations = [
         lng: -8.392807069307072,
         location: "Sligo",
         information: `A terrific walk which ends at the unique waterfall. It's best to visit here after heavy rain, and the waterfall may be over 150ft tall.`,
-        images: `<img src="assets/images/cliff-locations-5.jpg" class="map-images map-pop-up" alt="ireland-waterfall"></img>`
+        images: `<img src="assets/images/devils-chimney.jpg" class="map-images map-pop-up" alt="devils-chimney"/>`
     },
     {
         name: `Priest's leap`,
@@ -481,7 +481,7 @@ let cliffMountainLocations = [
         lng: -9.47125517274581,
         location: "Kerry",
         information: `A truly unique hidden gem. You can opt to drive this path, which many people do. Otherwise, you can hike the area for fantastic views.`,
-        images: `<img src="assets/images/cliff-locations-6.jpg" class="map-images map-pop-up" alt="ireland-road"></img>`
+        images: `<img src="assets/images/priests-leap.jpg" class="map-images map-pop-up" alt="priests-leap"/>`
     },
     {
         name: "The Nine Stones",
@@ -489,7 +489,7 @@ let cliffMountainLocations = [
         lng: -6.772222302314992,
         location: "Carlow",
         information: `Magnificent views can be seen from here. On clear days, you can see eight different counties including Waterford, Kilkenny, Laois and Wexford.`,
-        images: `<img src="assets/images/cliff-locations-7.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
+        images: `<img src="assets/images/nine-stones.jpg" class="map-images map-pop-up" alt="nine-stones"/>`
     },
     {
         name: "Ballaghbeama Gap",
@@ -497,7 +497,7 @@ let cliffMountainLocations = [
         lng: -9.81548710154434,
         location: "Kerry",
         information: `This route is best taken by car. It's a breathtaking journey, that feels totally out of this world.`,
-        images: `<img src="assets/images/cliff-locations-8.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
+        images: `<img src="assets/images/ballaghbeama.jpg" class="map-images map-pop-up" alt="ballaghbeama"/>`
     },
     {
         name: "Slieve League Cliffs",
@@ -505,7 +505,7 @@ let cliffMountainLocations = [
         lng: -8.682113067849912,
         location: "Donegal",
         information: `These cliffs reach nearly 2,000ft. It's almost three times the size of the Cliff's of Moher. The hike is well worth the wonderful views.`,
-        images: `<img src="assets/images/cliff-locations-9.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
+        images: `<img src="assets/images/slieve-league-cliffs.jpg" class="map-images map-pop-up" alt="slieve-league-cliffs"/>`
     },
     {
         name: "Ballycotton Cliffs",
@@ -513,7 +513,7 @@ let cliffMountainLocations = [
         lng: -8.008259815384314,
         location: "Cork",
         information: `These cliffs overlook vast fields, and a never-ending ocean. The hike can take about five hours, and it's suitable for all ages and abilities.`,
-        images: `<img src="assets/images/cliff-locations-10.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
+        images: `<img src="assets/images/ballycotton-cliffs.jpg" class="map-images map-pop-up" alt="ballycotton-cliffs"/>`
     },
     {
         name: "Geokaun Cliffs",
@@ -521,7 +521,7 @@ let cliffMountainLocations = [
         lng: -10.34829668199812,
         location: "Kerry",
         information: `These cliffs are a photographer's dream. From the top of the hike, you can see many of Kerry's islands, and surrounding mountains.`,
-        images: `<img src="assets/images/cliff-locations-11.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
+        images: `<img src="assets/images/geokaun-cliffs.jpg" class="map-images map-pop-up" alt="geokaun-cliffs"/>`
     },
 ];
 
@@ -532,7 +532,7 @@ let campingLocations = [
         lng: -9.701959008230475,
         location: "Kerry",
         information: `A beautiful location filled with mountains, oceans and walks. The perfect spot to pitch a tent for the night.`,
-        images: `<img src="assets/images/camping-locations-4.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
+        images: `<img src="assets/images/beara-peninsula.jpg" class="map-images map-pop-up" alt="beara-peninsula"/>`
     },
     {
         name: "Black Valley",
@@ -540,7 +540,7 @@ let campingLocations = [
         lng: -9.681442711723035,
         location: "Kerry",
         information: `A secluded valley surrounded by mountains, and rivers. It's an excellent location to camp out in the wild.`,
-        images: `<img src="assets/images/camping-locations-5.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
+        images: `<img src="assets/images/black-valley.jpg" class="map-images map-pop-up" alt="black-valley"/>`
 
     },
     {
@@ -549,7 +549,7 @@ let campingLocations = [
         lng: -10.141844956052886,
         location: "Galway",
         information: `This camping spot is located right by the beach, and it's a fantastic place to spend the night. Especially, if you fancy a morning swim.`,
-        images: `<img src="assets/images/camping-locations-6.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
+        images: `<img src="assets/images/dunlaughin-beach.jpg" class="map-images map-pop-up" alt="dunlaughin-beach"/>`
     },
     {
         name: "Glenregan Wild Camping",
@@ -557,7 +557,7 @@ let campingLocations = [
         lng: -7.63577198115244,
         location: "Offaly",
         information: `This valley is secluded by dense woodlands, but also quite accessible. It's the perect spot for family camping.`,
-        images: `<img src="assets/images/camping-locations-7.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
+        images: `<img src="assets/images/glenregan-camping.jpg" class="map-images map-pop-up" alt="glenregan-camping"/>`
     },
     {
         name: "Wicklow Mountains National Park",
@@ -565,7 +565,7 @@ let campingLocations = [
         lng: -6.307651092046029,
         location: "Wicklow",
         information: `An amazing location to camp. Spend the day exploring and hiking the perfect spot to pitch your tent.`,
-        images: `<img src="assets/images/camping-locations-3.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
+        images: `<img src="assets/images/wicklow-national-park.jpg" class="map-images map-pop-up" alt="wicklow-national-park"/>`
     },
     {
         name: "Knockmealdown Mountains",
@@ -573,7 +573,7 @@ let campingLocations = [
         lng: -7.9166511953951115,
         location: "Wicklow",
         information: `A beautiful location to camp, as the surrounding area is one of the best hiking spots. Camping in one of the highest mountains in Ireland, is an unforgettable experience.`,
-        images: `<img src="assets/images/camping-locations-2.jpg" class="map-images map-pop-up" alt="tent-mountain"></img>`
+        images: `<img src="assets/images/knockmealdown-mountains.jpg" class="map-images map-pop-up" alt="knockmealdown-mountains"/>`
     },
     {
         name: "Rock Farm",
@@ -581,7 +581,7 @@ let campingLocations = [
         lng: -6.544814347517759,
         location: "Meath",
         information: `This location is perfect for those who want to experience the more luxurious side of camping. Spend the night in a yurt, overlooking the wonderful Slane Caslte.`,
-        images: `<img src="assets/images/camping-locations-8.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
+        images: `<img src="assets/images/rock-farm.jpg" class="map-images map-pop-up" alt="rock-farm"/>`
     },
     {
         name: "Lough Sheelin",
@@ -589,7 +589,7 @@ let campingLocations = [
         lng: -7.33236075373391,
         location: "Meath",
         information: `Spend the day kayaking and exploring the surrounding grounds. Pitch your tent amongst the trees, and enjoy the sounds of nature.`,
-        images: `<img src="assets/images/camping-locations-1.jpg" class="map-images map-pop-up" alt="tent-in-trees"></img>`
+        images: `<img src="assets/images/lough-sheelin.jpg" class="map-images map-pop-up" alt="lough-sheelin"/>`
     },
     {
         name: "Ballycroy National Park",
@@ -597,7 +597,6 @@ let campingLocations = [
         lng: -9.820366641093962,
         location: "Mayo",
         information: `Mystic untouched nature, beautiful walking and areas, and many perfect locations to pitch a tent. What's not to love?`,
-        images: `<img src="assets/images/camping-locations-9.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
+        images: `<img src="assets/images/ballycroy-national-park.jpg" class="map-images map-pop-up" alt="ballycroy-national-park"/>`
     },
 ];
-

@@ -31,7 +31,7 @@ let beachLocations = [
         name: "Stradbally Cove",
         lat: 52.1250195326743,
         lng: -7.4603243,
-        location: "Waterford", 
+        location: "Waterford",
         information: `This unique beach is surronded by cliffs, and is a great beach for many different activities.`,
         images: `<img src="assets/images/stradbally-cove.jpg" class="map-images map-pop-up" alt= "stradbally-cove"/>`
     },
@@ -166,7 +166,7 @@ let lakeIslandLocations = [
         location: "Cork",
         information: `Sometimes called 'The End of The World'. Surrounded by cliffs, and often massive waves. This location is unforgettable.`,
         images: `<img src="assets/images/bull-rock.jpg" class="map-images map-pop-up" alt="bull-rock"/>`
-        
+
     },
     {
         name: "Poll na bPéist - The Wormhole",
@@ -237,8 +237,8 @@ let castleLocations = [
         lng: -8.464081532894864,
         location: "Donegal",
         information: `A breathtaking heritage site. This fort is located in the middle of a lake. It's a real hidden gem.`,
-        images: `<img src="assets/images/castle-locations-1.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
-        
+        images: `<img src="assets/images/doon-fort.jpg" class="map-images map-pop-up" alt="doon-fort"/>`
+
     },
     {
         name: "McDermott Castle",
@@ -246,7 +246,7 @@ let castleLocations = [
         lng: -8.232584288008399,
         location: "Roscommon",
         information: `This caslte is located on an island within a large lake. There's a boat which will take you to castle. It's a very remote area, and a perfect place to get lost in the past.`,
-        images: `<img src="assets/images/castle-locations-2.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
+        images: `<img src="assets/images/mcdermott-castle.jpg.jpg" class="map-images map-pop-up" alt="mcdermott-castle"/>`
     },
     {
         name: `Cú Chulainn's Castle`,
@@ -254,7 +254,7 @@ let castleLocations = [
         lng: -6.430028530692929,
         location: "Louth",
         information: `The castle is located on top of a hill, that overlooks the beautiful surrounding area. Once you reach the caslte, you can see all of Dundalk town. It's a wonderful site.`,
-        images: `<img src="assets/images/castle-locations-3.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
+        images: `<img src="assets/images/cu-chulainn-castle.jpg" class="map-images map-pop-up" alt="cu-chulainn-castle"/>`
     },
     {
         name: "Athassel Abbey",
@@ -262,7 +262,7 @@ let castleLocations = [
         lng: -7.995341765097741,
         location: "Tipperary",
         information: `This abby is the largest in Ireland, and dates back to the 12th century. It's absolutely worth visiting both for the history, and the walk around the beautiful site.`,
-        images: `<img src="assets/images/castle-locations-5.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
+        images: `<img src="assets/images/athassel-abbey.jpg" class="map-images map-pop-up" alt="athassel-abbey"/>`
     },
     {
         name: "Drimnagh Castle",
@@ -270,7 +270,7 @@ let castleLocations = [
         lng: -6.332674000000001,
         location: "Dublin",
         information: `The only castle in Ireland that has a flooded moat. This castle is filled with history, and while it's located in the capital city, it's still a hidden gem.`,
-        images: `<img src="assets/images/castle-locations-10.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
+        images: `<img src="assets/images/drimnagh-castle.jpg" class="map-images map-pop-up" alt="drimnagh-castle"/>`
     },
     {
         name: "Leap Castle",
@@ -278,7 +278,7 @@ let castleLocations = [
         lng: -7.808453400000001,
         location: "Offaly",
         information: `This castle is often described as "the world's most haunted castle". It has been featured on TV's 'Most Haunted'. It's a terrific location.`,
-        images: `<img src="assets/images/castle-locations-11.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
+        images: `<img src="assets/images/leap-castle.jpg" class="map-images map-pop-up" alt="leap-castle"/>`
     },
     {
         name: "Graystown Castle",
@@ -286,7 +286,7 @@ let castleLocations = [
         lng: -7.715855315346465,
         location: "Tipperary",
         information: `This mesmerizing castle offers wonderful sites, as it stands over 60ft tall. It dates back to the 1500's, and its certainily one of the most beautiful castle's we've seen in Ireland.`,
-        images: `<img src="assets/images/castle-locations-13.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
+        images: `<img src="assets/images/graystown-castle.jpg" class="map-images map-pop-up" alt="graystown-castle"/>`
     },
     {
         name: "Rock of Cashel",
@@ -294,7 +294,7 @@ let castleLocations = [
         lng: -7.890538030692929,
         location: "Tipperary",
         information: `This castle is a National Monument of Ireland. While that may take away from the secrecy, it's still unknown for many. There are tour guides which operate daily, and give insight into this fantastic historic location.`,
-        images: `<img src="assets/images/castle-locations-6.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
+        images: `<img src="assets/images/rock-of-cashel.jpg" class="map-images map-pop-up" alt="rock-of-cashel"/>`
     },
     {
         name: "Roche Castle",
@@ -302,7 +302,7 @@ let castleLocations = [
         lng: -6.4883566,
         location: "Louth",
         information: `An amazing Norman caslte, that offers rich history, and spectacular views. This castle is build on top of a hill, which allows you to see for miles.`,
-        images: `<img src="assets/images/castle-locations-12.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
+        images: `<img src="assets/images/roche-castle.jpg" class="map-images map-pop-up" alt="roche-castle.jpg"/>`
     },
     {
         name: "Fiddaun Castle",
@@ -310,7 +310,7 @@ let castleLocations = [
         lng: -8.879343030372857,
         location: "Galway",
         information: `This caslte is quite a walk away, but it's absolutely worth it. At one point in time, it was considered the largest castle in Ireland.`,
-         images: `<img src="assets/images/castle-locations-7.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
+        images: `<img src="assets/images/fiddaun-castle.jpg" class="map-images map-pop-up" alt="fiddaun-castle"/>`
     },
     {
         name: "Trim Castle",
@@ -318,7 +318,7 @@ let castleLocations = [
         lng: -6.7893993000155834,
         location: "Meath",
         information: `This castle is over 30,000 m². It's well-maintained and offers great insight into what it must have been like in the past. It was also a location site for the movie 'Braveheart.`,
-         images: `<img src="assets/images/castle-locations-9.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
+        images: `<img src="assets/images/trim-castle.jpg" class="map-images map-pop-up" alt="trim-castle"/>`
     },
     {
         name: "Rockstown Castle",
@@ -326,7 +326,7 @@ let castleLocations = [
         lng: -8.55695135396061,
         location: "Limerick",
         information: `A fantastic tower house that has five floors. This site differs from many other castles due to its compact size, but it's well worth a visit.`,
-         images: `<img src="assets/images/castle-locations-8.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
+        images: `<img src="assets/images/rockstown-castle.jpg" class="map-images map-pop-up" alt="rockstown-castle"/>`
     },
     {
         name: "Doonagore Castle",
@@ -334,8 +334,8 @@ let castleLocations = [
         lng: -9.387491515344637,
         location: "Clare",
         information: `A hill-top caslte with fantastic views overlooking the ocean. While the castle is closed to the public, a trip here is worth it for the views and peaceful atmosphere.`,
-         images: `<img src="assets/images/castle-locations-4.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
-    },  
+        images: `<img src="assets/images/doonagore-castle.jpg" class="map-images map-pop-up" alt="doonagore-castle"/>`
+    },
 ];
 
 /* Object for cave locations in Ireland */

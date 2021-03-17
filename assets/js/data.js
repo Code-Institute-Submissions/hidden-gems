@@ -347,7 +347,7 @@ let caveLocations = [
         lng: -8.449664538155785,
         location: "Sligo",
         information: `Fantastic limestone caves located on the side of a hill. The cave consists of sixteen simple chambers, some interconnecting. The caves are often presented as being associated with the otherworld, and as places to be respected and feared.`,
-        images: `<img src="assets/images/cave-locations-1.jpg" class="map-images map-pop-up" alt="ireland-cave"></img>`
+        images: `<img src="assets/images/keshcorran-caves.jpg" class="map-images map-pop-up" alt="keshcorran-caves"/>`
     },
     {
         name: `Bruce's Cave`,
@@ -355,7 +355,7 @@ let caveLocations = [
         lng: -6.169222761385858,
         location: "Antrim",
         information: `This historic cave is well worth the visit. It's name after Robert the Bruce, as it is said that he hid there after his defeat in the 1300's.`,
-        images: `<img src="assets/images/cave-locations-4.jpg" class="map-images map-pop-up" alt="ireland-cave"></img>`
+        images: `<img src="assets/images/bruces-cave.jpg" class="map-images map-pop-up" alt="bruces-cave"/>`
     },
     {
         name: "Marble Arch Caves",
@@ -363,7 +363,7 @@ let caveLocations = [
         lng: -7.813274946039392,
         location: "Fermanagh",
         information: `These caves are the longest in Northern Ireland spanning over 11.5 kilometres. It's a fantastic site, and a must see location.`,
-        images: `<img src="assets/images/cave-locations-5.jpg" class="map-images map-pop-up" alt="ireland-cave"></img>`
+        images: `<img src="assets/images/marble-arch-caves.jpg" class="map-images map-pop-up" alt="marble-arch-caves"/>`
     },
     {
         name: "Crag Caves",
@@ -371,7 +371,7 @@ let caveLocations = [
         lng: -9.443211170299001,
         location: "Kerry",
         information: `These caves are said to be over 1 million years old Crag Cave is a magical wonderland of stalagmites and stalactites. We cannot recommend this breathtaking site enough.`,
-        images: `<img src="assets/images/cave-locations-2.jpg" class="map-images map-pop-up" alt="ireland-castle"></img>`
+        images: `<img src="assets/images/crag-caves.jpg" class="map-images map-pop-up" alt="crag-caves"/>`
     },
     {
         name: "Dunmore Cave",
@@ -379,7 +379,7 @@ let caveLocations = [
         lng: -7.246985815346465,
         location: "Kilkenny",
         information: `These caves are known for their archaeological discoveries, and its no wonder, when you see the depth of these cave systems.`,
-        images: `<img src="assets/images/cave-locations-6.jpg" class="map-images map-pop-up" alt="ireland-cave"></img>`
+        images: `<img src="assets/images/dunmore-caves.jpg" class="map-images map-pop-up" alt="dunmore-caves"/>`
     },
     {
         name: "Doolin Cave",
@@ -387,7 +387,7 @@ let caveLocations = [
         lng: -9.345149200042298,
         location: "Clare",
         information: `This cave is home to the longest known free-hanging stalactite in Europe, and one of the largest in the entire world.`,
-        images: `<img src="assets/images/cave-locations-7.jpg" class="map-images map-pop-up" alt="ireland-cave"></img>`
+        images: `<img src="assets/images/doolin-caves.jpg" class="map-images map-pop-up" alt="doolin-caves"/>`
     },
     {
         name: "Aillwee Cave",
@@ -395,7 +395,7 @@ let caveLocations = [
         lng: -9.14358156930707,
         location: "Clare",
         information: `The cave system consists of over a kilometre of passages leading into the heart of the mountain. Its features include an underground river and a waterfall as well as some large stalactites and stalagmites.`,
-        images: `<img src="assets/images/cave-locations-8.jpg" class="map-images map-pop-up" alt="ireland-cave"></img>`
+        images: `<img src="assets/images/aillwee-caves.jpg" class="map-images map-pop-up" alt="aillwee-caves"/>`
     },
     {
         name: "Mitchelstown Cave",
@@ -403,7 +403,7 @@ let caveLocations = [
         lng: -8.1088003,
         location: "Tipperary",
         information: `A fantastic cave system, with brilliant and informative tour guides.`,
-        images: `<img src="assets/images/cave-locations-9.jpg" class="map-images map-pop-up" alt="ireland-cave"></img>`
+        images: `<img src="assets/images/mitchelstown-caves.jpg" class="map-images map-pop-up" alt="mitchelstown-caves"/>`
     },
     {
         name: "Pigeon Hole Cave",
@@ -411,7 +411,7 @@ let caveLocations = [
         lng: -9.306707023516834,
         location: "Galway",
         information: `A beautiful cave with an underground stream. The forest leading to the caves are perfect for a walk amongst huge trees.`,
-        images: `<img src="assets/images/cave-locations-10.jpg" class="map-images map-pop-up" alt="ireland-cave"></img>`
+        images: `<img src="assets/images/pigeon-hole-caves.jpg" class="map-images map-pop-up" alt="pigeon-hole-caves"/>`
     },
     {
         name: "Pollnagollum ",
@@ -419,7 +419,7 @@ let caveLocations = [
         lng: -9.251255432960807,
         location: "Clare",
         information: `The longest cave in Ireland, and one of the deepest caves too. It's well worth the journey through to the cave to see the underground stream.`,
-        images: `<img src="assets/images/cave-locations-11.jpg" class="map-images map-pop-up" alt="ireland-cave"></img>`
+        images: `<img src="assets/images/pollnagollum-caves.jpg" class="map-images map-pop-up" alt="pollnagollum-caves"/>`
     },
     {
         name: "Oweynagat Cave",
@@ -427,7 +427,7 @@ let caveLocations = [
         lng: -8.310280138614143,
         location: "Rosscommon",
         information: `You'll need to bring a torch and some wet gear with you for this unique cave. It's a true gateway to another world.`,
-        images: `<img src="assets/images/cave-locations-12.jpg" class="map-images map-pop-up" alt="ireland-cave"></img>`
+        images: `<img src="assets/images/oweynagat-caves.jpg" class="map-images map-pop-up" alt="oweynagat-caves"/>`
     },
 ];
 
@@ -441,7 +441,7 @@ let cliffMountainLocations = [
         lng: -10.193419230770017,
         location: "Mayo",
         information: `These cliffs are the highest in Ireland, and the third highest in Europe. You'll have to hike to see these stunning views, but its well worth the trek.`,
-        images: `<img src="assets/images/cliff-locations-1.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
+        images: `<img src="assets/images/croaghaun-mountain.jpg" class="map-images map-pop-up" alt="croaghaun-mountain.jpgn"/>`
     },
     {
         name: "Diamond Hill",
@@ -449,7 +449,7 @@ let cliffMountainLocations = [
         lng: -9.91489406258491,
         location: "Galway",
         information: `An amazing hike, that doesn't take too long. The hike features paths so its perfect for all ages and abilities.`,
-        images: `<img src="assets/images/cliff-locations-2.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
+        images: `<img src="assets/images/diamond-hill.jpg" class="map-images map-pop-up" alt="diamond-hill"/>`
     },
     {
         name: "Knockmealdown Mountains",
@@ -457,7 +457,7 @@ let cliffMountainLocations = [
         lng: 7.915621227079968,
         location: "Waterford",
         information: `For the few people who know about these mountains, they're a favorite due to the brilliant views, and varying degrees of difficulty in paths you can take.`,
-        images: `<img src="assets/images/cliff-locations-3.jpg" class="map-images map-pop-up" alt="ireland-mountain"></img>`
+        images: `<img src="assets/images/kncokmealdown-mountains.jpg" class="map-images map-pop-up" alt="kncokmealdown-mountains"/>`
     },
     {
         name: "Kilbaha Cliffs",

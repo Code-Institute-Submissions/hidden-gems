@@ -253,7 +253,7 @@ let castleLocations = [
         lat: 54.01436057901478,
         lng: -6.430028530692929,
         location: "Louth",
-        information: `The castle is located on top of a hill, that overlooks the beautiful surrounding area. Once you reach the caslte, you can see all of Dundalk town. It's a wonderful site.`,
+        information: `The castle is located on top of a hill, that overlooks the beautiful surrounding area. Once you reach the castle, you can see all of Dundalk town. It's a wonderful site.`,
         images: `<img src="assets/images/cu-chulainn-castle.jpg" class="map-images map-pop-up" alt="cu-chulainn-castle"/>`
     },
     {
@@ -441,7 +441,7 @@ let cliffMountainLocations = [
         lng: -10.193419230770017,
         location: "Mayo",
         information: `These cliffs are the highest in Ireland, and the third highest in Europe. You'll have to hike to see these stunning views, but its well worth the trek.`,
-        images: `<img src="assets/images/croaghaun-mountain.jpg" class="map-images map-pop-up" alt="croaghaun-mountain.jpgn"/>`
+        images: `<img src="assets/images/croaghaun-mountain.jpg" class="map-images map-pop-up" alt="croaghaun-mountain"/>`
     },
     {
         name: "Diamond Hill",

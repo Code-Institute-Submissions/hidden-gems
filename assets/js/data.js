@@ -246,7 +246,7 @@ let castleLocations = [
         lng: -8.232584288008399,
         location: "Roscommon",
         information: `This caslte is located on an island within a large lake. There's a boat which will take you to castle. It's a very remote area, and a perfect place to get lost in the past.`,
-        images: `<img src="assets/images/mcdermott-castle.jpg.jpg" class="map-images map-pop-up" alt="mcdermott-castle"/>`
+        images: `<img src="assets/images/mcdermott-castle.jpg" class="map-images map-pop-up" alt="mcdermott-castle"/>`
     },
     {
         name: `Cú Chulainn's Castle`,

@@ -230,6 +230,8 @@ The reference for this code is also documented in the reference section of this 
 
 10. I experienced an issue with the contact form as I wanted to display a thank you message to users when they submit the contact form. At first, I created an alert that executed when the email was successful. However, I felt this was intrusive to the user, and upon reading the jQuery documentation I discovered the .show() effect. This allowed me to created a div and set its display to none. Using the .show() effect, I could display the message when the user sends their email. Another issue with this was that it would take the message a couple of seconds to display, but reading the documentation I discovered by passing through the parameter "fast", the message displayed much quicker
 
+11. I experienced an issue with text and image alignment in the section with features three images, and text beside each image. The issue would occur at medium screens, where the image would shrink, while the text would remain the same. This resulted in a drastic layout change, which disrupted the flow of content, and created a messy layout. The fix for this was to change the font size on medium screens to keep the alignment correct. This was achieved with a media query by using the logical operator 'and' to combine a min-width and max-width media query. This was discovered on MDN's CSS documentation.
+
 ## Technologies Used
 
 
@@ -248,6 +250,7 @@ The reference for this code is also documented in the reference section of this 
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) was used to check that the website is user-friendly.
 * [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) to test the website on mobiles. 
 * [Favicon.io](https://favicon.io/) was used for the website's favicon.
+* [MDN CSS(https://developer.mozilla.org/en-US/docs/Web/CSS)] was used to further understand media queries.
 
 
 ## Testing
@@ -354,6 +357,7 @@ I also curated some locations from the list from the following articles:
 
 * Code where I used the jQuery animation .show() can be seen [here](https://api.jquery.com/show/)
 
+* Code to understand combining media queries was found on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
 
 * Code to create the EmailJS function and understanding of the EmailJS API was referenced from Code Institute's lesson titled 'Putting it all together, Sending Emails Using EmailJS'
 
@@ -362,5 +366,6 @@ I also curated some locations from the list from the following articles:
 
 
 ## Acknowledgements
+
 
 

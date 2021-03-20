@@ -99,9 +99,9 @@ All wireframes were created using Balsamiq. As this is a one-page website, there
 
 ### Wireframes     
 
-* [Desktop](./docs/wireframes/wireframe-desktop.png)
-* [Tablet](./docs/wireframes/wireframe-tablet.png)
-* [Mobile](./docs/wireframes/wireframe-mobile.png)
+* [Desktop](assets/docs/wireframes/wireframe-desktop.png)
+* [Tablet](assets/docs/wireframes/wireframe-tablet.png)
+* [Mobile](assets/docs/wireframes/wireframe-mobile.png)
 
 ## Surface 
 

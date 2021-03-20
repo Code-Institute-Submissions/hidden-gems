@@ -243,7 +243,7 @@ I would also like to filter all locations by region, so if a user is planning a 
 
 ## Testing
 
-The documentation for testing this website is located in another file. This can be viewed [here](./docs/testing/testing.md). 
+The documentation for testing this website is located in another file. This can be viewed [here](assets/docs/testing/testing.md). 
 
 Please CTRL-Click the link to open it in a new tab. 
 

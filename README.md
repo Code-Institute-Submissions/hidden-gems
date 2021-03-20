@@ -11,11 +11,9 @@ This project aimed to help users find less-known tourist attractions within Irel
 ## Overview
 
 A website for people who wish to travel throughout Ireland, and visit some of the lesser-known landscapes and historic sites. 
-
 The website is built as a single-page website that is responsive across all main devices; desktop, tablet, and mobile. 
 
-The website features images to showcases some of the locations that the site highlights. The website also features an interactive map of Ireland that allows users to select different categories of tourist attractions, and see where they are located. 
-
+The website features features an interactive map of Ireland that allows users to select different categories of tourist attractions, and see where they are located. 
 The website also features a contact form that allows them to enquire about more information, and also submit attractions that have not yet been mentioned or implemented on the map. 
 
 The main goal of this website is to promote traveling within Ireland and to give attention to some of the lesser-known tourist attractions. 
@@ -43,11 +41,8 @@ The main goal of this website is to promote traveling within Ireland and to give
 ## UX 
 
 In 2020/2021, domestic travel has increased, and this site aims to assist people in finding their next destination, particular destinations which are not very popular. 
-
-The main attraction to the website is the interactive map, which allows users to pick and choose the type of attractions that they are interested in. The focus for the site is on landscapes and historic locations, as with coronavirus, many things are subject to closure. 
-
-For this reason, many filters are attractions that are out in the open, rather than inside buildings. 
-
+The main attraction to the website is the interactive map, which allows users to pick and choose the type of attractions that they are interested in. 
+The focus for the site is mainly natural landscape attractions, as many indoor activities have been suspended.
 I also included some photos throughout the website which showcases the diverse attractions that a user can visit.
 
 ## Strategy 
@@ -91,13 +86,10 @@ I aimed to provide users with a simple and easy-to-navigate interface and experi
 
 I have also opted to place the contact form beneath the interactive map, as it allows users to quickly submit a question or a location suggestion. 
 
-As there are quite a lot of possible destinations, I picked three popular types to showcase beneath the home image, which aims to excite and intrigue users. 
-
-These are placed before the map to build up the desire to travel within Ireland, showcasing beautiful images.
+As there are quite a lot of possible destinations, I picked three popular types to showcase beneath the home image, which aims to excite and intrigue users. These are placed before the map to build up the desire to travel within Ireland, showcasing beautiful images.
 
 Within the map, users can click on location markers, and an info window populates with text and images related to the current location. 
-
-I wanted to provide users with a very brief explanation of the location, as well as an image so they can see if this is something they would be interested in. I chose to keep the text brief, as I didn't want to take up to much of a user's time, or over-populate the screen with too much text. 
+I provided users with a very brief explanation of the location, as well as an image so they can see if this is something they would be interested in. I chose to keep the text brief, as I didn't want to take up to much of a user's time, or over-populate the screen with too much text. 
 
 ## Skeleton 
 
@@ -105,7 +97,7 @@ All wireframes were created using Balsamiq. As this is a one-page website, there
 
 - Note: To open links in a new tab please use CTRL+click (on Windows and Linux) or CMD+click (on macOS).
 
-### Home Page        
+### Wireframes     
 
 * [Desktop](./docs/wireframes/wireframe-desktop.png)
 * [Tablet](./docs/wireframes/wireframe-tablet.png)
@@ -132,7 +124,7 @@ Also, the off-white background allows the map to not feel out of place, as it co
 
 I choose to use an off-white color for the jumbotron text, and the navbar text as it compliments the green background. The white text also catches the user's attention and feels inviting. 
 
-I choose to use a green-background on the navigation bar. I wanted to add some color to the website, while also keeping it to a minimum. A dark green navigation bar complements the green images and the overall theme of the website. 
+I choose to use a green-background on the navigation bar(#606c38). I wanted to add some color to the website, while also keeping it to a minimum. A dark green navigation bar complements the green images and the overall theme of the website. 
 
 For the buttons, I chose to use the color: #b39c4d. This is a dark yellow/gold color, which compliements the green and blue tones from the images, as well as the naivgation bar. 
 
@@ -142,7 +134,7 @@ In regards to the map buttons, I decided to use a different background color whe
 
 I decided to use two fonts for this project. I chose the font 'Proza Libre' for the navigation links, footer links, and all headings. I felt this font had a lot of Celtic character and it complimented the tone and essence of the website. 
 
-For the body, I chose to use the font 'Open Sans'. I decided to use this font as it is a popular choice for many websites, and it paired well with Proza Libre. Also, I find this font does not distract users. This was especially important because Proza Libre is a little less conventional.
+For the body, I chose to use the font 'Open Sans'. I decided to use this font as it paired well with Proza Libre. I felt this font was not distracting, and quite conventional. This was especially important because Proza Libre is a little less conventional.
 
 
 ## FEATURES
@@ -202,14 +194,7 @@ I would also like to filter all locations by region, so if a user is planning a 
 
 
 
-6. I wanted to remove the different styles of map types and just wanted to show the road map style for this website. I was unsure how to do this and first began trying to disable the button completely. However, upon reading Google Maps API Documentation, I found that if you specify the mapTypeId then the others are automatically hidden.  
-
-	mapTypeIds: [
-                google.maps.MapTypeId.ROADMAP,
-            ]
-
-
-	The reference for this code is also documented in the reference section of this README. 
+6. I wanted to remove the different styles of map types and just wanted to show the road map style for this website. I was unsure how to do this and first began trying to disable the button completely. However, upon reading Google Maps API Documentation, I found that if you specify the mapTypeId then the others are automatically hidden. The reference for this code is also documented in the reference section of this README. 
 
 
 7. I had an issue when trying to customize the map's info window. When a user clicks a marker, the info window would pop up with the relevant information. However, when a user clicks another marker, a second info window would pop up, and the previous window would remain. This quickly polluted the screen space. An event listener was created to close the previous info window. The code for this is credited in the reference section of the README file. 
@@ -258,22 +243,23 @@ I would also like to filter all locations by region, so if a user is planning a 
 
 ## Testing
 
-The documentation for testing this website is located in another file. This can be viewed [here](./docs/testing.md). 
+The documentation for testing this website is located in another file. This can be viewed [here](./docs/testing/testing.md). 
+
 Please CTRL-Click the link to open it in a new tab. 
 
 
 ## Deployment
 
-I first opened Gitpod to confirm that my branch was up to date and my working tree was clean. 
-I then opened my internet browser and searched for GitHub. I logged into my Github account. 
-I clicked on my project titled 'hidden gems'. 
-After opening my project, I clicked on the 'settings' option. 
-Within the settings options, I scrolled to the section titled 'GitHub Pages'. 
-In the section 'GitHub Pages', there is an option 'Source', I selected the master branch, and clicked 'Save'. 
-I refreshed my page, and the GitHub Pages link appeared under the 'GitHub Pages' section on the Settings Page. 
-It can take a few minutes for the website to be activated. 
-After waiting a couple of minutes, I clicked on the generated link. 
-The website had successfully deployed. 
+1. I first opened Gitpod to confirm that my branch was up to date and my working tree was clean. 
+2. I then opened my internet browser and searched for GitHub. I logged into my Github account. 
+3. I clicked on my project titled 'hidden gems'. 
+4. After opening my project, I clicked on the 'settings' option. 
+5. Within the settings options, I scrolled to the section titled 'GitHub Pages'. 
+6. In the section 'GitHub Pages', there is an option 'Source', I selected the master branch, and clicked 'Save'. 
+7. I refreshed my page, and the GitHub Pages link appeared under the 'GitHub Pages' section on the Settings Page. 
+8. It can take a few minutes for the website to be activated. 
+9. After waiting a couple of minutes, I clicked on the generated link. 
+10. The website had successfully deployed. 
 
 
 ## Credits 
@@ -289,36 +275,46 @@ I wanted the locations to be as accurate as possible could make them, so I spent
 For the castle locations, information for Leap Castle and Trim Castle was taken from their respective Wikipedia pages: 
 
 [Leap Castle](https://en.wikipedia.org/wiki/Leap_Castle)
+
 [Trim Castle](https://en.wikipedia.org/wiki/Trim_Castle)
 
 For the cave locations, I researched the caves from the following websites:
 
 [Caves of Kesh](https://en.wikipedia.org/wiki/Caves_of_Kesh)
+
 [Dunmore Cave](https://en.wikipedia.org/wiki/Dunmore_Cave)
+
 [Marble Arch Caves](https://en.wikipedia.org/wiki/Marble_Arch_Caves)
+
 [Doolin Cave](https://en.wikipedia.org/wiki/Doolin_Cave)
+
 [Aillwee Cave](https://en.wikipedia.org/wiki/Aillwee_Cave)
+
 [Pollnagollum](https://en.wikipedia.org/wiki/Pollnagollum)
+
 [Bruces Cave](https://www.familyfun.ie/bruces-cave/)
+
 [Crag Cave](https://www.cragcave.com/)
 
 
 Wild Camping locations in Ireland are naturally, a well-kept secret. I credit the following websites for curating some of the camping locations: 
 
 [Wild camping spots](https://outsider.ie/ireland/wild-camping-ireland/)
+
 [Unknown camping spots](https://www.osi.ie/blog/irelands-best-wild-camping-spots/)
 
 I also curated some locations from the list from the following articles: 
 
 [Lesser known Castles](https://www.theirishstore.com/blog/lesser-known-castles-ireland/)
+
 [Irishroadtrips.ie](https://www.theirishroadtrip.com/best-places-to-visit-in-ireland/)
+
 [Outsider.ie](https://outsider.ie/ireland/best-beaches-ireland/)
+
 [Hidden Ruins in Ireland](https://studyireland.ie/2017/04/18/top-10-hidden-ruins-in-ireland/)
 
 
 ## References for Code
-
-
 
 * Code to help with targeting map-active button to remove and add a class on click. This can be seen [here](https://stackoverflow.com/questions/41476916/jquery-make-pressed-button-active-and-all-other-buttons-inactive)
 

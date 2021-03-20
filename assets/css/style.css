@@ -158,11 +158,6 @@ h4 {
 
 /* -- Images -- */
 
-.image-container {
-    
-    
-}
-
 .img-fluid {
     border-radius: 1%;
 }
@@ -376,7 +371,6 @@ a.footer-nav:hover{
   }
 } 
 
-
  @media (min-width:991px) and (max-width: 1200px) {
   .destination-text {
     text-align: left;
@@ -384,10 +378,4 @@ a.footer-nav:hover{
     margin: auto;
     line-height: 1.5;
 }
-}
-
-
-
-.call-to-action-sections {
-
 }

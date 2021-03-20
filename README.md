@@ -1,6 +1,6 @@
 # Aimsigh Éire - Discover Ireland's Hidden Gems
 
-The aim of this project was to help users find less-known tourist attractions within Ireland. 
+This project aimed to help users find less-known tourist attractions within Ireland. 
 
 [You can view the live project here](https://tomc2311.github.io/hidden-gems/)
 
@@ -57,8 +57,6 @@ The goal of this website is to highlight the many different attractions in Irela
 The secondary goals of the website are to promote the website's social media following and allow for other users to submit other unknown attractions for future implementation via the contact form. So in the future, others can also experience these beautiful places. This allows for a sense of community, as well as continuous growth for the website.
 
 
-
-
 ### Business Goals: 
 
 * Highlight and encourage travel to unknown attractions in Ireland. 
@@ -108,6 +106,7 @@ All wireframes were created using Balsamiq. As this is a one-page website, there
 - Note: To open links in a new tab please use CTRL+click (on Windows and Linux) or CMD+click (on macOS).
 
 ### Home Page        
+
 * [Desktop](./docs/wireframes/wireframe-desktop.png)
 * [Tablet](./docs/wireframes/wireframe-tablet.png)
 * [Mobile](./docs/wireframes/wireframe-mobile.png)
@@ -116,9 +115,7 @@ All wireframes were created using Balsamiq. As this is a one-page website, there
 
 ### Images 
 
-There are several images used throughout the site. When viewing the website on desktop and tablet/mobile, there is a difference in image layout. This is especially the case on the call to action heading. On a desktop, there is no image in this section, however, due to the flow of mobile design, I chose to use an image here which helps break up the text, and keeps the layout consistent. 
-
-In terms of relevant photos, I prioritized finding images that were the actual location of the marker locations. When the exact images of these locations were not available, I picked photos of location which shared similar characteristics. 
+There are several images used throughout the site. I prioritized finding images that were the actual location of the marker locations. When the exact images of these locations were not available, I picked photos of location which shared similar characteristics. 
 
 The two main images on the website; the home container image, and the footer container image, were chosen to showcase the large green and cliff landscapes that are spread throughout Ireland. I also opted to use images with green and subtle orange and yellow tones, to match the off-white background of the website. 
 
@@ -135,7 +132,9 @@ Also, the off-white background allows the map to not feel out of place, as it co
 
 I choose to use an off-white color for the jumbotron text, and the navbar text as it compliments the green background. The white text also catches the user's attention and feels inviting. 
 
-I choose to use a green-background on the navigation bar, and for all buttons. I wanted to add some color to the website, while also keeping it to a minimum. A dark green navigation bar and buttons complement the green images and the overall theme of the website. 
+I choose to use a green-background on the navigation bar. I wanted to add some color to the website, while also keeping it to a minimum. A dark green navigation bar complements the green images and the overall theme of the website. 
+
+For the buttons, I chose to use the color: #b39c4d. This is a dark yellow/gold color, which compliements the green and blue tones from the images, as well as the naivgation bar. 
 
 In regards to the map buttons, I decided to use a different background color when the button is clicked or hovered. I used the same shade of grey that is used in the Google Maps button. This helps to add consistency in this section of the website. 
 
@@ -143,7 +142,7 @@ In regards to the map buttons, I decided to use a different background color whe
 
 I decided to use two fonts for this project. I chose the font 'Proza Libre' for the navigation links, footer links, and all headings. I felt this font had a lot of Celtic character and it complimented the tone and essence of the website. 
 
-For the body, I chose to use the font 'Open Sans'. I decided to use this font as it is a popular choice for many websites, and it paired well with Proza Libre. In addition, I find this font does not distract users. This was especially important because Proza Libre is a little less conventional.
+For the body, I chose to use the font 'Open Sans'. I decided to use this font as it is a popular choice for many websites, and it paired well with Proza Libre. Also, I find this font does not distract users. This was especially important because Proza Libre is a little less conventional.
 
 
 ## FEATURES
@@ -157,7 +156,7 @@ The rest of the website is intentionally simple and designed to either motivate 
 
 I added an info window on each marker which displays some information about the location as well as an image. This allows the user to get an idea of the location, to see if it is something they would be interested in visiting. 
 
-In regards to the type of locations, I opted to choose destinations that were mainly located outside. This was a choice influenced by the current covid-19 restrictions. 
+In regards to the type of locations, I choose destinations that were mainly located outside. This was a choice influenced by the current covid-19 restrictions. 
 
 
 ### Future Features 
@@ -175,6 +174,7 @@ I would also like to filter all locations by region, so if a user is planning a 
 	Upon investigating the issue, it seemed that because the google maps API was loading before the map.js file, the browser could not locate the function which was referenced in the google map API script. 
 
 	The solution for this was to load my map.js before the Google Maps API. This removed the error, as the initMap function was present when the google maps API was called. 
+
 
 
 2. The interactive map initially had different icons for each type of attraction (beach flags to represent beaches, castle icons to represent the castle locations, etc). However, as there are a lot of markers, the map quickly began cluttered and difficult to use. I felt this design overwhelmed the user. 
@@ -204,12 +204,12 @@ I would also like to filter all locations by region, so if a user is planning a 
 
 6. I wanted to remove the different styles of map types and just wanted to show the road map style for this website. I was unsure how to do this and first began trying to disable the button completely. However, upon reading Google Maps API Documentation, I found that if you specify the mapTypeId then the others are automatically hidden.  
 
-mapTypeIds: [
+	mapTypeIds: [
                 google.maps.MapTypeId.ROADMAP,
             ]
 
 
-The reference for this code is also documented in the reference section of this README. 
+	The reference for this code is also documented in the reference section of this README. 
 
 
 7. I had an issue when trying to customize the map's info window. When a user clicks a marker, the info window would pop up with the relevant information. However, when a user clicks another marker, a second info window would pop up, and the previous window would remain. This quickly polluted the screen space. An event listener was created to close the previous info window. The code for this is credited in the reference section of the README file. 
@@ -228,9 +228,12 @@ The reference for this code is also documented in the reference section of this 
 	This can be seen [here](https://stackoverflow.com/questions/42121897/boostrap-v4-0-0-alpha-6-model-how-to-center-model-title)
 
 
-10. I experienced an issue with the contact form as I wanted to display a thank you message to users when they submit the contact form. At first, I created an alert that executed when the email was successful. However, I felt this was intrusive to the user, and upon reading the jQuery documentation I discovered the .show() effect. This allowed me to created a div and set its display to none. Using the .show() effect, I could display the message when the user sends their email. Another issue with this was that it would take the message a couple of seconds to display, but reading the documentation I discovered by passing through the parameter "fast", the message displayed much quicker
+10. I experienced an issue with the contact form as I wanted to display a thank you message to users when they submit the contact form. At first, I created an alert that executed when the email was successful. However, I felt this was intrusive to the user, and upon reading the jQuery documentation I discovered the .show() effect. This allowed me to created a div and set its display to none. 
+	Using the .show() effect, I could display the message when the user sends their email. 
+	Another issue with this was that it would take the message a couple of seconds to display, but reading the documentation I discovered by passing through the parameter "fast", the message displayed much quicker
 
-11. I experienced an issue with text and image alignment in the section with features three images, and text beside each image. The issue would occur at medium screens, where the image would shrink, while the text would remain the same. This resulted in a drastic layout change, which disrupted the flow of content, and created a messy layout. The fix for this was to change the font size on medium screens to keep the alignment correct. This was achieved with a media query by using the logical operator 'and' to combine a min-width and max-width media query. This was discovered on MDN's CSS documentation.
+11. I experienced an issue with text and image alignment in the section with features three images, and text beside each image. The issue would occur at medium screens, where the image would shrink, while the text would remain the same. This resulted in a drastic layout change, which disrupted the flow of content and created a messy layout. 
+	The fix for this was to change the font size on medium screens to keep the alignment correct. This was achieved with a media query by using the logical operator 'and combining a min-width and max-width media query. This was discovered on MDN's CSS documentation.
 
 ## Technologies Used
 
@@ -250,12 +253,12 @@ The reference for this code is also documented in the reference section of this 
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) was used to check that the website is user-friendly.
 * [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) to test the website on mobiles. 
 * [Favicon.io](https://favicon.io/) was used for the website's favicon.
-* [MDN CSS(https://developer.mozilla.org/en-US/docs/Web/CSS)] was used to further understand media queries.
+* [MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) was used to further understand media queries.
 
 
 ## Testing
 
-The documentation for testing this website is located in another file. This can be viewed here. 
+The documentation for testing this website is located in another file. This can be viewed [here](./docs/testing.md). 
 Please CTRL-Click the link to open it in a new tab. 
 
 
@@ -288,7 +291,6 @@ For the castle locations, information for Leap Castle and Trim Castle was taken 
 [Leap Castle](https://en.wikipedia.org/wiki/Leap_Castle)
 [Trim Castle](https://en.wikipedia.org/wiki/Trim_Castle)
 
-
 For the cave locations, I researched the caves from the following websites:
 
 [Caves of Kesh](https://en.wikipedia.org/wiki/Caves_of_Kesh)
@@ -301,7 +303,7 @@ For the cave locations, I researched the caves from the following websites:
 [Crag Cave](https://www.cragcave.com/)
 
 
-Wild Camping locations in Ireland are naturally a well-kept secret. I credit the following websites for curating some of the camping locations: 
+Wild Camping locations in Ireland are naturally, a well-kept secret. I credit the following websites for curating some of the camping locations: 
 
 [Wild camping spots](https://outsider.ie/ireland/wild-camping-ireland/)
 [Unknown camping spots](https://www.osi.ie/blog/irelands-best-wild-camping-spots/)
@@ -323,7 +325,7 @@ I also curated some locations from the list from the following articles:
 	
 * The background image opacity and jumbotron code was referenced from Code Institute Whiskey Drop Project. 
 
-* Inspiration for README file was taken from Code Institute README template. This can be seen [here](https://github.com/Code-Institute-Solutions/SampleREADME) 
+* Inspiration for the README file was taken from Code Institute README template. This can be seen [here](https://github.com/Code-Institute-Solutions/SampleREADME) 
 
 
 * I used Instead of using the default blue glow, I changed it to a black border outline via CSS. This can be seen [here](https://stackoverflow.com/questions/14820952/change-bootstrap-input-focus-blue-glow to change the color of the contact form selector.)
@@ -368,4 +370,6 @@ I also curated some locations from the list from the following articles:
 ## Acknowledgements
 
 
-
+* I would like to thank my mentor Aaron Sinnott for his continuous support and feedback. 
+* I would like to thank the Tutor support at Code Institute for their support and patience.
+* I would like to thank the Code Institute Slack community for assistance and support in understanding JavaScript. 

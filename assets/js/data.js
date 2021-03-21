@@ -252,7 +252,7 @@ let castleLocations = [
         name: `Cú Chulainn's Castle`,
         lat: 54.01436057901478,
         lng: -6.430028530692929,
-        location: "Louth",
+        location: "Dundalk",
         information: `The castle is located on top of a hill, that overlooks the beautiful surrounding area. Once you reach the castle, you can see all of Dundalk town. It's a wonderful site.`,
         images: `<img src="assets/images/cu-chulainn-castle.jpg" class="map-images map-pop-up" alt="cu-chulainn-castle"/>`
     },

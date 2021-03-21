@@ -129,6 +129,7 @@ Once the project was deployed to GitHub Pages, I once again tested the website, 
 * I clicked on every button to make sure that they led the user to the correct section of the website. 
 * I clicked on each social media icon in the footer and confirmed that it directed users to a new tab with the correct website opening.
 * I clicked on each section of the site map in the footer to confirm it re-directed the user to the correct section. 
+* I created a 404.html page which helps re-direct users to the main page, if a 404 error occurs.
 
 ### Map
 

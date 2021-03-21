@@ -1,5 +1,4 @@
-/* Array with objects for Beach Locations in Ireland */
-
+/* Array for beach locations in Ireland */
 
 let beachLocations = [
 
@@ -117,6 +116,8 @@ let beachLocations = [
     },
 ];
 
+/* Array for island and lake locations in Ireland */
+
 let lakeIslandLocations = [
     {
         name: "Assaranca Waterfall",
@@ -228,7 +229,7 @@ let lakeIslandLocations = [
 
 ];
 
-/* Object for castle locations in Ireland */
+/* Array for castle locations in Ireland */
 
 let castleLocations = [
     {
@@ -338,7 +339,7 @@ let castleLocations = [
     },
 ];
 
-/* Object for cave locations in Ireland */
+/* Array for cave locations in Ireland */
 
 let caveLocations = [
     {
@@ -432,7 +433,7 @@ let caveLocations = [
 ];
 
 
-/* Object for cliff and mountains in Ireland */
+/* Array for cliff and mountains in Ireland */
 
 let cliffMountainLocations = [
     {
@@ -524,6 +525,8 @@ let cliffMountainLocations = [
         images: `<img src="assets/images/geokaun-cliffs.jpg" class="map-images map-pop-up" alt="geokaun-cliffs"/>`
     },
 ];
+
+/* Array for camping spots in Ireland */
 
 let campingLocations = [
     {

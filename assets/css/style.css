@@ -379,3 +379,27 @@ a.footer-nav:hover{
     line-height: 1.5;
 }
 }
+
+/* -- Error Page -- */
+
+.container-error {
+    height: 100vh;
+    max-width: 100%;
+
+    background: url('../images/forest.jpg') no-repeat center right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.error-text {
+    font-size: 1.2rem;
+    color: #f1f1ef;
+}

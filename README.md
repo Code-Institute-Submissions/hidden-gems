@@ -219,7 +219,6 @@ I would also like to filter all locations by region, so if a user is planning a 
 
 11. I experienced an issue with text and image alignment in the section with features three images, and text beside each image. The issue would occur at medium screens, where the image would shrink, while the text would remain the same. This resulted in a drastic layout change, which disrupted the flow of content and created a messy layout. 
 	The fix for this was to change the font size on medium screens to keep the alignment correct. This was achieved with a media query by using the logical operator 'and combining a min-width and max-width media query. This was discovered on MDN's CSS documentation.
-
 ## Technologies Used
 
 

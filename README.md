@@ -150,6 +150,7 @@ I added an info window on each marker which displays some information about the 
 
 In regards to the type of locations, I choose destinations that were mainly located outside. This was a choice influenced by the current covid-19 restrictions. 
 
+I have also added a 404.html page to re-direct users to the home page, if 404 error occurs. This is create a better experience for all users, so they do not have to use the browser to navigate. 
 
 ### Future Features 
 
@@ -219,6 +220,7 @@ I would also like to filter all locations by region, so if a user is planning a 
 
 11. I experienced an issue with text and image alignment in the section with features three images, and text beside each image. The issue would occur at medium screens, where the image would shrink, while the text would remain the same. This resulted in a drastic layout change, which disrupted the flow of content and created a messy layout. 
 	The fix for this was to change the font size on medium screens to keep the alignment correct. This was achieved with a media query by using the logical operator 'and combining a min-width and max-width media query. This was discovered on MDN's CSS documentation.
+
 ## Technologies Used
 
 

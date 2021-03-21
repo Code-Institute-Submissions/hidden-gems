@@ -24,7 +24,7 @@ let beachLocations = [
         lat: 52.21088398432121,
         lng: -6.7969478144495055,
         location: "Wexford",
-        information: `Bannow Strand is a very isolated beach. It's the perfect place to spend some time alonge, walking along sandy beach or sand dunes.  `,
+        information: `Bannow Strand is a very isolated beach. It's the perfect place to spend some time alone, walking along the sandy beach or dunes.`,
         images: `<img src="assets/images/bannow-island.jpg" class="map-images map-pop-up" alt= "bannow-island"/>`
     },
     {
@@ -32,7 +32,7 @@ let beachLocations = [
         lat: 52.1250195326743,
         lng: -7.4603243,
         location: "Waterford",
-        information: `This unique beach is surronded by cliffs, and is a great beach for many different activities.`,
+        information: `This unique beach is surrounded by cliffs, and is a great beach for many different activities.`,
         images: `<img src="assets/images/stradbally-cove.jpg" class="map-images map-pop-up" alt= "stradbally-cove"/>`
     },
     {
@@ -48,7 +48,7 @@ let beachLocations = [
         lat: 54.66475793754972,
         lng: -8.776379246237571,
         location: "Donegal",
-        information: `A wonderful beach located on an island, surrounded by wildlife.`,
+        information: `A wonderful beach located on an island, that's surrounded by wildlife.`,
         images: `<img src="assets/images/silver-strand-beach.jpg" class="map-images map-pop-up" alt= "silver-strand-beach"/>`
     },
     {
@@ -80,7 +80,7 @@ let beachLocations = [
         lat: 52.20194249676858,
         lng: -6.642653162292428,
         location: "Wexford",
-        information: `This beach is rich in wilflife and flora. It's the perfect place for a long walk whether along the sandy beach or long winding sandunes.`,
+        information: `This beach is rich in wildlife and flora. It's the perfect place for a long walk whether along the sandy beach or long winding sand dunes.`,
         images: `<img src="assets/images/ballyteige-burrow.jpg" class="map-images map-pop-up" alt="ballyteige-burrow"/>`
     },
     {
@@ -104,7 +104,7 @@ let beachLocations = [
         lat: 51.46706896407998,
         lng: -9.731530106117043,
         location: "Cork",
-        information: `One of our favorite beaches we've visited. It's a well kept secret, but worth sharing!`,
+        information: `One of our favorite beaches we've visited. It's a well-kept secret, but worth sharing!`,
         images: `<img src="assets/images/galley-cove.jpg" class="map-images map-pop-up" alt="galley-cove"/>`
     },
     {
@@ -131,7 +131,7 @@ let lakeIslandLocations = [
         lat: 54.2355508148235,
         lng: -7.919257591528897,
         location: "Cavan",
-        information: `Rumoured to be the origin of Ireland's longest river. It's a fantastic location for a peaceful walk, and picnic.`,
+        information: `Rumoured to be the origin of Ireland's longest river. It's a fantastic location for a peaceful walk and picnic.`,
         images: `<img src="assets/images/shannon-pot.jpg" class="map-images map-pop-up" alt="shannon-pot"/>`
     },
     {
@@ -139,7 +139,7 @@ let lakeIslandLocations = [
         lat: 53.06048077000485,
         lng: -6.373418235691949,
         location: "Wicklow",
-        information: "This heart shape lake is an excellent place to hike, and the perfect spot for a swim afterwards.",
+        information: "This heart shape lake is an excellent place to hike, and the perfect spot for a swim afterward.",
         images: `<img src="assets/images/lough-ouler.jpg" class="map-images map-pop-up" alt="lough-ouler"/>`
 
     },
@@ -156,7 +156,7 @@ let lakeIslandLocations = [
         lat: 52.250591233955824,
         lng: -7.524722204343533,
         location: "Waterford",
-        information: `A four hour hike awaits to arrive at this lake. It's absolutely worth it for the magnificant view that awaits.`,
+        information: `A four-hour hike awaits to arrive at this lake. It's absolutely worth it for the magnificent view that awaits.`,
         images: `<img src="assets/images/coumshingaun.jpg" class="map-images map-pop-up" alt="coumshingaun"/>`
     },
     {
@@ -181,7 +181,7 @@ let lakeIslandLocations = [
         lat: 51.83476100594525,
         lng: 8.28623414494465,
         location: "Cork",
-        information: `This island is filled with history, as it was first a settlement, and later a prison. It's the perfect lcoation for a day-trip.`,
+        information: `This island is filled with history, as it was first a settlement, and later a prison. It's the perfect location for a day-trip.`,
         images: `<img src="assets/images/spike-island.jpg" class="map-images map-pop-up" alt="spike-island"/>`
     },
     {
@@ -189,7 +189,7 @@ let lakeIslandLocations = [
         lat: 51.63037224006302,
         lng: -9.865961566386499,
         location: "Cork",
-        information: "An idyllic island with many ancient ruins. This location offers a beautiful walk, and a fantastic place for a quiet day of exploration and reflection.",
+        information: "An idyllic island with many ancient ruins. This location offers a beautiful walk and a fantastic place for a quiet day of exploration and reflection.",
         images: `<img src="assets/images/bere-island.jpg" class="map-images map-pop-up" alt="bere-island"/>`
     },
     {
@@ -205,7 +205,7 @@ let lakeIslandLocations = [
         lat: 51.46511094755541,
         lng: -9.418069650576705,
         location: "Cork",
-        information: "A picturesque island that is rich in wildlife, and beautiful views. The island is very peaceful and there is a wonderful hotel to stay the night after a day of travelling.",
+        information: "A picturesque island that is rich in wildlife, and beautiful views. The island is very peaceful and there is a wonderful hotel to stay the night after a day of traveling.",
         images: `<img src="assets/images/sherkin-island.jpg" class="map-images map-pop-up" alt="sherkin-island"/>`
     },
     {
@@ -213,7 +213,7 @@ let lakeIslandLocations = [
         lat: 52.104736754106604,
         lng: -10.510461740099627,
         location: "Kerry",
-        information: `For many this island is a reminder of the simple ways of living. You can stay the night here in accomodation without WiFi, and electricity. The perfect getaway.`,
+        information: `For many, this island is a reminder of the simple ways of living. You can stay the night here in accommodation without WiFi, and electricity. The perfect getaway.`,
         images: `<img src="assets/images/great-blasket-island.jpg" class="map-images map-pop-up" alt="great-blasket-island"/>`
     },
     {
@@ -221,7 +221,7 @@ let lakeIslandLocations = [
         lat: 51.92137461381308,
         lng: -10.332660991813258,
         location: "Kerry",
-        information: `A small island with many things to do. We recommend visiting the fabulous lighthouse. It's one of the most western points of Ireland, and one of our favourite places to visit.`,
+        information: `A small island with many things to do. We recommend visiting the fabulous lighthouse. It's one of the most western points of Ireland and one of our favorite places to visit.`,
         images: `<img src="assets/images/valentia-island.jpg" class="map-images map-pop-up" alt="valentia-island"/>`
     },
 
@@ -245,7 +245,7 @@ let castleLocations = [
         lat: 53.98958226630207,
         lng: -8.232584288008399,
         location: "Roscommon",
-        information: `This caslte is located on an island within a large lake. There's a boat which will take you to castle. It's a very remote area, and a perfect place to get lost in the past.`,
+        information: `This castle is located on an island within a large lake. There's a boat which will take you to the castle. It's a very remote area and a perfect place to get lost in the past.`,
         images: `<img src="assets/images/mcdermott-castle.jpg" class="map-images map-pop-up" alt="mcdermott-castle"/>`
     },
     {
@@ -261,7 +261,7 @@ let castleLocations = [
         lat: 52.47688365193911,
         lng: -7.995341765097741,
         location: "Tipperary",
-        information: `This abby is the largest in Ireland, and dates back to the 12th century. It's absolutely worth visiting both for the history, and the walk around the beautiful site.`,
+        information: `This Abby is the largest in Ireland and dates back to the 12th century. It's worth visiting both for the history, and the walk around the beautiful site.`,
         images: `<img src="assets/images/athassel-abbey.jpg" class="map-images map-pop-up" alt="athassel-abbey"/>`
     },
     {
@@ -285,7 +285,7 @@ let castleLocations = [
         lat: 52.564195871196716,
         lng: -7.715855315346465,
         location: "Tipperary",
-        information: `This mesmerizing castle offers wonderful sites, as it stands over 60ft tall. It dates back to the 1500's, and its certainily one of the most beautiful castle's we've seen in Ireland.`,
+        information: `This mesmerizing castle offers wonderful sites, as it stands over 60ft tall. It dates back to the 1500s, and its certainly one of the most beautiful castle's we've seen in Ireland.`,
         images: `<img src="assets/images/graystown-castle.jpg" class="map-images map-pop-up" alt="graystown-castle"/>`
     },
     {
@@ -301,7 +301,7 @@ let castleLocations = [
         lat: 54.04678206725634,
         lng: -6.4883566,
         location: "Louth",
-        information: `An amazing Norman caslte, that offers rich history, and spectacular views. This castle is build on top of a hill, which allows you to see for miles.`,
+        information: `An amazing Norman castle, that offers rich history, and spectacular views. This castle is built on top of a hill, which allows you to see for miles.`,
         images: `<img src="assets/images/roche-castle.jpg" class="map-images map-pop-up" alt="roche-castle.jpg"/>`
     },
     {
@@ -309,7 +309,7 @@ let castleLocations = [
         lat: 53.010595321460826,
         lng: -8.879343030372857,
         location: "Galway",
-        information: `This caslte is quite a walk away, but it's absolutely worth it. At one point in time, it was considered the largest castle in Ireland.`,
+        information: `This castle is quite a walk away, but it's absolutely worth it. At one point in time, it was considered the largest castle in Ireland.`,
         images: `<img src="assets/images/fiddaun-castle.jpg" class="map-images map-pop-up" alt="fiddaun-castle"/>`
     },
     {
@@ -333,7 +333,7 @@ let castleLocations = [
         lat: 53.004036497964194,
         lng: -9.387491515344637,
         location: "Clare",
-        information: `A hill-top caslte with fantastic views overlooking the ocean. While the castle is closed to the public, a trip here is worth it for the views and peaceful atmosphere.`,
+        information: `A hill-top castle with fantastic views overlooking the ocean. While the castle is closed to the public, a trip here is worth it for the views and peaceful atmosphere.`,
         images: `<img src="assets/images/doonagore-castle.jpg" class="map-images map-pop-up" alt="doonagore-castle"/>`
     },
 ];
@@ -346,7 +346,7 @@ let caveLocations = [
         lat: 54.060966340687045,
         lng: -8.449664538155785,
         location: "Sligo",
-        information: `Fantastic limestone caves located on the side of a hill. The cave consists of sixteen simple chambers, some interconnecting. The caves are often presented as being associated with the otherworld, and as places to be respected and feared.`,
+        information: `Fantastic limestone caves are located on the side of a hill. The cave consists of sixteen simple chambers, some interconnecting. The caves are often presented as being associated with the otherworld, and as places to be respected and feared.`,
         images: `<img src="assets/images/keshcorran-caves.jpg" class="map-images map-pop-up" alt="keshcorran-caves"/>`
     },
     {
@@ -354,7 +354,7 @@ let caveLocations = [
         lat: 55.298518354390445,
         lng: -6.169222761385858,
         location: "Antrim",
-        information: `This historic cave is well worth the visit. It's name after Robert the Bruce, as it is said that he hid there after his defeat in the 1300's.`,
+        information: `This historic cave is well worth the visit. It's named after Robert the Bruce, as it is said that he hid there after his defeat in the 1300s.`,
         images: `<img src="assets/images/bruces-cave.jpg" class="map-images map-pop-up" alt="bruces-cave"/>`
     },
     {
@@ -386,7 +386,7 @@ let caveLocations = [
         lat: 53.04110351270187,
         lng: -9.345149200042298,
         location: "Clare",
-        information: `This cave is home to the longest known free-hanging stalactite in Europe, and one of the largest in the entire world.`,
+        information: `This cave is home to the longest known free-hanging stalactite in Europe and one of the largest in the entire world.`,
         images: `<img src="assets/images/doolin-caves.jpg" class="map-images map-pop-up" alt="doolin-caves"/>`
     },
     {
@@ -394,7 +394,7 @@ let caveLocations = [
         lat: 53.089360163139524,
         lng: -9.14358156930707,
         location: "Clare",
-        information: `The cave system consists of over a kilometre of passages leading into the heart of the mountain. Its features include an underground river and a waterfall as well as some large stalactites and stalagmites.`,
+        information: `The cave system consists of over a kilometer of passages leading into the heart of the mountain. Its features include an underground river and a waterfall as well as some large stalactites and stalagmites.`,
         images: `<img src="assets/images/aillwee-caves.jpg" class="map-images map-pop-up" alt="aillwee-caves"/>`
     },
     {
@@ -440,7 +440,7 @@ let cliffMountainLocations = [
         lat: 53.97977025770544,
         lng: -10.193419230770017,
         location: "Mayo",
-        information: `These cliffs are the highest in Ireland, and the third highest in Europe. You'll have to hike to see these stunning views, but its well worth the trek.`,
+        information: `These cliffs are the highest in Ireland and the third highest in Europe. You'll have to hike to see these stunning views, but it's well worth the trek.`,
         images: `<img src="assets/images/croaghaun-mountain.jpg" class="map-images map-pop-up" alt="croaghaun-mountain"/>`
     },
     {
@@ -448,7 +448,7 @@ let cliffMountainLocations = [
         lat: 53.548263166950626,
         lng: -9.91489406258491,
         location: "Galway",
-        information: `An amazing hike, that doesn't take too long. The hike features paths so its perfect for all ages and abilities.`,
+        information: `An amazing hike, that doesn't take too long. The hike features paths so it is perfect for all ages and abilities.`,
         images: `<img src="assets/images/diamond-hill.jpg" class="map-images map-pop-up" alt="diamond-hill"/>`
     },
     {
@@ -457,14 +457,14 @@ let cliffMountainLocations = [
         lng: 7.915621227079968,
         location: "Waterford",
         information: `For the few people who know about these mountains, they're a favorite due to the brilliant views, and varying degrees of difficulty in paths you can take.`,
-        images: `<img src="assets/images/kncokmealdown-mountains.jpg" class="map-images map-pop-up" alt="kncokmealdown-mountains"/>`
+        images: `<img src="assets/images/kncokmealdown-mountains.jpg" class="map-images map-pop-up" alt="knockmealdown-mountains"/>`
     },
     {
         name: "Kilbaha Cliffs",
         lat: 52.571955032395074,
         lng: -9.86175423418042,
         location: "Clare",
-        information: `A fabulous cliff walk which overlooks a lighthouse. This location offers some of the best views you'll ever see. `,
+        information: `A fabulous cliff walk that overlooks a lighthouse. This location offers some of the best views you'll ever see. `,
         images: `<img src="assets/images/kilbaha-cliffs.jpg" class="map-images map-pop-up" alt="kilbaha-cliffs"/>`
     },
     {
@@ -472,7 +472,7 @@ let cliffMountainLocations = [
         lat: 54.341005843280804,
         lng: -8.392807069307072,
         location: "Sligo",
-        information: `A terrific walk which ends at the unique waterfall. It's best to visit here after heavy rain, and the waterfall may be over 150ft tall.`,
+        information: `A terrific walk that ends at the unique waterfall. It's best to visit here after heavy rain, and the waterfall may be over 150ft tall.`,
         images: `<img src="assets/images/devils-chimney.jpg" class="map-images map-pop-up" alt="devils-chimney"/>`
     },
     {
@@ -488,7 +488,7 @@ let cliffMountainLocations = [
         lat: 52.6360572209473,
         lng: -6.772222302314992,
         location: "Carlow",
-        information: `Magnificent views can be seen from here. On clear days, you can see eight different counties including Waterford, Kilkenny, Laois and Wexford.`,
+        information: `Magnificent views can be seen from here. On clear days, you can see eight different counties including Waterford, Kilkenny, Laois, and Wexford.`,
         images: `<img src="assets/images/nine-stones.jpg" class="map-images map-pop-up" alt="nine-stones"/>`
     },
     {
@@ -512,7 +512,7 @@ let cliffMountainLocations = [
         lat: 51.82495664593324,
         lng: -8.008259815384314,
         location: "Cork",
-        information: `These cliffs overlook vast fields, and a never-ending ocean. The hike can take about five hours, and it's suitable for all ages and abilities.`,
+        information: `These cliffs overlook vast fields and a never-ending ocean. The hike can take about five hours, and it's suitable for all ages and abilities.`,
         images: `<img src="assets/images/ballycotton-cliffs.jpg" class="map-images map-pop-up" alt="ballycotton-cliffs"/>`
     },
     {
@@ -520,7 +520,7 @@ let cliffMountainLocations = [
         lat: 51.92380608699363,
         lng: -10.34829668199812,
         location: "Kerry",
-        information: `These cliffs are a photographer's dream. From the top of the hike, you can see many of Kerry's islands, and surrounding mountains.`,
+        information: `These cliffs are a photographer's dream. From the top of the hike, you can see many of Kerry's islands and surrounding mountains.`,
         images: `<img src="assets/images/geokaun-cliffs.jpg" class="map-images map-pop-up" alt="geokaun-cliffs"/>`
     },
 ];
@@ -572,7 +572,7 @@ let campingLocations = [
         lat: 52.225252362129396,
         lng: -7.9166511953951115,
         location: "Wicklow",
-        information: `A beautiful location to camp, as the surrounding area is one of the best hiking spots. Camping in one of the highest mountains in Ireland, is an unforgettable experience.`,
+        information: `A beautiful location to camp, as the surrounding area is one of the best hiking spots. Camping in one of the highest mountains in Ireland is an unforgettable experience.`,
         images: `<img src="assets/images/knockmealdown-mountains.jpg" class="map-images map-pop-up" alt="knockmealdown-mountains"/>`
     },
     {
@@ -580,7 +580,7 @@ let campingLocations = [
         lat: 53.70436267245581,
         lng: -6.544814347517759,
         location: "Meath",
-        information: `This location is perfect for those who want to experience the more luxurious side of camping. Spend the night in a yurt, overlooking the wonderful Slane Caslte.`,
+        information: `This location is perfect for those who want to experience the more luxurious side of camping. Spend the night in a yurt, overlooking the wonderful Slane Castle.`,
         images: `<img src="assets/images/rock-farm.jpg" class="map-images map-pop-up" alt="rock-farm"/>`
     },
     {

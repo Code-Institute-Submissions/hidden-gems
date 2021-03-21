@@ -54,7 +54,9 @@ I passed the map.js code through JSHint to see if there were any errors or warni
 
 	Upon further inspection and testing, moving the function outside of the loop, no longer allows the map to function as intended. The info window does not close when a new one is clicked. As it is not an error, I have chosen to keep the code as it is. 
 
+6. Due to the large amount of data stored in the location arrays, I created a new JavaScript file to story this information. I titled it 'data.js', and placed all the arrays into this file. 
 
+    This was done so the map.js file could be easily read, and the data could be easily updated in the future. 
 
 #### General Testing
 
@@ -64,7 +66,7 @@ I passed the map.js code through JSHint to see if there were any errors or warni
 
 3. I clicked on a new attraction button to ensure that the new markers would populate, and the old markers would vanish. 
 
-4. I create console logs for each button clicked to ensure it was relating to the correct array. 
+4. I create console logs for each variable to see if there were any errors.
 
 5. I created console logs for each array which stored locations, to ensure that the information was being logged.
 
@@ -102,7 +104,7 @@ I passed the mail.js code through JSHint to see if there were any errors or warn
 
 5. I also ensured that the fields were reset upon submission. 
 
-I have attached a screenshot of an email that was received from the contact form. This can be viewed [here](./docs/testing/testing-email.png)
+I have attached a screenshot of an email that was received from the contact form. This can be viewed [here](images/email-testing.png)
 
 #### Newsletter
 
@@ -112,7 +114,7 @@ I have attached a screenshot of an email that was received from the contact form
 
 3. When submitting an email to the newsletter sign-up; the console log reports success, the user thank you message is displayed, and I receive the correct email.
 
-I have attached a screenshot of an email that was received from the contact form. This can be viewed [here](./docs/testing/testing-newsletter.png)
+I have attached a screenshot of an email that was received from the contact form. This can be viewed [here](images/newsletter-testing.png)
 
 
 
@@ -129,7 +131,7 @@ Once the project was deployed to GitHub Pages, I once again tested the website, 
 * I clicked on every button to make sure that they led the user to the correct section of the website. 
 * I clicked on each social media icon in the footer and confirmed that it directed users to a new tab with the correct website opening.
 * I clicked on each section of the site map in the footer to confirm it re-directed the user to the correct section. 
-* I created a 404.html page which helps re-direct users to the main page, if a 404 error occurs. This can be seen [here]((images/hidden-gems-404.png))
+* I created a 404.html page which helps re-direct users to the main page, if a 404 error occurs. This can be seen [here](images/hidden-gems-404.png)
 
 ### Map
 

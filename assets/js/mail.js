@@ -24,7 +24,7 @@ function sendMail(contactForm) {
 /* Code to show a thank you message after user sign up to newsletter */
 
 function newsLetter(newsLetterForm) {
-    emailjs.send("service_f5w6jod", "hidden-gems", {
+    emailjs.send("service_f5w6jod", "hidden-gems-newsletter", {
         "from_email": newsLetterForm.newsletterEmail.value,
     })
         .then(

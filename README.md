@@ -325,7 +325,7 @@ I also curated some locations from the list from the following articles:
 * Inspiration for the README file was taken from Code Institute README template. This can be seen [here](https://github.com/Code-Institute-Solutions/SampleREADME) 
 
 
-* I used Instead of using the default blue glow, I changed it to a black border outline via CSS. This can be seen [here](https://stackoverflow.com/questions/14820952/change-bootstrap-input-focus-blue-glow to change the color of the contact form selector.)
+* For the input fields, instead of using the default blue glow, I changed it to a black border outline via CSS. This can be seen [here](https://stackoverflow.com/questions/14820952/change-bootstrap-input-focus-blue-glow)
 
 
 * Documentation where I found how to set Map Types, can be seen [here](https://developers.google.com/maps/documentation/javascript/maptypes) 

@@ -2,7 +2,8 @@
 
 I have organized the testing.md file by first testing the HTML file, followed by the CSS file, and finally the JavaScript files. 
 
-I spilt the JavaScript testing into two sections. One for each JavaScript file; mail.js and map.js. 
+I spilt the JavaScript testing into two sections. One for each JavaScript file; mail.js and map.js.
+The map.js was tested in full, however after the intial testing was complete, I choose to remove the arrays, and place them in another JavaScript file titled 'data.js'. 
 
 Finally, I have a general testing section where I tested each component of the website across on desktop, tablet, and mobile. 
 
@@ -114,7 +115,7 @@ I have attached a screenshot of an email that was received from the contact form
 
 3. When submitting an email to the newsletter sign-up; the console log reports success, the user thank you message is displayed, and I receive the correct email.
 
-I have attached a screenshot of an email that was received from the contact form. This can be viewed [here](images/newsletter-testing.png)
+I have attached a screenshot of an email that was received from the newsletter input. This can be viewed [here](images/newsletter-testing.png)
 
 
 

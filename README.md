@@ -199,8 +199,6 @@ I would also like to filter all locations by region, so if a user is planning a 
 
 	There is a section on the Google Maps API Documentation which demonstrates how to edit the text content of the info window. I decided to try and add classes to the info window's content, and style them in CSS. This worked and allowed me to not only change the default layout of the info windows but also the text, image, and headings. This allowed me to achieve an info window that was much smaller and concise, which didn't clutter the screen space. 
 
-
-
 9. I was having an issue with centering the modal title. When I would center the heading, it would also push the close icon further to the left, and ultimately outside the modal. I tried adjusting the close icon with CSS padding and margin, but it was not responsive on mobile or smaller devices. 
 	
 	Upon searching stack overflow, I found that you can add the class 'w-100' to the title, which centers the title while maintaining the correct position for the close icon. 
@@ -215,8 +213,10 @@ I would also like to filter all locations by region, so if a user is planning a 
 11. I experienced an issue with text and image alignment in the section with features three images, and text beside each image. The issue would occur at medium screens, where the image would shrink, while the text would remain the same. This resulted in a drastic layout change, which disrupted the flow of content and created a messy layout. 
 	The fix for this was to change the font size on medium screens to keep the alignment correct. This was achieved with a media query by using the logical operator 'and combining a min-width and max-width media query. This was discovered on MDN's CSS documentation.
 
-12. I encountered an issue regarding background images on mobile devices, specifically with Safari. All background images would be zoomed, and difficult to see. The issue is related to the code "background-attachment: cover". The solution to this problem was to simply change the background-attachment to "scroll" instead of "cover". I felt the best way to do this was via media query. 
+12. I encountered an issue regarding background images on mobile devices, specifically with Safari on mobile devices. All background images would be zoomed, and difficult to see. The issue is related to the code "background-attachment: cover". The solution to this problem was to simply change the background-attachment to "scroll" instead of "cover". I felt the best way to do this was via media query. 
     This allowed me to keep the parallax feature on desktops, but removed on smaller devices.
+
+13. I had some trouble with correctly displaying testing images in my testing.md file. I was targetting the wrong file, and as a result I ended up creating a couple of duplicate commits. The issue has since been resolved, and images show correctly.
 
 ## Technologies Used
 
@@ -350,6 +350,8 @@ I also curated some locations from the list from the following articles:
 * Code to understand combining media queries was found on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
 
 * Code to create the EmailJS function and understanding of the EmailJS API was referenced from Code Institute's lesson titled 'Putting it all together, Sending Emails Using EmailJS'
+
+* Code to resolve the parallax issue with iOS devices was found on StackOverflow. This can be viewed [here](https://stackoverflow.com/questions/23838718/fixed-background-cover-becomes-zoomed-in-mobile-view/23839133#23839133)
 
 * Code to help implement the Google Maps API was from Code Institute's lesson titled 'Putting it all together, Google Maps'. 
 * Code to help in implenting the Google Maps API was also from the official documentation. This can be seen [here](https://developers.google.com/maps/documentation/javascript/overview)

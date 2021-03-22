@@ -55,7 +55,6 @@ body {
     border-bottom: #f1f1ef 1px solid;
 }
 
-
 /* -- Home Container Image -- */
 
 .home-container {
@@ -75,7 +74,6 @@ body {
     position: relative;
 }
 
-
 /* -- Jumbotron -- */
 
 .jumbotron {
@@ -94,7 +92,6 @@ body {
     margin: 6px 0px;
     font-family: 'Proza Libre', sans-serif;
 }
-
 
 /* -- Headings -- */
 
@@ -125,7 +122,6 @@ h4 {
     margin: auto;
 }
 
-
 /* -- Paragraphs -- */
 
 .cta-paragraph {
@@ -155,7 +151,6 @@ h4 {
     border-bottom: 0.5px solid #1A1A1B;
 }
 
-
 /* -- Images -- */
 
 .img-fluid {
@@ -166,7 +161,7 @@ h4 {
 
 .btn-custom{
     border: 0.5px solid #1A1A1B;
-    background-color: #b39c4d;
+    background-color: #606c38;
     margin-top: 3px;
     color: #F7F2E9;
     font-size: 1rem;

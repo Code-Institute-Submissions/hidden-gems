@@ -20,13 +20,13 @@ function initMap(locations) {
         }
     });
 
-    /* -- If statement which loops through locations of in selected array, 
+    /* -- If statement which loops through locations of selected array, 
     and shows markers depending on which location is selected. */
 
     if (locations) {
         for (let i = 0; i < locations.length; i++) {
-            /* variable to store information about each marker when clicked */
 
+            /* Variable to store information about each marker when clicked */
             const contentString = 
             `<div class= "pop-up-container"><h5 class="pop-up-heading">${locations[i].name}, ${locations[i].location}
             </h5><div class="pop-up-content"><p class="pop-up-info">${locations[i].information}
@@ -37,8 +37,8 @@ function initMap(locations) {
             const infowindow = new google.maps.InfoWindow({
                 content: contentString,
             });
-            /* variable to store markers  */
 
+            /* Variable to store markers  */
             const marker = new google.maps.Marker(
                 {
                     position: new google.maps.LatLng(locations[i].lat, locations[i].lng),
@@ -47,9 +47,7 @@ function initMap(locations) {
                     animation: google.maps.Animation.DROP,
                 });
 
-            /* Event listener to show location information when user clicks on specfic marker, 
-            and to close previous marker when a new one is clicked*/
-            
+            /* Event listener to show and close info windows when user clicks on a marker */
             google.maps.event.addListener(marker, 'click', function () {
                 if (currentInfoWindow != null) {
                     currentInfoWindow.close();
@@ -61,7 +59,7 @@ function initMap(locations) {
     }
 }
 
-/* To add and remove active class on map buttons */
+/* Code to add and remove active class on map buttons */
 $(document).ready(function () {
     $('.map-button').click(function () {
         $('.map-button').removeClass('active-map-button ').addClass('inactive');
@@ -75,7 +73,6 @@ $(document).ready(function () {
 document.getElementById("beaches").addEventListener("click", function () {
     initMap(beachLocations);
 });
-
 
 document.getElementById("caves").addEventListener("click", function () {
     initMap(caveLocations);

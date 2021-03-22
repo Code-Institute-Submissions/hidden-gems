@@ -10,11 +10,9 @@ function sendMail(contactForm) {
         .then(
 
             function (response) {
-                console.log('success', response);
-                $('#success-message').show("fast");
+                $('#success-message').show("fast", response);
             }, function (error) {
-                console.log('failed', error);
-                $('#error-message').show("fast");
+                $('#error-message').show("fast", error);
             }
         );
     document.getElementById("contactForm").reset();
@@ -30,8 +28,7 @@ function newsLetter(newsLetterForm) {
         .then(
 
             function (response) {
-                console.log('success', response);
-                $("#newsletterThankYou").show("fast");
+                $("#newsletterThankYou").show("fast", response);
             }, function (error) {
                 console.log('failed', error);
             }

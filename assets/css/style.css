@@ -162,13 +162,15 @@ h4 {
 .btn-custom{
     border: 0.5px solid #1A1A1B;
     background-color: #606c38;
-    color: #dcdcdc;
+    color: #F7F2E9;
+    font-size: 1rem;
 }
 
 .btn-custom:hover{
+    border: 0.5px solid #1A1A1B;
     background-color: #dcdcdc;
     color: #1A1A1B;
-    border: 0.5px solid #1A1A1B;
+    font-size: 1rem;
 }
 
 
@@ -179,7 +181,7 @@ h4 {
 
 .explore-btn {
     font-size: 1.125rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .explore-btn:hover {
@@ -231,11 +233,7 @@ h4 {
     margin-bottom: 25px;
 }
 
-div.modal-header {
-    background-color: #f1f1ef;
-}
-
-div.modal-body {
+.modal-contact-form {
     background-color: #f1f1ef;
 }
 

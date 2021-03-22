@@ -109,9 +109,9 @@ I have attached a screenshot of an email that was received from the contact form
 
 #### Newsletter
 
-1. I tested the newsletter sign-up button by inputting an email address.
+1. I tested the newsletter sign-up button by inputting an email address. I also tested this by trying to submit without an email address, and the correct error message appears, prompting the user to input an email address.
 
-2. I applied the same process as I did with the contact form; creating a success message for users, and consoling logging a success or an error message, depending on the result. 
+2. I applied the same process as I did with the contact form; creating a success message for users, and console logging a success or an error message, depending on the result. 
 
 3. When submitting an email to the newsletter sign-up; the console log reports success, the user thank you message is displayed, and I receive the correct email.
 

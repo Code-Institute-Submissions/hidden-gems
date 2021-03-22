@@ -99,9 +99,9 @@ All wireframes were created using Balsamiq. As this is a one-page website, there
 
 ### Wireframes     
 
-* [Desktop](assets/docs/wireframes/wireframe-desktop.png)
-* [Tablet](assets/docs/wireframes/wireframe-tablet.png)
-* [Mobile](assets/docs/wireframes/wireframe-mobile.png)
+* [Desktop](./docs/wireframes/wireframe-desktop.png)
+* [Tablet](./docs/wireframes/wireframe-tablet.png)
+* [Mobile](./docs/wireframes/wireframe-mobile.png)
 
 ## Surface 
 
@@ -244,7 +244,7 @@ I would also like to filter all locations by region, so if a user is planning a 
 
 ## Testing
 
-The documentation for testing this website is located in another file. This can be viewed [here](assets/testing.md). 
+The documentation for testing this website is located in another file. This can be viewed [here](./docs/testing/testing.md). 
 
 Please CTRL-Click the link to open it in a new tab. 
 

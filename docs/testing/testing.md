@@ -13,10 +13,8 @@ I passed the HTML code through the W3C Markup Validation Service.
 
 1. I received two warnings stating "The type attribute is unnecessary for JavaScript resources." This was concerning my two script tags for the EmailJS API at the head of my HTML file. The type attribute was removed, and I reloaded the page, sent a test email, and watched the console for any errors. The email was received, and there were no errors logged to the console. Upon further research, I learned that the type attribute is not required in HTML5. This cemented my choice to remove it. 
 
-
-
-2. I had an error relating to the hidden div where a message is displayed to users if they correctly send an email via the contact form. The error stated that "Attribute classs not allowed on element div at this point." At first, I wasn't sure why this error was present, thinking it may relate to the use of a hidden div. However, upon inspection, I realized it was a typo on my part. I used "classs" rather than "class". Once corrected, the error was no longer present. Upon running through the code through the validator again, the error was no longer present. 
-
+2. I had an error relating to the hidden div where a message is displayed to users if they correctly send an email via the contact form. The error stated that "Attribute classs not allowed on element div at this point." 
+    At first, I wasn't sure why this error was present, thinking it may relate to the use of a hidden div. However, upon inspection, I realized it was a typo on my part. I used "classs" rather than "class". Once corrected, the error was no longer present. Upon running through the code through the validator again, the error was no longer present. 
 
 3. I had an error relating to my navigation bar, specifically that the aria-controls attribute must point to an element in the same document. This error was because of a typo in my document and was quickly fixed. 
 
@@ -28,10 +26,7 @@ I tested my CSS code via W3C CSS Validator. No errors were found here.
 
 ## JavaScript 
 
-
-
 ### Map.js - The Interactive Map
-
 
 #### JSHint Testing 
 
@@ -43,8 +38,9 @@ I passed the map.js code through JSHint to see if there were any errors or warni
 
 3. I received a message that there were undefined variables; namely 'google'. However, I chose to ignore this, as the google maps API documentation requires its use. For example; 
 
-	google.maps.Map(document.getElementById("map")
-
+```
+google.maps.Map(document.getElementById("map")
+```
 
 4. I received a message that there was an unused variable called "MapButton";
 
@@ -76,7 +72,6 @@ On all instances, there were no errors present, and each array of locations woul
 
 ### Mail.js - The Contact Form and Newsletter Sign Up
 
-
 #### JSHint Testing 
 
 I passed the mail.js code through JSHint to see if there were any errors or warnings.  
@@ -105,7 +100,7 @@ I passed the mail.js code through JSHint to see if there were any errors or warn
 
 5. I also ensured that the fields were reset upon submission. 
 
-I have attached a screenshot of an email that was received from the contact form. This can be viewed [here](images/email-testing.png)
+I have attached a screenshot of an email that was received from the contact form. This can be viewed [here](./docs/testing/email-testing.png)
 
 #### Newsletter
 
@@ -115,7 +110,7 @@ I have attached a screenshot of an email that was received from the contact form
 
 3. When submitting an email to the newsletter sign-up; the console log reports success, the user thank you message is displayed, and I receive the correct email.
 
-I have attached a screenshot of an email that was received from the newsletter input. This can be viewed [here](images/newsletter-testing.png)
+I have attached a screenshot of an email that was received from the newsletter input. This can be viewed [here](./docs/testing/newsletter-testing.png)
 
 
 
@@ -132,7 +127,7 @@ Once the project was deployed to GitHub Pages, I once again tested the website, 
 * I clicked on every button to make sure that they led the user to the correct section of the website. 
 * I clicked on each social media icon in the footer and confirmed that it directed users to a new tab with the correct website opening.
 * I clicked on each section of the site map in the footer to confirm it re-directed the user to the correct section. 
-* I created a 404.html page which helps re-direct users to the main page, if a 404 error occurs. This can be seen [here](images/hidden-gems-404.png)
+* I created a 404.html page which helps re-direct users to the main page, if a 404 error occurs. This can be seen [here](./docs/testing/hidden-gems-404.png)
 
 ### Map
 
@@ -159,13 +154,13 @@ Once the project was deployed to GitHub Pages, I once again tested the website, 
 
 	 * This is evident in the interactive map which shows several tourist attractions that are not well-known to people both domestically and internationally.
 	 	
-		* You can see this [here](images/user-story-attractions.png)
+		* You can see this [here](./docs/testing/user-story-attractions.png)
 
 * I want a website that is easily accessed on my mobile phone and tablet. 
 
 	 * The website is responsive for both mobile phones and tablets. I have taken steps to ensure a smooth experience across all devices. This is achieved by utilizing bootstrap classes as well as custom media queries. 
 	 	
-		* You can see this [here](images/user-story-mobile-device.png)
+		* You can see this [here](./docs/testing/user-story-mobile-device.png)
 
 	* The navigation bar also changes to a hamburger-style icon on smaller devices. The dropdown navigation bar frees up screen space on mobile and tablet devices.
 
@@ -174,11 +169,11 @@ Once the project was deployed to GitHub Pages, I once again tested the website, 
 	* The main purpose of the website is quickly outlined to the user, and it is easy to navigate as there are visual cues such as buttons, relevant navigation links, and images. 
 	* Each navigation link is clearly stated and directs users to the relevant sections. 
 	* The footer is populated with a site map to allows users to move through the website without scrolling too much. 
-		* You see this [here](images/user-story-site-map.png)
+		* You see this [here](./docs/testing/user-story-site-map.png)
 	* The social media links are clearly outlined, and open a new tab once clicked. 
 	* The links in both the navigation menu and footer site map have subtle hover effects which show the user what they are clicking on. 
 	* The buttons also have hover and active effects which show the user which button they are going to click on and which button is currently active. 
-		* You can see this [here](images/user-story-map-buttons.png)
+		* You can see this [here](./docs/testing/user-story-map-buttons.png)
 
 * I want to be able to contact the site owner if I have any questions or suggestions. 
 
@@ -186,13 +181,13 @@ Once the project was deployed to GitHub Pages, I once again tested the website, 
 	* There is another link to the contact form below the interactive map
 	* There is a final contact form linked in the footer.
 	* This allows the user to quickly contact the site owner with questions or suggestions. 
-		* An example of the contact form can be seen [here](images/user-story-contact-button.png)
+		* An example of the contact form can be seen [here](./docs/testing/user-story-contact-button.png)
 
 * I want to be able to filter the tourist attractions I am interested in. 
 
 	 * In the interactive map section, 6 buttons filter the main type of tourist attractions. This allows users to only see the type of attractions which they are interested in. 
 
-		* The map buttons to filter locations can be seen [here](images/user-story-map.png)
+		* The map buttons to filter locations can be seen [here](./docs/testing/user-story-map.png)
 
 * I would like to be able to follow the website's social media accounts.
 
@@ -202,4 +197,4 @@ Once the project was deployed to GitHub Pages, I once again tested the website, 
 * I would like to be updated on any new features.
 
 	* In the footer section of the website, there is an input form for a Newsletter that allows users to sign up, and be updated on new features, news, or any updates regarding the website. 
-		* The newsletter input can be seen [here](images/user-story-newsletter.png)
+		* The newsletter input can be seen [here](./docs/testing/user-story-newsletter.png)

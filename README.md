@@ -169,11 +169,9 @@ I would also like to filter all locations by region, so if a user is planning a 
 	The solution for this was to load my map.js before the Google Maps API. This removed the error, as the initMap function was present when the google maps API was called. 
 
 
-
 2. The interactive map initially had different icons for each type of attraction (beach flags to represent beaches, castle icons to represent the castle locations, etc). However, as there are a lot of markers, the map quickly began cluttered and difficult to use. I felt this design overwhelmed the user. 
 
 	I then chose to only show one type of location at a time and added an event listener to each button to only show markers that corresponded to that button. This reduced the number of markers that were shown at once and also allowed the users to focus on one type of attraction at a time. 
-
 
 
 3. When I was creating the map, the initial map was just a set of markers (for cliffs and mountain locations). However, I had an issue when I wanted to create a second array of markers that corresponded to a button. Once clicked, the previous markers would vanish, and the new relevant ones would appear. 
@@ -183,16 +181,12 @@ I would also like to filter all locations by region, so if a user is planning a 
 	I then created buttons and created an on-click function that would call the function with the specific locations as the parameter. This allowed me to keep one main function and allows the possibility for many new types of locations to be added with ease. 
 
 
-
 4. I ran into an issue of removing and adding classes depending on which button was clicked. While I could target one button to add and remove class, with each subsequent click, only the last button's class was removed. At first, this wasn't noticeable however, when I added more buttons, the map markers for some buttons would populate despite not being clicked. A solution to this issue was found on StackOverflow. 
-
 
 
 5. I had an issue with the navigation bar specifically when using the hover effect. I wanted a border-bottom when hovered, however, there was quite a bit of jumping, and the navigation bar would grow and shrink when the hover effect was executed by the user. 
 	
 	This was solved by adding a transparent bottom border to the navigation bar, and when the user hovered on the items, to change the color of the border. This removed the jumping in size. 
-
-
 
 
 6. I wanted to remove the different styles of map types and just wanted to show the road map style for this website. I was unsure how to do this and first began trying to disable the button completely. However, upon reading Google Maps API Documentation, I found that if you specify the mapTypeId then the others are automatically hidden. The reference for this code is also documented in the reference section of this README. 
@@ -246,7 +240,7 @@ I would also like to filter all locations by region, so if a user is planning a 
 
 The documentation for testing this website is located in another file. This can be viewed [here](./docs/testing/testing.md). 
 
-Please CTRL-Click the link to open it in a new tab. 
+Note: To open links in a new tab, please use CTRL+click (on Windows and Linux) or CMD+click (on macOS).
 
 
 ## Deployment

@@ -100,7 +100,7 @@ I passed the mail.js code through JSHint to see if there were any errors or warn
 
 5. I also ensured that the fields were reset upon submission. 
 
-I have attached a screenshot of an email that was received from the contact form. This can be viewed [here](./docs/testing/email-testing.png)
+I have attached a screenshot of an email that was received from the contact form. This can be viewed [here](./email-testing.png)
 
 #### Newsletter
 
@@ -110,7 +110,7 @@ I have attached a screenshot of an email that was received from the contact form
 
 3. When submitting an email to the newsletter sign-up; the console log reports success, the user thank you message is displayed, and I receive the correct email.
 
-I have attached a screenshot of an email that was received from the newsletter input. This can be viewed [here](./docs/testing/newsletter-testing.png)
+I have attached a screenshot of an email that was received from the newsletter input. This can be viewed [here](./newsletter-testing.png)
 
 
 
@@ -127,7 +127,7 @@ Once the project was deployed to GitHub Pages, I once again tested the website, 
 * I clicked on every button to make sure that they led the user to the correct section of the website. 
 * I clicked on each social media icon in the footer and confirmed that it directed users to a new tab with the correct website opening.
 * I clicked on each section of the site map in the footer to confirm it re-directed the user to the correct section. 
-* I created a 404.html page which helps re-direct users to the main page, if a 404 error occurs. This can be seen [here](./docs/testing/hidden-gems-404.png)
+* I created a 404.html page which helps re-direct users to the main page, if a 404 error occurs. This can be seen [here](./hidden-gems-404.png)
 
 ### Map
 
@@ -154,13 +154,13 @@ Once the project was deployed to GitHub Pages, I once again tested the website, 
 
 	 * This is evident in the interactive map which shows several tourist attractions that are not well-known to people both domestically and internationally.
 	 	
-		* You can see this [here](./docs/testing/user-story-attractions.png)
+		* You can see this [here](./user-story-attractions.png)
 
 * I want a website that is easily accessed on my mobile phone and tablet. 
 
 	 * The website is responsive for both mobile phones and tablets. I have taken steps to ensure a smooth experience across all devices. This is achieved by utilizing bootstrap classes as well as custom media queries. 
 	 	
-		* You can see this [here](./docs/testing/user-story-mobile-device.png)
+		* You can see this [here](./user-story-mobile-device.png)
 
 	* The navigation bar also changes to a hamburger-style icon on smaller devices. The dropdown navigation bar frees up screen space on mobile and tablet devices.
 
@@ -169,11 +169,11 @@ Once the project was deployed to GitHub Pages, I once again tested the website, 
 	* The main purpose of the website is quickly outlined to the user, and it is easy to navigate as there are visual cues such as buttons, relevant navigation links, and images. 
 	* Each navigation link is clearly stated and directs users to the relevant sections. 
 	* The footer is populated with a site map to allows users to move through the website without scrolling too much. 
-		* You see this [here](./docs/testing/user-story-site-map.png)
+		* You see this [here](./user-story-site-map.png)
 	* The social media links are clearly outlined, and open a new tab once clicked. 
 	* The links in both the navigation menu and footer site map have subtle hover effects which show the user what they are clicking on. 
 	* The buttons also have hover and active effects which show the user which button they are going to click on and which button is currently active. 
-		* You can see this [here](./docs/testing/user-story-map-buttons.png)
+		* You can see this [here](./user-story-map-buttons.png)
 
 * I want to be able to contact the site owner if I have any questions or suggestions. 
 
@@ -181,13 +181,13 @@ Once the project was deployed to GitHub Pages, I once again tested the website, 
 	* There is another link to the contact form below the interactive map
 	* There is a final contact form linked in the footer.
 	* This allows the user to quickly contact the site owner with questions or suggestions. 
-		* An example of the contact form can be seen [here](./docs/testing/user-story-contact-button.png)
+		* An example of the contact form can be seen [here](./user-story-contact-button.png)
 
 * I want to be able to filter the tourist attractions I am interested in. 
 
 	 * In the interactive map section, 6 buttons filter the main type of tourist attractions. This allows users to only see the type of attractions which they are interested in. 
 
-		* The map buttons to filter locations can be seen [here](./docs/testing/user-story-map.png)
+		* The map buttons to filter locations can be seen [here](./user-story-map.png)
 
 * I would like to be able to follow the website's social media accounts.
 
@@ -197,4 +197,4 @@ Once the project was deployed to GitHub Pages, I once again tested the website, 
 * I would like to be updated on any new features.
 
 	* In the footer section of the website, there is an input form for a Newsletter that allows users to sign up, and be updated on new features, news, or any updates regarding the website. 
-		* The newsletter input can be seen [here](./docs/testing/user-story-newsletter.png)
+		* The newsletter input can be seen [here](./user-story-newsletter.png)

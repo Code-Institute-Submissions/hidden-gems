@@ -30,7 +30,8 @@ function newsLetter(newsLetterForm) {
             function (response) {
                 $("#newsletterThankYou").show("fast", response);
             }, function (error) {
-                console.log('failed', error);
+                $("#newsletterErroru").show("fast", error);
+                
             }
         );
     document.getElementById("newsLetterForm").reset();

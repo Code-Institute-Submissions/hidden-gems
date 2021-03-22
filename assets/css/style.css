@@ -326,6 +326,10 @@ input:focus {
     display: none;
 }
 
+#newsletterError {
+    display: none;
+}
+
 .site-map {
     display: flex;
     align-items: center;

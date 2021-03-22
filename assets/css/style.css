@@ -381,10 +381,17 @@ a.footer-nav:hover{
     font-size: 0.9rem;
     margin: auto;
     line-height: 1.5;
-}
+  }
 }
 
-/* -- Error Page -- */
+ @media screen and (max-width: 992px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+ 
+
+/* -- 404 Page -- */
 
 .container-error {
     height: 100vh;

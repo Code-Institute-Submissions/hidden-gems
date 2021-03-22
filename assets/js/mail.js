@@ -31,7 +31,6 @@ function newsLetter(newsLetterForm) {
                 $("#newsletterThankYou").show("fast", response);
             }, function (error) {
                 $("#newsletterErroru").show("fast", error);
-                
             }
         );
     document.getElementById("newsLetterForm").reset();

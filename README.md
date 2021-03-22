@@ -126,7 +126,7 @@ I choose to use an off-white color for the jumbotron text, and the navbar text a
 
 I choose to use a green-background on the navigation bar(#606c38). I wanted to add some color to the website, while also keeping it to a minimum. A dark green navigation bar complements the green images and the overall theme of the website. 
 
-For the buttons, I chose to use the color: #b39c4d. This is a dark yellow/gold color, which compliements the green and blue tones from the images, as well as the naivgation bar. 
+For the buttons, I chose to use the same color as the navigation bar: #606c38.
 
 In regards to the map buttons, I decided to use a different background color when the button is clicked or hovered. I used the same shade of grey that is used in the Google Maps button. This helps to add consistency in this section of the website. 
 

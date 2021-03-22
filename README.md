@@ -150,7 +150,7 @@ I added an info window on each marker which displays some information about the 
 
 In regards to the type of locations, I choose destinations that were mainly located outside. This was a choice influenced by the current covid-19 restrictions. 
 
-I have also added a 404.html page to re-direct users to the home page, if 404 error occurs. This is create a better experience for all users, so they do not have to use the browser to navigate. 
+I have also added a 404.html page to re-direct users to the home page, if a 404 error occurs. This creates a better experience for all users, so they do not have to use the browser to navigate. 
 
 ### Future Features 
 

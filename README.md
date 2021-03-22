@@ -215,6 +215,17 @@ I would also like to filter all locations by region, so if a user is planning a 
 11. I experienced an issue with text and image alignment in the section with features three images, and text beside each image. The issue would occur at medium screens, where the image would shrink, while the text would remain the same. This resulted in a drastic layout change, which disrupted the flow of content and created a messy layout. 
 	The fix for this was to change the font size on medium screens to keep the alignment correct. This was achieved with a media query by using the logical operator 'and combining a min-width and max-width media query. This was discovered on MDN's CSS documentation.
 
+12. I encountered an issue regarding background images on mobile devices, specifically with Safari. All background images would be zoomed, and difficult to see. The issue is related to the parallax feature of the background images. The world around for this is to add a media-query for smaller devices, and disable the parallax feature. 
+    As I had more than one container with this feature, I added a the class 'parallax' to both containers, and used a media query for this class. This allowed me to avoid using repeated code. 
+    The code used is below:
+```
+ @media screen and (max-width: 992px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+```
+
 ## Technologies Used
 
 
@@ -313,23 +324,17 @@ I also curated some locations from the list from the following articles:
 
 * Code to help with targeting map-active button to remove and add a class on click. This can be seen [here](https://stackoverflow.com/questions/41476916/jquery-make-pressed-button-active-and-all-other-buttons-inactive)
 
-	
 * The background image opacity and jumbotron code was referenced from Code Institute Whiskey Drop Project. 
 
 * Inspiration for the README file was taken from Code Institute README template. This can be seen [here](https://github.com/Code-Institute-Solutions/SampleREADME) 
 
-
 * For the input fields, instead of using the default blue glow, I changed it to a black border outline via CSS. This can be seen [here](https://stackoverflow.com/questions/14820952/change-bootstrap-input-focus-blue-glow)
-
 
 * Documentation where I found how to set Map Types, can be seen [here](https://developers.google.com/maps/documentation/javascript/maptypes) 
 
 * Documentation where I based editing the infoWindow content from can be seen [here](https://developers.google.com/maps/documentation/javascript/infowindows) 
 
-
 * Code to center the modal title can be seen [here](https://stackoverflow.com/questions/42121897/boostrap-v4-0-0-alpha-6-model-how-to-center-model-title)
-
-	
 
 * Code for removing previous info window can be seen [here](https://groups.google.com/g/google-maps-js-api-v3/c/cA2VRg4TO1k?pli=1) 
 

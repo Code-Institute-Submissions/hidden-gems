@@ -215,16 +215,8 @@ I would also like to filter all locations by region, so if a user is planning a 
 11. I experienced an issue with text and image alignment in the section with features three images, and text beside each image. The issue would occur at medium screens, where the image would shrink, while the text would remain the same. This resulted in a drastic layout change, which disrupted the flow of content and created a messy layout. 
 	The fix for this was to change the font size on medium screens to keep the alignment correct. This was achieved with a media query by using the logical operator 'and combining a min-width and max-width media query. This was discovered on MDN's CSS documentation.
 
-12. I encountered an issue regarding background images on mobile devices, specifically with Safari. All background images would be zoomed, and difficult to see. The issue is related to the parallax feature of the background images. The world around for this is to add a media-query for smaller devices, and disable the parallax feature. 
-    As I had more than one container with this feature, I added a the class 'parallax' to both containers, and used a media query for this class. This allowed me to avoid using repeated code. 
-    The code used is below:
-```
- @media screen and (max-width: 992px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-}
-```
+12. I encountered an issue regarding background images on mobile devices, specifically with Safari. All background images would be zoomed, and difficult to see. The issue is related to the code "background-attachment: cover". The solution to this problem was to simply change the background-attachment to "scroll" instead of "cover". I felt the best way to do this was via media query. 
+    This allowed me to keep the parallax feature on desktops, but removed on smaller devices.
 
 ## Technologies Used
 

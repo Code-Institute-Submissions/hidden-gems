@@ -1,6 +1,6 @@
 # Aimsigh Éire - Discover Ireland's Hidden Gems
 
-This project aimed to help users find less-known tourist attractions within Ireland. 
+This project aims to help users find less-known tourist attractions within Ireland. 
 
 [You can view the live project here](https://tomc2311.github.io/hidden-gems/)
 
@@ -13,7 +13,7 @@ This project aimed to help users find less-known tourist attractions within Irel
 A website for people who wish to travel throughout Ireland, and visit some of the lesser-known landscapes and historic sites. 
 The website is built as a single-page website that is responsive across all main devices; desktop, tablet, and mobile. 
 
-The website features features an interactive map of Ireland that allows users to select different categories of tourist attractions, and see where they are located. 
+The website features an interactive map of Ireland that allows users to select different categories of tourist attractions, and see where they are located. 
 The website also features a contact form that allows them to enquire about more information, and also submit attractions that have not yet been mentioned or implemented on the map. 
 
 The main goal of this website is to promote traveling within Ireland and to give attention to some of the lesser-known tourist attractions. 
@@ -107,12 +107,9 @@ All wireframes were created using Balsamiq. As this is a one-page website, there
 
 ### Images 
 
-There are several images used throughout the site. I prioritized finding images that were the actual location of the marker locations. When the exact images of these locations were not available, I picked photos of location which shared similar characteristics. 
+There are several images used throughout the site. I prioritized finding images that were the actual location of the marker locations. When the exact images of these locations were not available, I picked photos of locations that shared similar characteristics. 
 
 The two main images on the website; the home container image, and the footer container image, were chosen to showcase the large green and cliff landscapes that are spread throughout Ireland. I also opted to use images with green and subtle orange and yellow tones, to match the off-white background of the website. 
-
-Also, I did not want the images to stand out too much, or provide too much contrast from one another. For this reason, the images with text above the map were selected for the similarity in green and blue tones. 
-
 
 ### Colours
 
@@ -142,7 +139,7 @@ For the body, I chose to use the font 'Open Sans'. I decided to use this font as
 
 ### Current Features 
 
-The main feature of this website is the interactive google map. I chose to only show one type of attraction at a time, to prevent the map from being too cluttered. This also allows the users to specifically chose what they're interested in discovering. 
+The main feature of this website is the interactive google map. I chose to only show one type of attraction at a time, to prevent the map from being too cluttered. This also allows the users to specifically choose what they're interested in discovering. 
 
 The rest of the website is intentionally simple and designed to either motivate users to discover new locations via the map, or to encourage users to submit their secret locations via the contact form. 
 
@@ -156,7 +153,7 @@ I have also added a 404.html page to re-direct users to the home page, if a 404 
 
 In the future, I would like to add the option for a user to get directions to the landmark of their choice from their current destination. 
 
-I would also like to filter all locations by region, so if a user is planning a round trip around a certain area, then all locations will be available to them. 
+I would also like to filter all locations by region, so if a user is planning a trip in a certain area, then they can filter the map to show locations in that area. 
 
 
 ## Troubleshooting 
@@ -316,7 +313,7 @@ I also curated some locations from the list from the following articles:
 
 * Code to help with targeting map-active button to remove and add a class on click. This can be seen [here](https://stackoverflow.com/questions/41476916/jquery-make-pressed-button-active-and-all-other-buttons-inactive)
 
-* The background image opacity and jumbotron code was referenced from Code Institute Whiskey Drop Project. 
+* The background image and jumbotron code was referenced from Code Institute Whiskey Drop Project. 
 
 * Inspiration for the README file was taken from Code Institute README template. This can be seen [here](https://github.com/Code-Institute-Solutions/SampleREADME) 
 

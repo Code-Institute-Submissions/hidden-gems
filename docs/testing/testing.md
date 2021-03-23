@@ -34,7 +34,7 @@ I passed the map.js code through JSHint to see if there were any errors or warni
 
 1. I had missed a semi-colon and the end of each array, which was quickly corrected. 
 
-2. I had received the following message: "template literal syntax' is only available in ES6. However, I realized that I had not clicked to include ES6 in the JSHINT configure settings. Once clicked, and passing the code through again, the message was no longer present. 
+2. I had received the following message: "template literal syntax' is only available in ES6." However, I realized that I had not clicked to include ES6 in the JSHINT configure settings. Once clicked, and passing the code through again, the message was no longer present. 
 
 3. I received a message that there were undefined variables; namely 'google'. However, I chose to ignore this, as the google maps API documentation requires its use. For example; 
 
@@ -63,7 +63,7 @@ google.maps.Map(document.getElementById("map")
 
 3. I clicked on a new attraction button to ensure that the new markers would populate, and the old markers would vanish. 
 
-4. I create console logs for each variable to see if there were any errors.
+4. I created console logs for each variable to see if there were any errors.
 
 5. I created console logs for each array which stored locations, to ensure that the information was being logged.
 
@@ -146,6 +146,8 @@ Once the project was deployed to GitHub Pages, I once again tested the website, 
 * I tested the responsiveness of the website across all three major devices; desktop, tablet, and mobile phone. The website keeps the correct structure. 
 
 * I tested the website across several browsers, with no issues to report. The browsers tested are Google Chrome, Firefox, and Safari. 
+
+* I tested both desktop and mobile via Google Lighthouse. The performance score for desktop was 92. The performance score for mobile was 61. Although, I am very pleased with the desktop score, I understand the mobile score could be improved in the future.
 
 
 ## Testing User Stories 

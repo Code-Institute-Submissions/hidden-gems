@@ -17,7 +17,6 @@ body {
     color: #1A1A1B;
 }
 
-
 /* -- Nav Bar -- */
 
 .navbar {
@@ -219,7 +218,6 @@ h4 {
     width: 40%;
 }
 
-
 /* Modal and Contact Form  */
 
 .contact-container {
@@ -248,7 +246,6 @@ input:focus {
 #error-message {
     display: none;
 }
-
 
 /* -- Map -- */
 
@@ -285,7 +282,6 @@ input:focus {
 .pop-up-container {
     display: table-caption;
 }
-
 
 /* -- Footer -- */
 
@@ -336,7 +332,6 @@ a.footer-nav:hover{
     font-family: 'Proza Libre', sans-serif;
 }
 
-
 /* -- Icons -- */
 
 .icons {
@@ -353,7 +348,6 @@ a.footer-nav:hover{
     display: flex;
     justify-content: center;
 }
-
 
 /* -- Media Query -- */
 
@@ -378,7 +372,6 @@ a.footer-nav:hover{
         background-attachment: scroll;
     }
 }
- 
 
 /* -- 404 Page -- */
 
